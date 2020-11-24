@@ -64,7 +64,7 @@ def create_cube_json(cards):
         if card['name'] in cards:
             for i in range(cards.count(card['name'])):
                 cube_data += [card]
-        elif 'card_faces' in card.keys():
+        elif 'card_faces' in card.keys() and card['set_type'] != 'memorabilia':
             for face in card['card_faces']:
                 if face['name'] in cards:
                     cube_data += [card]
