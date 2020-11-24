@@ -71,6 +71,7 @@ def create_cube_json(cards):
     string_data = json.dumps(cube_data)
     f_cube_json.write(string_data)
     f_cube_json.close()
+    return TEMP_JSON
 
 
 def wc_fo(text):
@@ -89,8 +90,8 @@ def wc_o(text):
         return len(text.split())
 
 
-def word_count(card, full=False):
-    if full:
+def word_count(card, *, full_oracle):
+    if full_oracle:
         wc = wc_fo
     else:
         wc = wc_o
@@ -105,15 +106,15 @@ def word_count(card, full=False):
         return wc(text)
 
 
-def cube_word_count(filename, full=False):
+def cube_word_count(filename, *, full_oracle):
     with open(filename, encoding='utf8') as f:
         d = json.load(f)
     wc = []
     for card in d:
-        words = word_count(card, full)
+        words = word_count(card, full_oracle=full_oracle)
         wc += [words]
     mean = sum(wc) / len(wc)
-    if full:
+    if full_oracle:
         metric = 'Avg Words/Card (full text)'
     else:
         metric = 'Avg Words/Card (no reminders)'
@@ -131,17 +132,6 @@ def duplicate_count(filename):
     print(f"{len(unique)} unique of {len(d)} total cards")
 
 
-def print_wordy_cards(filename, n):
-    # List cards with n or more words
-    with open(filename, encoding='utf8') as f:
-        d = json.load(f)
-    for card in d:
-        words = word_count(card)  # change to word_count(card, True) to count full oracle text
-        if words >= n:
-            print(f"{words} words: {card['name']}")
-            # print(get_text(card) + "\n")
-
-
 WHEEL = str.maketrans('WUBRG', '01234')
 
 
@@ -149,12 +139,12 @@ def wheel_order(colors):
     return colors.translate(WHEEL)
 
 
-def print_by_color(filename):
+def print_by_color(filename, *, rank_cards, full_oracle):
     cards_by_color_identity = defaultdict(list)
     with open(filename, encoding='utf8') as f:
         d = json.load(f)
     for card in d:
-        words = word_count(card)  # change to word_count(card, True) to count full oracle text
+        words = word_count(card, full_oracle=full_oracle)
         if 'Land' in card['type_line']:
             identity = 'Non-basic land'
         else:
@@ -168,9 +158,10 @@ def print_by_color(filename):
         average_words = total_words / card_count
         identity_name = 'Non-land colorless' if not identity else identity
         print(f"{identity_name }: average {average_words:.2f} [of {card_count} cards]")
-        for card_name, card_words in sorted(card_tuples, key=lambda t: t[1], reverse=True):
-            print(f'{card_name}: {card_words}')
-        print()
+        if rank_cards:
+            for card_name, card_words in sorted(card_tuples, key=lambda t: t[1], reverse=True):
+                print(f'{card_name}: {card_words}')
+            print()
     print()
 
 
@@ -183,15 +174,29 @@ def get_text(card):
             text += face['oracle_text'] + ' '
         return text
 
+################################################################################
+# Use either line:
 
-cube_name = 'TheElegantCube20201123'  # Name must match the *.txt card list file
-#cube_list = load_cube_from_txt(cube_name + '.txt')
+# 1. If you have a .txt of your cube
+# cube_list = load_cube_from_txt('YourCubeHere.txt')
 
-cube_list = load_cube_from_csv(f'{cube_name}.csv', {'core'})
+# 2. If you have a .csv of your cube
+# cube_list = load_cube_from_csv('YourCubeHere.csv')
 
-create_cube_json(cube_list)  # Comment this out if cubename.json is already created
+# 3. If you have a .csv of your cube and want to consider only cards with a certain tag
+cube_list = load_cube_from_csv('TheElegantCube20201123.csv', {'core'})
+################################################################################
 
-# print_wordy_cards(TEMP_JSON, 0)
-print_by_color(TEMP_JSON)
-cube_word_count(TEMP_JSON)  # Average words excluding reminder text
-cube_word_count(TEMP_JSON, True)  # Average words in full oracle text
+cube_json_handle = create_cube_json(cube_list)
+
+# Summary of average words by color
+print_by_color(cube_json_handle, rank_cards=False, full_oracle=True)
+
+# Individual cards by color, ranked by word count
+print_by_color(cube_json_handle, rank_cards=True, full_oracle=True)
+
+# Average words excluding reminder text
+cube_word_count(cube_json_handle, full_oracle=False)
+
+# Average words in full oracle text
+cube_word_count(cube_json_handle, full_oracle=True)
