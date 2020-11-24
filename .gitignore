@@ -129,3 +129,5 @@ dmypy.json
 .pyre/
 .idea/workspace.xml
 cards_in_draft.txt
+oracle_cards.json
+cube_temp.json
