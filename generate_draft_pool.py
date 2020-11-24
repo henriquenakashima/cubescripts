@@ -23,6 +23,7 @@ EXPECTED_HEADER = [
     'Finish',
     'Maybeboard',
     'Image URL',
+    'Image Back URL',
     'Tags',
     'Notes',
     'MTGO ID'
