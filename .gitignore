@@ -131,3 +131,4 @@ dmypy.json
 cards_in_draft.txt
 oracle_cards.json
 cube_temp.json
+oracle_cards_clean.json

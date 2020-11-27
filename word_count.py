@@ -14,6 +14,7 @@ def load_cube_from_txt(filename):
 
 
 TEMP_JSON = 'cube_temp.json'
+ALL_CARDS_CLEAN_JSON = 'oracle_cards_clean.json'
 
 
 EXPECTED_HEADER = [
@@ -51,6 +52,10 @@ def load_cube_from_csv(filename, tag_filter=None):
     return cards
 
 
+def is_actual_mtg_card(card_dict):
+    return card_dict['set_type'] not in {'memorabilia', 'funny', 'token'}
+
+
 def create_cube_json(cards):
     # Call this once to create a smaller JSON file from the full card list
     # Visit https://scryfall.com/docs/api/bulk-data and look for "Oracle Cards" file;
@@ -64,7 +69,7 @@ def create_cube_json(cards):
         if card['name'] in cards:
             for i in range(cards.count(card['name'])):
                 cube_data += [card]
-        elif 'card_faces' in card.keys() and card['set_type'] != 'memorabilia':
+        elif 'card_faces' in card.keys() and is_actual_mtg_card(card):
             for face in card['card_faces']:
                 if face['name'] in cards:
                     cube_data += [card]
@@ -72,6 +77,21 @@ def create_cube_json(cards):
     f_cube_json.write(string_data)
     f_cube_json.close()
     return TEMP_JSON
+
+
+def create_all_cards_json():
+    with open('oracle_cards.json', encoding='utf8') as f_oracle_cards:
+        d = json.load(f_oracle_cards)
+    output_filename = ALL_CARDS_CLEAN_JSON
+    f_cube_json = open(output_filename, 'w+', encoding='utf8')
+    cube_data = []
+    for card in d:
+        if is_actual_mtg_card(card):
+            cube_data += [card]
+    string_data = json.dumps(cube_data)
+    f_cube_json.write(string_data)
+    f_cube_json.close()
+    return ALL_CARDS_CLEAN_JSON
 
 
 def wc_fo(text):
@@ -145,10 +165,12 @@ def print_by_color(filename, *, rank_cards, full_oracle):
         d = json.load(f)
     for card in d:
         words = word_count(card, full_oracle=full_oracle)
-        if 'Land' in card['type_line']:
+        if 'Land' in card['type_line'].split('//')[0]:
             identity = 'Non-basic land'
+        elif len(card['color_identity']) > 1:
+            identity = 'Multicolor'
         else:
-            identity = ''.join(sorted(card['color_identity'], key=lambda ci:wheel_order(ci)))
+            identity = ''.join(card['color_identity'])
         cards_by_color_identity[identity].append((card['name'], words))
     # pp(cards_by_color_identity)
     # sort first by fewest colors in identity, then by WUBRG order
@@ -175,6 +197,10 @@ def get_text(card):
         return text
 
 ################################################################################
+
+full_oracle = False
+
+################################################################################
 # Use either line:
 
 # 1. If you have a .txt of your cube
@@ -184,19 +210,28 @@ def get_text(card):
 # cube_list = load_cube_from_csv('YourCubeHere.csv')
 
 # 3. If you have a .csv of your cube and want to consider only cards with a certain tag
-cube_list = load_cube_from_csv('TheElegantCube20201123.csv', {'core'})
+cube_list = load_cube_from_csv('TheElegantCube_2020-11-17_5.0.4.csv', {'core'})
 ################################################################################
 
+# Calculate average of a cube
 cube_json_handle = create_cube_json(cube_list)
 
 # Summary of average words by color
-print_by_color(cube_json_handle, rank_cards=False, full_oracle=True)
+print_by_color(cube_json_handle, rank_cards=False, full_oracle=full_oracle)
 
 # Individual cards by color, ranked by word count
-print_by_color(cube_json_handle, rank_cards=True, full_oracle=True)
+print_by_color(cube_json_handle, rank_cards=True, full_oracle=full_oracle)
 
 # Average words excluding reminder text
 cube_word_count(cube_json_handle, full_oracle=False)
 
 # Average words in full oracle text
 cube_word_count(cube_json_handle, full_oracle=True)
+
+################################################################################
+
+# Calculate average of all Magic cards
+
+# card_db_json_handle = create_all_cards_json()
+# print_by_color(card_db_json_handle, rank_cards=True, full_oracle=full_oracle)
+# cube_word_count(card_db_json_handle, full_oracle=full_oracle)
