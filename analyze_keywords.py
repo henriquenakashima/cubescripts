@@ -1,4 +1,5 @@
 import json
+import os
 
 
 def get_keywords(card):
@@ -39,6 +40,36 @@ def keyword_report(k_dict):
     print(f'\nTotal unique keywords: {len(k_dict)}')
 
 
-filename = f'scryfall/sets/ZNR.json'
-k_dict = keyword_count(filename)
-keyword_report(k_dict)
+# ### Example use: print a keyword report for a cards.json file ###
+# filename = f'cubes/CoreTheElegantCube.json'
+# k_dict = keyword_count(filename)
+# keyword_report(k_dict)
+
+
+# ### Example use: count keywords in a list of cube.json files ###
+# output = open('cube_keyword_frequency.csv', 'w+')
+# all_cube_files = os.listdir('cubes')
+# output_file = open('cube_keyword_frequency.csv', 'w+')
+# output_file.write('Cube,Keywords\n')
+# for filename in all_cube_files:
+#     if filename.endswith('json'):
+#         k_dict = keyword_count('cubes/' + filename)
+#         output_file.write(f"{filename.strip('json')},{len(k_dict)}\n")
+#         print(filename, len(k_dict))
+# output_file.close()
+
+
+# ### Example use: find keyword count in each set ###
+# f = open('set_codes.txt')
+# codes = [line.strip() for line in f.readlines()]
+# output_file = open('set_keyword_frequency.csv', 'w+')
+# output_file.write('Set,Keywords\n')
+# for code in codes:
+#     if code == 'CON':
+#         code = 'CON_'
+#     filename = f'scryfall/sets/{code}.json'
+#     k_dict = keyword_count(filename)
+#     print(f'{code}: {len(k_dict)}')
+#     output_file.write(f'{code},{len(k_dict)}\n')
+# output_file.close()
+# f.close()
