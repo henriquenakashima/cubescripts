@@ -30,11 +30,8 @@ def request_set(code):
     f.close()
 
 
-sets = []
-set_file = open('set_codes.txt')
-for line in set_file:
-    sets += [line.strip()]
-set_file.close()
+with open('set_codes.txt') as set_file:
+    sets = [line.strip() for line in set_file.readlines()]
 
 for code in sets:
     request_set(code)
