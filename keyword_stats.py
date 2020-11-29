@@ -1,6 +1,10 @@
 import json
 
-def get_keywords(card):
+from collections import defaultdict
+from typing import Dict, Iterable, List, Tuple
+
+
+def get_keywords(card: Dict) -> List[str]:
     if 'keywords' in card.keys():
         return card['keywords']
     elif 'card_faces' in card:
@@ -13,26 +17,35 @@ def get_keywords(card):
         return []
 
 
-def keyword_count(filename):
+# Maps keywords to a list of cards containing them
+KeywordDict = Dict[str, List[str]]
+
+
+def keyword_count(filename: str) -> KeywordDict:
     # json file must contain a list of Scryfall card objects
-    f = open(filename, encoding='utf8')
-    d = json.load(f)
-    keywords = []
+    with open(filename, encoding='utf8') as f:
+        d = json.load(f)
+    k_dict = defaultdict(list)
     for card in d:
-        keywords += get_keywords(card)
-    f.close()
-    k_unique = set(keywords)
-    k_dict = {}
-    for keyword in k_unique:
-        k_dict[keyword] = keywords.count(keyword)
+        for keyword in get_keywords(card):
+            k_dict[keyword].append(card['name'])
     return k_dict
 
 
-def keyword_report(k_dict):
-    k_lists = []
-    for keyword in k_dict:
-        k_lists += [[k_dict[keyword], keyword]]
-    k_lists = sorted(k_lists, reverse=True)
-    for n, keyword in k_lists:
-        print(keyword, n)
+def keyword_report(k_dict: KeywordDict) -> None:
+    for keyword, cards in _rank_keywords_descending(k_dict):
+        print(keyword, len(cards))
     print(f'\nTotal unique keywords: {len(k_dict)}')
+
+
+def keyword_report_full(k_dict: KeywordDict) -> None:
+    for keyword, cards in _rank_keywords_descending(k_dict):
+        print(f'{keyword} ({len(cards)})')
+        for card in cards:
+            print(f'  {card}')
+        print()
+    print(f'\nTotal unique keywords: {len(k_dict)}')
+
+
+def _rank_keywords_descending(k_dict: KeywordDict) -> Iterable[Tuple[str, List[str]]]:
+    return sorted(k_dict.items(), key=lambda kv: len(kv[1]), reverse=True)
