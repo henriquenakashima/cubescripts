@@ -1,8 +1,8 @@
-import csv
 import json
 
 from collections import defaultdict
-from pprint import pp
+
+import cube_json
 
 
 def load_cube_from_txt(filename):
@@ -37,46 +37,9 @@ EXPECTED_HEADER = [
 ]
 COLUMNS = {column_name: i for i, column_name in enumerate(EXPECTED_HEADER)}
 
-def load_cube_from_csv(filename, tag_filter=None):
-    cards = []
-    with open(filename) as f:
-        reader = csv.reader(f)
-        header_line = next(reader)
-        assert header_line == EXPECTED_HEADER
-        for line in reader:
-            card = line[COLUMNS['Name']]
-            # Export CSV is broken on CubeCobra because Image Back URL is always just one double quotes character.
-            tags = [t.strip() for t in line[COLUMNS['Tags']].split(', ')]
-            if tag_filter is None or any(t in tag_filter for t in tags):
-                cards.append(card)
-    return cards
-
 
 def is_actual_mtg_card(card_dict):
     return card_dict['set_type'] not in {'memorabilia', 'funny', 'token'}
-
-
-def create_cube_json(cards):
-    # Call this once to create a smaller JSON file from the full card list
-    # Visit https://scryfall.com/docs/api/bulk-data and look for "Oracle Cards" file;
-    # Download and rename it to 'oracle_cards.json'
-    with open('oracle_cards.json', encoding='utf8') as f_oracle_cards:
-        d = json.load(f_oracle_cards)
-    output_filename = TEMP_JSON
-    f_cube_json = open(output_filename, 'w+', encoding='utf8')
-    cube_data = []
-    for card in d:
-        if card['name'] in cards:
-            for i in range(cards.count(card['name'])):
-                cube_data += [card]
-        elif 'card_faces' in card.keys() and is_actual_mtg_card(card):
-            for face in card['card_faces']:
-                if face['name'] in cards:
-                    cube_data += [card]
-    string_data = json.dumps(cube_data)
-    f_cube_json.write(string_data)
-    f_cube_json.close()
-    return TEMP_JSON
 
 
 def create_all_cards_json():
@@ -196,42 +159,46 @@ def get_text(card):
             text += face['oracle_text'] + ' '
         return text
 
-################################################################################
+if __name__ == '__main__':
+    ################################################################################
 
-full_oracle = False
+    full_oracle = False
 
-################################################################################
-# Use either line:
+    ################################################################################
+    # Use either line:
 
-# 1. If you have a .txt of your cube
-# cube_list = load_cube_from_txt('YourCubeHere.txt')
+    # 1. If you have a .txt of your cube
+    # cube_list = cube_json.load_cube_from_txt('YourCubeHere.txt')
 
-# 2. If you have a .csv of your cube
-# cube_list = load_cube_from_csv('YourCubeHere.csv')
+    # 2. If you have a .csv of your cube
+    # cube_list = cube_json.load_cube_from_csv('YourCubeHere.csv')
 
-# 3. If you have a .csv of your cube and want to consider only cards with a certain tag
-cube_list = load_cube_from_csv('TheElegantCube_2020-11-17_5.0.4.csv', {'core'})
-################################################################################
+    # 3. If you have a .csv of your cube and want to consider only cards with a certain tag
+    cube_list = cube_json.load_cube_from_csv('cube_csvs/TheElegantCube_2020-11-17_5.0.4.csv', {'core'})
 
-# Calculate average of a cube
-cube_json_handle = create_cube_json(cube_list)
+    ################################################################################
+    # Calculate average of a cube
+    cube_json_handle = cube_json.create_cube_json(cube_list)
 
-# Summary of average words by color
-print_by_color(cube_json_handle, rank_cards=False, full_oracle=full_oracle)
+    # Summary of average words by color
+    print_by_color(cube_json_handle, rank_cards=False, full_oracle=full_oracle)
 
-# Individual cards by color, ranked by word count
-print_by_color(cube_json_handle, rank_cards=True, full_oracle=full_oracle)
+    # Individual cards by color, ranked by word count
+    print_by_color(cube_json_handle, rank_cards=True, full_oracle=full_oracle)
 
-# Average words excluding reminder text
-cube_word_count(cube_json_handle, full_oracle=False)
+    # Average words excluding reminder text
+    cube_word_count(cube_json_handle, full_oracle=False)
 
-# Average words in full oracle text
-cube_word_count(cube_json_handle, full_oracle=True)
+    # Average words in full oracle text
+    cube_word_count(cube_json_handle, full_oracle=True)
 
-################################################################################
+    ################################################################################
+    # Calculate average of all Magic cards
 
-# Calculate average of all Magic cards
+    # card_db_json_handle = create_all_cards_json()
+    # print_by_color(card_db_json_handle, rank_cards=True, full_oracle=full_oracle)
+    # cube_word_count(card_db_json_handle, full_oracle=full_oracle)
 
-# card_db_json_handle = create_all_cards_json()
-# print_by_color(card_db_json_handle, rank_cards=True, full_oracle=full_oracle)
-# cube_word_count(card_db_json_handle, full_oracle=full_oracle)
+    ################################################################################
+
+    pass
