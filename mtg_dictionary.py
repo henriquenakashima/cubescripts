@@ -31,7 +31,21 @@ def word_list(card):
     return words
 
 
+def keyword_list(card):
+    if 'booster' not in card or card['booster'] is False:
+        return []
+    if 'type_line' not in card:
+        return []
+    if card['set_type'] in ['funny', 'vanguard', 'memorabilia']:
+        return []
+    if 'oracle_text' not in card:
+        return []
+    if 'keywords' not in card:
+        return []
+    return card['keywords']
+
 d = {}
+k = {}
 for card in data:
     if 'oracle_text' in card:
         card_words = word_list(card)
@@ -40,11 +54,26 @@ for card in data:
                 d[word] = 1
             else:
                 d[word] += 1
+        card_keywords = keyword_list(card)
+        for keyword in card_keywords:
+            if keyword not in k:
+                k[keyword] = 1
+            else:
+                k[keyword] += 1
+
+
+
 
 f_oracle_cards.close()
 
 output = open('mtgdict.csv', "w+", encoding='utf8')
+output.write('word,frequency\n')
 for word in d:
     output.write(f"{word},{d[word]}\n")
 output.close()
 
+k_output = open('mtgkeywords.csv', 'w+', encoding='utf8')
+k_output.write('keyword,frequency\n')
+for keyword in k:
+    k_output.write(f"{keyword},{k[keyword]}\n")
+k_output.close()
