@@ -1,10 +1,8 @@
 import json
 import statistics
 
-
 # Counts words on each card from each set using MTGJSON data.
 # I downloaded "all set files" from https://mtgjson.com/downloads/all-files/
-
 
 def load_set(code):
     with open(f'mtgjson/sets/{code}.json', encoding='utf8') as f:
@@ -14,14 +12,15 @@ def load_set(code):
     cards = data['cards']
 
 
-def wc_fo(text):
-    # full oracle text word count
-    return len(text.split())
-
-
 def analyze_set(code):
     d = load_set(code)
-    cards = d['cards']
+    if 'data' in d:
+        d = d['data']
+    if 'cards' in d:
+        cards = d['cards']
+    else:
+        print(f'No card data found in {code}.json')
+        return
     faces = {}
     #list text for all cards
     for card in cards:
@@ -33,7 +32,11 @@ def analyze_set(code):
     for card in cards:
         if 'side' in card:
             if card['side'] == 'a':
-                card['text'] += " " + faces[card['otherFaceIds'][0]]
+                if 'text' not in card:
+                    card['text'] = ""
+                elif card['otherFaceIds']:
+                    card['text'] += " " + faces[card['otherFaceIds'][0]]
+
         # make card number an int
         if 'number' in card:
             try:
@@ -80,14 +83,22 @@ def analyze_set(code):
     return textline
 
 
-codes = ['LEA','3ED','4ED','5ED','6ED','7ED','8ED','9ED','10E','M10','M11','M12','M13','M14','M15','ORI','M19','M20','M21','ARN','ATQ','LEG','DRK','FEM','ICE','HML','ALL','MIR','VIS','WTH','TMP','STH','EXO','USG','ULG','UDS','MMQ','NEM','PCY','INV','PLS','APC','ODY','TOR','JUD','ONS','LGN','SCG','MRD','DST','5DN','CHK','BOK','SOK','RAV','GPT','DIS','CSP','TSP','PLC','FUT','LRW','MOR','SHM','EVE','ALA','CON','ARB','ZEN','WWK','ROE','SOM','MBS','NPH','ISD','DKA','AVR','RTR','GTC','DGM','THS','BNG','JOU','KTK','FRF','DTK','BFZ','OGW','SOI','EMN','KLD','AER','AKH','HOU','XLN','RIX','DOM','GRN','RNA','WAR','ELD','THB','IKO','ZNR']
-
+codes = []
+codes += ['LEA','3ED','4ED','5ED','6ED','7ED','8ED','9ED','10E','M10','M11','M12','M13','M14','M15','ORI','M19','M20',
+         'M21']
+codes += ['POR','P02','PTK','S99']
+codes += ['ARN','ATQ','LEG','DRK','FEM','HML']
+codes += ['ICE','ALL','MIR','VIS','WTH','TMP','STH','EXO','USG','ULG','UDS','MMQ','NEM','PCY','INV','PLS','APC',
+          'ODY','TOR','JUD','ONS','LGN','SCG','MRD','DST','5DN','CHK','BOK','SOK','RAV','GPT','DIS','CSP',
+          'TSP','PLC','FUT','LRW','MOR','SHM','EVE','ALA','CON_','ARB','ZEN','WWK','ROE','SOM','MBS','NPH',
+          'ISD','DKA','AVR','RTR','GTC','DGM','THS','BNG','JOU','KTK','FRF','DTK','BFZ','OGW','SOI','EMN','KLD','AER',
+          'AKH','HOU','XLN','RIX','DOM','GRN','RNA','WAR','ELD','THB','IKO','ZNR']
+codes += ['MMA','MM2','EMA','MM3','IMA','A25','UMA','2XM']
+codes += ['MH1','CMR','JMP']
 
 output = open('retail_set_words.csv', 'w+')
+output.write('Set,c (mean),c (med),u (mean),u (med),r (mean),r (med),m (mean),m (med)\n')
 for code in codes:
-    # These sets trigger errors due to meld, MDFC, and other issues. Fixes needed.
-    if code in ['CON', 'SOI', 'EMN', 'ELD', 'ZNR']:
-        continue
     line = analyze_set(code)
     output.write(line + '\n')
 output.close()
