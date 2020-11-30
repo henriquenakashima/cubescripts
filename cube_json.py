@@ -1,14 +1,7 @@
 import csv
 import json
-import requests
 
 from word_count import EXPECTED_HEADER, COLUMNS, TEMP_JSON, is_actual_mtg_card
-
-
-def request_cube_csv(cube_name, cube_id):
-    url = f'https://cubecobra.com/cube/download/csv/{cube_id}'
-    url += '?primary=Color%20Category&secondary=Types-Multicolor&tertiary=CMC2'
-    response = requests.get(url)
 
 
 def load_cube_from_csv(filename, tag_filter=None):
