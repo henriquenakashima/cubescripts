@@ -34,8 +34,7 @@ def request_set(code):
 if __name__ == '__main__':
     sets = []
     with open('set_codes.csv') as set_file:
-        for line in set_file:
-            sets += [line.strip()]
+        sets = [line.strip() for line in set_file.readlines()]
 
     os.makedirs(os.path.join('scryfall', 'sets'), exist_ok=True)
     for code in sets:
