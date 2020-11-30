@@ -4,7 +4,7 @@
 import keyword_stats
 
 if __name__ == '__main__':
-    f = open('set_codes.txt')
+    f = open('set_codes.csv')
     codes = [line.strip() for line in f.readlines()]
     output_file = open('set_keyword_frequency.csv', 'w+')
     output_file.write('Set,Keywords\n')

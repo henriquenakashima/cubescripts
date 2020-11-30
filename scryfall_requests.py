@@ -1,3 +1,4 @@
+import os
 import requests
 import json
 import time
@@ -30,11 +31,12 @@ def request_set(code):
     f.close()
 
 
-sets = []
-set_file = open('set_codes.txt')
-for line in set_file:
-    sets += [line.strip()]
-set_file.close()
+if __name__ == '__main__':
+    sets = []
+    with open('set_codes.csv') as set_file:
+        for line in set_file:
+            sets += [line.strip()]
 
-for code in sets:
-    request_set(code)
+    os.makedirs(os.path.join('scryfall', 'sets'), exist_ok=True)
+    for code in sets:
+        request_set(code)
