@@ -9,6 +9,7 @@ def request_cube_csv(cube_name, cube_id):
     url = f'https://cubecobra.com/cube/download/csv/{cube_id}'
     url += '?primary=Color%20Category&secondary=Types-Multicolor&tertiary=CMC2'
     response = requests.get(url)
+    open(f'cube_csvs/{cube_name}.csv', 'wb').write(response.content)
 
 
 def load_cube_from_csv(filename, tag_filter=None):
