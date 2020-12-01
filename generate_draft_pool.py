@@ -3,12 +3,14 @@
 import csv
 import random
 
+import cube_json
+
 
 OUTPUT_POOL_SIZE = 360
 CARDS_FROM_OCCASIONAL = 48
 CARDS_FROM_CORE = OUTPUT_POOL_SIZE - CARDS_FROM_OCCASIONAL
+CUBE_NAME = 'TheElegantCube_fetched'
 
-CSV_FILENAME = 'cube_csvs/TheElegantCube_2020-11-17_5.0.4.csv'
 OUTPUT_FILENAME = 'cards_in_draft.txt'
 EXPECTED_HEADER = [
     'Name',
@@ -32,9 +34,11 @@ COLUMNS = {column_name: i for i, column_name in enumerate(EXPECTED_HEADER)}
 
 
 def main():
+    csv_path = cube_json.request_cube_csv('TheElegantCube_fetched', 'elegant')
+
     core_pool = []
     occasional_pool = []
-    with open(CSV_FILENAME) as f:
+    with open(csv_path) as f:
         reader = csv.reader(f)
         header_line = next(reader)
         assert header_line == EXPECTED_HEADER
