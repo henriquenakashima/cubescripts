@@ -4,6 +4,7 @@ import csv
 import random
 
 import cube_json
+import cubecobra_csv
 
 
 OUTPUT_POOL_SIZE = 360
@@ -12,25 +13,6 @@ CARDS_FROM_CORE = OUTPUT_POOL_SIZE - CARDS_FROM_OCCASIONAL
 CUBE_NAME = 'TheElegantCube_fetched'
 
 OUTPUT_FILENAME = 'cards_in_draft.txt'
-EXPECTED_HEADER = [
-    'Name',
-    'CMC',
-    'Type',
-    'Color',
-    'Set',
-    'Collector Number',
-    'Rarity',
-    'Color Category',
-    'Status',
-    'Finish',
-    'Maybeboard',
-    'Image URL',
-    'Image Back URL',
-    'Tags',
-    'Notes',
-    'MTGO ID'
-]
-COLUMNS = {column_name: i for i, column_name in enumerate(EXPECTED_HEADER)}
 
 
 def main():
@@ -41,10 +23,10 @@ def main():
     with open(csv_path) as f:
         reader = csv.reader(f)
         header_line = next(reader)
-        assert header_line == EXPECTED_HEADER
+        cubecobra_csv.assert_header(header_line)
         for line in reader:
-            card = line[COLUMNS['Name']]
-            tags = line[COLUMNS['Tags']].split(', ')
+            card = line[cubecobra_csv.COLUMNS['Name']]
+            tags = line[cubecobra_csv.COLUMNS['Tags']].split(', ')
             # print(f'{card} {tags}')
             if 'occasional' in tags:
                 occasional_pool.append(card)
