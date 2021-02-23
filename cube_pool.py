@@ -14,6 +14,7 @@ import cubecobra_csv
 class Card:
     name: str
     color_category: str
+    colors: List[str]
     tags: List[str]
 
     def __post_init__(self):
@@ -54,6 +55,9 @@ class CubePool:
         self.remove_cards([card_taken], color_category)
         return card_taken
 
+    def get_category(self, color_category: str) -> List[Card]:
+        return self._categories[color_category]
+
 
 def load_pools(csv_path: str, pool_tags: Set[str]) -> Dict[str, CubePool]:
     pools = defaultdict(CubePool)
@@ -75,7 +79,9 @@ def load_pools(csv_path: str, pool_tags: Set[str]) -> Dict[str, CubePool]:
                 (pool_tag,) = pool_tags_for_card
                 color_category = cubecobra_csv.get_color_category(line)
                 # print(f'{card_name} {color_category}')
-                card = Card(card_name, color_category, tags)
+                colors = cubecobra_csv.get_colors(line)
+                print(f'{card_name} {colors}')
+                card = Card(card_name, color_category, colors, tags)
                 pools[pool_tag].add_card(card)
     return pools
 

@@ -64,3 +64,9 @@ def get_color_category(line: List) -> str:
     color_category = line[COLUMNS['Color Category']]
     assert color_category in _COLOR_CATEGORIES, f'color_category "{color_category}" unknown'
     return _COLOR_CATEGORIES[color_category]
+
+
+def get_colors(line: List) -> str:
+    colors = line[COLUMNS['Color']]
+    #assert color_category in _COLOR_CATEGORIES, f'color_category "{color_category}" unknown'
+    return sorted(colors.lower())

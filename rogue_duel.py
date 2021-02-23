@@ -105,18 +105,23 @@ def _fill_with_lands(state: RogueDuelState):
         player_state.deck.append(rainbow_land)
         # Add two duals
         duals = _fetch_duals(state, player_state.colors)
-        #assert len(duals) == 2, f'Found duals {duals} for colors {player_state.colors}'
+        assert len(duals) == 2, f'Found duals {duals} for colors {player_state.colors}'
         player_state.deck.extend(duals)
 
 
 def _basic_for_color(color: str) -> str:
     name = {'w': 'Plains', 'u': 'Island', 'b': 'Swamp', 'r': 'Mountain', 'g': 'Forest'}[color]
-    return cube_pool.Card(name, '0', color)
+    return cube_pool.Card(name, '0', color, [])
 
 
-def _fetch_duals(state: RogueDuelState, colors: List[str]) -> List[str]:
+def _fetch_duals(state: RogueDuelState, colors: List[str]) -> List[cube_pool.Card]:
+    colors = sorted(colors)
     duals = []
     # Get duals
+    core_lands: List[cube_pool.Card] = state.pools['core'].get_category('l')
+    for land in core_lands:
+        if land.colors == colors:
+            duals.append(land)
     state.pools['core'].remove_cards(duals, 'l')
     return duals
 
