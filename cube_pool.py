@@ -1,10 +1,11 @@
 # Loads disjoint pools from a cube CSV
 
+import collections
 import csv
 import itertools
 import random
 from collections import defaultdict
-from typing import Dict, Set
+from typing import Dict, List, Set
 
 import cubecobra_csv
 
@@ -17,9 +18,23 @@ class CubePool:
         assert color_category in 'wubrgchml', f'{card_name}: {color_category}'
         self._categories[color_category].append(card_name)
 
-    def wide_sample(self, n: int):
+    def wide_sample(self, n: int) -> List[str]:
         wide_iterator = list(itertools.chain.from_iterable(self._categories.values()))
-        return random.sample(wide_iterator, n)
+        sample = random.sample(wide_iterator, n)
+        return sample
+
+    def category_sample(self, color_category: str, n: int) -> List[str]:
+        return random.sample(self._categories[color_category], n)
+
+    def draw_from_category(self, color_category: str, n: int) -> List[str]:
+        drawn = self.category_sample(color_category, n)
+        self.remove_cards(drawn, color_category)
+        return drawn
+
+    def remove_cards(self, removed: List[str], color_category: str):
+        existing_counter = collections.Counter(self._categories[color_category])
+        removed_counter = collections.Counter(removed)
+        self._categories[color_category] = list((existing_counter - removed_counter).elements())
 
 
 def load_pools(csv_path: str, pool_tags: Set[str]) -> Dict[str, CubePool]:
