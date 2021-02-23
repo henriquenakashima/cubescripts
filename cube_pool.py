@@ -4,7 +4,7 @@ import csv
 import itertools
 import random
 from collections import defaultdict
-from typing import Dict, List, Set
+from typing import Dict, Set
 
 import cubecobra_csv
 
@@ -22,7 +22,7 @@ class CubePool:
         return random.sample(wide_iterator, n)
 
 
-def load_pools(csv_path: str, pool_tags: Set[str]) -> Dict[str, List[str]]:
+def load_pools(csv_path: str, pool_tags: Set[str]) -> Dict[str, CubePool]:
     pools = defaultdict(CubePool)
     with open(csv_path) as f:
         reader = csv.reader(f)
