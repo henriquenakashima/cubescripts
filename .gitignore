@@ -2,6 +2,7 @@ cards_in_draft.txt
 oracle_cards.json
 cube_temp.json
 oracle_cards_clean.json
+decks/
 scryfall/
 
 # Byte-compiled / optimized / DLL files
@@ -134,4 +135,3 @@ dmypy.json
 # Pyre type checker
 .pyre/
 .idea/workspace.xml
-

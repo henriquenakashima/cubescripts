@@ -2,6 +2,8 @@
 # improving their decks between games.
 
 import random
+from collections import Counter
+from pathlib import Path
 from typing import Dict, List
 
 import cube_json
@@ -34,6 +36,7 @@ def main():
     _fill_with_lands(state)
     print(state.player1.deck)
     print(state.player2.deck)
+    _export_decks(state)
 
 
 def _decide_colors(state: RogueDuelState):
@@ -124,6 +127,21 @@ def _fetch_duals(state: RogueDuelState, colors: List[str]) -> List[cube_pool.Car
             duals.append(land)
     state.pools['core'].remove_cards(duals, 'l')
     return duals
+
+
+def _export_decks(state: RogueDuelState):
+    decks_path = Path('decks')
+    decks_path.mkdir(exist_ok=True)
+    for i, player_state in enumerate(state.player_states):
+        filepath = decks_path / f'player{i + 1}_deck.txt'
+        _export_deck(player_state.deck, filepath)
+
+
+def _export_deck(deck: List[cube_pool.Card], filepath: Path):
+    deck_counter = Counter([card.name for card in deck])
+    with open(filepath, 'w') as f:
+        for card_name, quantity in deck_counter.most_common():
+            f.write(f'{quantity} {card_name}\n')
 
 
 if __name__ == '__main__':
