@@ -2,7 +2,7 @@
 # improving their decks between games.
 
 import random
-from typing import Dict, List, Tuple
+from typing import Dict, List
 
 import cube_json
 import cube_pool
@@ -12,8 +12,8 @@ CUBE_NAME = 'TheElegantCube_fetched'
 
 class RogueDuelPlayerState:
     def __init__(self):
-        self.colors = []
-        self.deck = []
+        self.colors: List[str] = []
+        self.deck: List[cube_pool.Card] = []
 
 
 class RogueDuelState:
@@ -24,7 +24,7 @@ class RogueDuelState:
 
         csv_path = cube_json.request_cube_csv('TheElegantCube_fetched', 'elegant')
         self.pools: Dict[str, cube_pool.CubePool] = cube_pool.load_pools(csv_path, {'core', 'occasional'})
-        self.discard_pile: List[str] = []
+        self.discard_pile: List[cube_pool.Card] = []
 
 
 def main():
@@ -37,7 +37,7 @@ def main():
 
 
 def _decide_colors(state: RogueDuelState):
-    sealed_pools: Dict[str, List[str]] = {}
+    sealed_pools: Dict[str, List[cube_pool.Card]] = {}
     for color_category in 'wubrg':
         sealed_pools[color_category] = (state.pools['core'].draw_from_category(color_category, 6) +
                                         state.pools['occasional'].draw_from_category(color_category, 2))
@@ -74,8 +74,8 @@ def _pick_a_color(colors_available: List[str], prompt: str) -> str:
 
 
 def _pick_artifacts(state: RogueDuelState):
-    artifact_pool: List[str] = (state.pools['core'].draw_from_category('c', 4) +
-                                state.pools['occasional'].draw_from_category('c', 1))
+    artifact_pool: List[cube_pool.Card] = (state.pools['core'].draw_from_category('c', 4) +
+                                           state.pools['occasional'].draw_from_category('c', 1))
     print(artifact_pool)
     card = _pick_a_card(artifact_pool, 'Player 1, choose an artifact:')
     state.player1.deck.append(card)
@@ -84,9 +84,9 @@ def _pick_artifacts(state: RogueDuelState):
     state.discard_pile.extend(artifact_pool)
 
 
-def _pick_a_card(cards_available: List[str], prompt: str) -> str:
+def _pick_a_card(cards_available: List[cube_pool.Card], prompt: str) -> cube_pool.Card:
     for i, card in enumerate(cards_available, 1):
-        print(f'[{i:>2}] {card}')
+        print(f'[{i:>2}] {card.name}')
     index_chosen = -1
     while index_chosen < 0 or index_chosen >= len(cards_available):
         index_chosen = int(input(prompt)) - 1
@@ -96,11 +96,12 @@ def _pick_a_card(cards_available: List[str], prompt: str) -> str:
 
 
 def _fill_with_lands(state: RogueDuelState):
-    RAINBOW_DUALS = ['Terramorphic Expanse', 'Evolving Wilds']
+    RAINBOW_DUALS = [state.pools['core'].fetch('Terramorphic Expanse', 'l'),
+                     state.pools['core'].fetch('Evolving Wilds', 'l')]
     state.pools['core'].remove_cards(RAINBOW_DUALS, 'l')
     for player_state, rainbow_land in zip(state.player_states, RAINBOW_DUALS):
         for color in player_state.colors:
-            player_state.deck.extend(5 * [_basic_for_color(color)])
+            player_state.deck.extend([_basic_for_color(color) for _ in range(5)])
         player_state.deck.append(rainbow_land)
         # Add two duals
         duals = _fetch_duals(state, player_state.colors)
@@ -109,7 +110,8 @@ def _fill_with_lands(state: RogueDuelState):
 
 
 def _basic_for_color(color: str) -> str:
-    return {'w': 'Plains', 'u': 'Island', 'b': 'Swamp', 'r': 'Mountain', 'g': 'Forest'}[color]
+    name = {'w': 'Plains', 'u': 'Island', 'b': 'Swamp', 'r': 'Mountain', 'g': 'Forest'}[color]
+    return cube_pool.Card(name, '0', color)
 
 
 def _fetch_duals(state: RogueDuelState, colors: List[str]) -> List[str]:

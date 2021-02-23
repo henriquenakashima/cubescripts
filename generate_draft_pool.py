@@ -23,9 +23,10 @@ def main():
 
     main_pool = (pools['core'].wide_sample(CARDS_FROM_CORE) +
                  pools['occasional'].wide_sample(CARDS_FROM_OCCASIONAL))
+    main_pool_names = [card.name for card in main_pool]
 
     with open(OUTPUT_FILENAME, 'w') as f:
-        f.write('\n'.join(main_pool))
+        f.write('\n'.join(main_pool_names))
 
 
 if __name__ == '__main__':
