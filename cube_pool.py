@@ -80,7 +80,7 @@ def load_pools(csv_path: str, pool_tags: Set[str]) -> Dict[str, CubePool]:
                 color_category = cubecobra_csv.get_color_category(line)
                 # print(f'{card_name} {color_category}')
                 colors = cubecobra_csv.get_colors(line)
-                print(f'{card_name} {colors}')
+                # print(f'{card_name} {colors}')
                 card = Card(card_name, color_category, colors, tags)
                 pools[pool_tag].add_card(card)
     return pools
