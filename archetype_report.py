@@ -20,6 +20,9 @@ ARCHETYPE_TAGS = [
     'zombies',
     'goblins',
     'elves',
+
+    'heroic',
+    'fliers',
     'burn',
     'ramp',
 
@@ -30,7 +33,6 @@ ARCHETYPE_TAGS = [
     'spells',
 
     'blink',
-    'heroic',
 ]
 
 
@@ -63,7 +65,8 @@ def main():
         for category, cards in cards_per_category.items():
             print(f'Category: {category} - {len(cards)} card{"s" if len(cards) != 1 else ""}')
             for i, card in enumerate(cards, 1):
-                print(f'{i:2d} {card.name}')
+                intersection = [tag for tag in card.tags if tag != arguments.archetype and tag in ARCHETYPE_TAGS]
+                print(f'{i:2d} {card.name} ([{len(intersection) + 1}]: {intersection})')
             print()
 
         print()
