@@ -6,8 +6,9 @@ from collections import Counter
 from pathlib import Path
 from typing import Dict, List
 
-import cube_json
 import cube_pool
+import cubecobra_csv
+from cubecobra_csv import CubeCard
 
 CUBE_NAME = 'TheElegantCube_fetched'
 
@@ -15,7 +16,7 @@ CUBE_NAME = 'TheElegantCube_fetched'
 class RogueDuelPlayerState:
     def __init__(self):
         self.colors: List[str] = []
-        self.deck: List[cube_pool.Card] = []
+        self.deck: List[CubeCard] = []
 
 
 class RogueDuelState:
@@ -24,9 +25,9 @@ class RogueDuelState:
         self.player2 = RogueDuelPlayerState()
         self.player_states = (self.player1, self.player2)
 
-        csv_path = cube_json.request_cube_csv('TheElegantCube_fetched', 'elegant')
+        csv_path = cubecobra_csv.request_cube_csv('TheElegantCube_fetched', 'elegant')
         self.pools: Dict[str, cube_pool.CubePool] = cube_pool.load_pools(csv_path, {'core', 'occasional'})
-        self.discard_pile: List[cube_pool.Card] = []
+        self.discard_pile: List[CubeCard] = []
 
 
 def main():
@@ -40,7 +41,7 @@ def main():
 
 
 def _decide_colors(state: RogueDuelState):
-    sealed_pools: Dict[str, List[cube_pool.Card]] = {}
+    sealed_pools: Dict[str, List[CubeCard]] = {}
     for color_category in 'wubrg':
         sealed_pools[color_category] = (state.pools['core'].draw_from_category(color_category, 6) +
                                         state.pools['occasional'].draw_from_category(color_category, 2))
@@ -77,7 +78,7 @@ def _pick_a_color(colors_available: List[str], prompt: str) -> str:
 
 
 def _pick_artifacts(state: RogueDuelState):
-    artifact_pool: List[cube_pool.Card] = (state.pools['core'].draw_from_category('c', 4) +
+    artifact_pool: List[CubeCard] = (state.pools['core'].draw_from_category('c', 4) +
                                            state.pools['occasional'].draw_from_category('c', 1))
     print(artifact_pool)
     card = _pick_a_card(artifact_pool, 'Player 1, choose an artifact:')
@@ -87,7 +88,7 @@ def _pick_artifacts(state: RogueDuelState):
     state.discard_pile.extend(artifact_pool)
 
 
-def _pick_a_card(cards_available: List[cube_pool.Card], prompt: str) -> cube_pool.Card:
+def _pick_a_card(cards_available: List[CubeCard], prompt: str) -> CubeCard:
     for i, card in enumerate(cards_available, 1):
         print(f'[{i:>2}] {card.name}')
     index_chosen = -1
@@ -114,14 +115,14 @@ def _fill_with_lands(state: RogueDuelState):
 
 def _basic_for_color(color: str) -> str:
     name = {'w': 'Plains', 'u': 'Island', 'b': 'Swamp', 'r': 'Mountain', 'g': 'Forest'}[color]
-    return cube_pool.Card(name, '0', color, [])
+    return CubeCard(name, '0', [color], [])
 
 
-def _fetch_duals(state: RogueDuelState, colors: List[str]) -> List[cube_pool.Card]:
+def _fetch_duals(state: RogueDuelState, colors: List[str]) -> List[CubeCard]:
     colors = sorted(colors)
     duals = []
     # Get duals
-    core_lands: List[cube_pool.Card] = state.pools['core'].get_category('l')
+    core_lands: List[CubeCard] = state.pools['core'].get_category('l')
     for land in core_lands:
         if land.colors == colors:
             duals.append(land)
@@ -137,7 +138,7 @@ def _export_decks(state: RogueDuelState):
         _export_deck(player_state.deck, filepath)
 
 
-def _export_deck(deck: List[cube_pool.Card], filepath: Path):
+def _export_deck(deck: List[CubeCard], filepath: Path):
     deck_counter = Counter([card.name for card in deck])
     with open(filepath, 'w') as f:
         for card_name, quantity in deck_counter.most_common():

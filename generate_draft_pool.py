@@ -2,9 +2,8 @@
 
 import hashlib
 
-import cube_json
 import cube_pool
-
+import cubecobra_csv
 
 OUTPUT_POOL_SIZE = 360
 CARDS_FROM_OCCASIONAL = 48
@@ -17,7 +16,7 @@ OUTPUT_FILENAME = 'cards_in_draft.txt'
 
 
 def main():
-    csv_path = cube_json.request_cube_csv('TheElegantCube_fetched', 'elegant')
+    csv_path = cubecobra_csv.request_cube_csv('TheElegantCube_fetched', 'elegant')
 
     pools = cube_pool.load_pools(csv_path, {'core', 'occasional'})
 

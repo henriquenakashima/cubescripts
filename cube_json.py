@@ -1,36 +1,9 @@
-import csv
 import json
-import requests
-from pathlib import Path
 
-from word_count import EXPECTED_HEADER, COLUMNS, TEMP_JSON, is_actual_mtg_card
+from word_count import TEMP_JSON, is_actual_mtg_card
 
 
-def request_cube_csv(cube_name, cube_id):
-    url = f'https://cubecobra.com/cube/download/csv/{cube_id}'
-    url += '?primary=Color%20Category&secondary=Types-Multicolor&tertiary=CMC2'
-    response = requests.get(url)
-    filename = Path('cube_csvs', f'{cube_name}.csv')
-    open(filename, 'wb').write(response.content)
-    return filename
-
-
-def load_cube_from_csv(filename, tag_filter=None):
-    cards = []
-    with open(filename) as f:
-        reader = csv.reader(f)
-        header_line = next(reader)
-        assert header_line == EXPECTED_HEADER
-        for line in reader:
-            card = line[COLUMNS['Name']]
-            # Export CSV is broken on CubeCobra because Image Back URL is always just one double quotes character.
-            tags = [t.strip() for t in line[COLUMNS['Tags']].split(', ')]
-            if tag_filter is None or any(t in tag_filter for t in tags):
-                cards.append(card)
-    return cards
-
-
-def create_cube_json(cards, output_filename=TEMP_JSON):
+def create_cube_json(cards, output_filename=TEMP_JSON) -> str:
     # Call this once to create a smaller JSON file from the full card list
     # Visit https://scryfall.com/docs/api/bulk-data and look for "Oracle Cards" file;
     # Download and rename it to 'oracle_cards.json'

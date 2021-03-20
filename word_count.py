@@ -3,6 +3,7 @@ import json
 from collections import defaultdict
 
 import cube_json
+import cubecobra_csv
 
 
 def load_cube_from_txt(filename):
@@ -168,12 +169,12 @@ if __name__ == '__main__':
     # Use either option:
 
     # 1. If you have your cube in Cube Cobra and want to filter per tag
-    # csv_path = cube_json.request_cube_csv('TheElegantCube_fetched', 'elegant')
+    # csv_path = cubecobra_csv.request_cube_csv('TheElegantCube_fetched', 'elegant')
     # cube_list = cube_json.load_cube_from_csv(csv_path)
 
     # 2. If you have your cube in Cube Cobra and want to consider only cards with a certain tag
-    csv_path = cube_json.request_cube_csv('TheElegantCube_fetched', 'elegant')
-    cube_list = cube_json.load_cube_from_csv(csv_path, tag_filter={'core'})
+    csv_path = cubecobra_csv.request_cube_csv('TheElegantCube_fetched', 'elegant')
+    cube_list = cubecobra_csv.load_cube_names(csv_path, tag_filter={'core'})
 
     # 3. If you have a .txt of your cube
     # cube_list = cube_json.load_cube_from_txt('YourCubeHere.txt')
