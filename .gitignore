@@ -3,6 +3,7 @@ oracle_cards.json
 cube_temp.json
 oracle_cards_clean.json
 decks/
+forge/
 scryfall/
 
 # Byte-compiled / optimized / DLL files
