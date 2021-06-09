@@ -67,7 +67,7 @@ class CubeCard:
 
 def request_cube_csv(cube_name, cube_id) -> Path:
     url = f'https://cubecobra.com/cube/download/csv/{cube_id}'
-    url += '?primary=Color%20Category&secondary=Types-Multicolor&tertiary=CMC2'
+    # url += '?primary=Color%20Category&secondary=Types-Multicolor&tertiary=CMC2'
     response = requests.get(url)
     filename = Path('cube_csvs', f'{cube_name}.csv')
     open(filename, 'wb').write(response.content)
@@ -107,7 +107,7 @@ def _get_name(line: List) -> str:
 
 
 def _get_tags(line: List) -> Set[str]:
-    return set(t.strip() for t in line[COLUMNS['Tags']].split(', '))
+    return set(t.strip() for t in line[COLUMNS['Tags']].split(';'))
 
 
 def _get_color_category(line: List) -> str:
