@@ -45,6 +45,7 @@ _COLOR_CATEGORIES = {
     'Red': 'r',
     'Green': 'g',
     'Multicolor': 'm',
+    'Multicolored': 'm',
     'Hybrid': 'h',
     'Colorless': 'c',
     'Land': 'land',

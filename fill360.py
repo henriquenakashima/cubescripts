@@ -28,7 +28,7 @@ def get_copies_to_add(card):
         if tag == 'uncommon':
             return [card] * (2 - 1)
         if tag == 'dual':
-            return [card] * (7 - 1)
+            return [card] * (8 - 1)
     return []
 
 
@@ -37,9 +37,14 @@ def main():
 
     cube: List[CubeCard] = cubecobra_csv.load_cube(csv_path)
     names_to_add = []
+    unique_cards = set()
     for card in cube:
         copies_to_add = get_copies_to_add(card)
         names_to_add.extend([card.name for card in copies_to_add])
+        unique_cards.add(card.name)
+
+    print(f'Unique cards: {len(unique_cards)}')
+    print(f'Total cards: {len(cube)}')
 
     with open(OUTPUT_FILENAME, 'wb') as f:
         full_pool_contents = '\n'.join(names_to_add).encode('utf-8')

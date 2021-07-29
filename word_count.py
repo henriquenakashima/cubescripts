@@ -170,7 +170,7 @@ if __name__ == '__main__':
 
     # 1. If you have your cube in Cube Cobra and want to filter per tag
     # csv_path = cubecobra_csv.request_cube_csv('TheElegantCube_fetched', 'elegant')
-    # cube_list = cube_json.load_cube_from_csv(csv_path)
+    # cube_list = cubecobra_csv.load_cube_names(csv_path)
 
     # 2. If you have your cube in Cube Cobra and want to consider only cards with a certain tag
     csv_path = cubecobra_csv.request_cube_csv('TheElegantCube_fetched', 'elegant')
