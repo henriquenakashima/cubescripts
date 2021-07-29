@@ -5,7 +5,7 @@ from typing import List
 
 import cubecobra_csv
 
-GRID_COUNT = 3
+GRID_COUNT = 6
 
 
 CUBECOBRA_ID = 'flying'
