@@ -1,882 +1,893 @@
 Name,CMC,Type,Color,Set,Collector Number,Rarity,Color Category,Status,Finish,Maybeboard,Image URL,Image Back URL,Tags,Notes,MTGO ID
 "Battlefield Raptor",1,"Creature - Bird",W,"khm","3",common,w,Owned,Non-foil,false,,,"occasional","",87325
-"Champion of the Parish",1,"Creature - Human Soldier",W,"isd","6",rare,w,Not Owned,Non-foil,false,,,"humans, blink, counters, wide, tribal_payoff, soldiers, u2.0, u3.9, core","",42828
-"Dauntless Bodyguard",1,"Creature - Human Knight",W,"dom","14",uncommon,w,Owned,Non-foil,false,,,"core, aggrocontrol, humans, wide","",67493
+"Champion of the Parish",1,"Creature - Human Soldier",W,"isd","6",rare,w,Not Owned,Non-foil,false,,,"humans;blink;counters;wide;tribal_payoff;soldiers;u2.0;u3.9;occasional","",42828
+"Dauntless Bodyguard",1,"Creature - Human Knight",W,"dom","14",uncommon,w,Owned,Non-foil,false,,,"core;aggrocontrol;humans;wide;aggro","",67493
+"Doomed Traveler",1,"Creature - Human Soldier",W,"ima","16",common,w,Owned,Non-foil,false,,,"core;sacrifice;tokens;fliers;wide;aggro;control;heroic","",65911
 "Ghost-Lit Redeemer",1,"Creature - Spirit",W,"sok","10",uncommon,w,Owned,Non-foil,false,,,"occasional","",21984
-"Giant Killer",1,"Creature - Human Peasant ",W,"eld","14",rare,w,Not Owned,Non-foil,false,,,"tappers, humans, spells, u4.8, removal, core, manasink","",78118
-"Healer's Hawk",1,"Creature - Bird",W,"grn","14",common,w,Not Owned,Non-foil,false,,,"fliers, lifegain, heroic, wide, evasion, aggrocontrol, u4.6.4, core","",69401
+"Giant Killer",1,"Creature - Human Peasant ",W,"eld","14",rare,w,Not Owned,Non-foil,false,,,"tappers;humans;spells;u4.8;removal;core;manasink;aggro;control","",78118
+"Healer's Hawk",1,"Creature - Bird",W,"grn","14",common,w,Not Owned,Non-foil,false,,,"fliers;lifegain;heroic;wide;evasion;aggrocontrol;u4.6.4;core;aggro;control","",69401
 "Soul Warden",1,"Creature - Human Cleric",W,"mm3","24",common,w,Owned,Non-foil,false,,,"occasional","",63039
-"Thraben Inspector",1,"Creature - Human Soldier",W,"soi","44",common,w,Not Owned,Non-foil,false,,,"humans, artifacts, flash, stax, blink, sacrifice, tokens, manasink, wide, soldiers, aggrocontrol, u2.87, smoothing, core","",60240
-"Toolcraft Exemplar",1,"Creature - Dwarf Artificer",W,"kld","32",rare,w,Not Owned,Non-foil,false,,,"artifacts, artifacts_payoff, u2.96, u4.7, occasional","",61879
-"Usher of the Fallen",1,"Creature - Spirit Warrior",W,"khm","35",uncommon,w,Owned,Non-foil,false,,,"core, tokens, manasink, wide","",87393
-"Accorder Paladin",2,"Creature - Human Knight",W,"mbs","1",uncommon,w,Not Owned,Non-foil,false,,,"humans, tokens, wide, aggrocontrol, u2.0, core","",39297
-"Fencing Ace",2,"Creature - Human Soldier",W,"ddl","5",uncommon,w,Owned,Non-foil,false,,,"humans, heroic, core","",49963
-"Grateful Apparition",2,"Creature - Spirit",W,"war","17",uncommon,w,Not Owned,Non-foil,false,,,"fliers, counters_payoff, counters, u4.9, core","",71640
-"Kor Skyfisher",2,"Creature - Kor Soldier",W,"mm3","11",common,w,Owned,Non-foil,false,,,"core, blink, fliers, wide","",63193
-"Relic Seeker",2,"Creature - Human Soldier",W,"ori","29",rare,w,Not Owned,Non-foil,false,,,"humans, artifacts, counters, tappers, soldiers, aggrocontrol, u2.0, u3.8, core","",58158
-"Serene Steward",2,"Creature - Human Cleric Ally",W,"bfz","46",uncommon,w,Owned,Non-foil,false,,,"core, lifegain, lifegain_payoff, humans","",58649
+"Thraben Inspector",1,"Creature - Human Soldier",W,"soi","44",common,w,Not Owned,Non-foil,false,,,"humans;artifacts;flash;stax;blink;sacrifice;tokens;manasink;wide;soldiers;aggrocontrol;u2.87;smoothing;core;aggro;control","",60240
+"Toolcraft Exemplar",1,"Creature - Dwarf Artificer",W,"kld","32",rare,w,Not Owned,Non-foil,false,,,"artifacts;artifacts_payoff;u2.96;u4.7;occasional","",61879
+"Usher of the Fallen",1,"Creature - Spirit Warrior",W,"khm","35",uncommon,w,Owned,Non-foil,false,,,"core;tokens;manasink;wide;aggro","",87393
+"Accorder Paladin",2,"Creature - Human Knight",W,"mbs","1",uncommon,w,Not Owned,Non-foil,false,,,"humans;tokens;wide;aggrocontrol;u2.0;core;aggro","",39297
+"Fencing Ace",2,"Creature - Human Soldier",W,"ddl","5",uncommon,w,Owned,Non-foil,false,,,"humans;heroic;core;aggro","",49963
+"Grateful Apparition",2,"Creature - Spirit",W,"war","17",uncommon,w,Not Owned,Non-foil,false,,,"fliers;counters_payoff;counters;u4.9;core;aggro","",71640
+"Kor Skyfisher",2,"Creature - Kor Soldier",W,"mm3","11",common,w,Owned,Non-foil,false,,,"core;blink;fliers;wide;aggro","",63193
+"Leonin Lightscribe",2,"Creature - Cat Cleric",W,"stx","20",rare,w,Owned,Non-foil,false,,,"core;spells;wide;tokens;aggro","",88517
+"Phantom Nomad",2,"Creature - Spirit Nomad",W,"jud","17",common,w,Owned,Non-foil,false,,,"core;counters;aggro;control","",17384
+"Relic Seeker",2,"Creature - Human Soldier",W,"ori","29",rare,w,Not Owned,Non-foil,false,,,"humans;artifacts;counters;tappers;soldiers;aggrocontrol;u2.0;u3.8;core;aggro","",58158
+"Seasoned Hallowblade",2,"Creature - Human Warrior",W,"m21","34",uncommon,w,Owned,Non-foil,false,,,"core;graveyard;humans;aggrocontrol;reanimator;aggro","",81295
+"Seeker of the Way",2,"Creature - Human Warrior",W,"ktk","22",uncommon,w,Owned,Non-foil,false,,,"core;spells;lifegain;humans;aggrocontrol;aggro;control","",54270
+"Serene Steward",2,"Creature - Human Cleric Ally",W,"bfz","46",uncommon,w,Owned,Non-foil,false,,,"core;lifegain;lifegain_payoff;humans;aggro;control","",58649
+"Shepherd of the Flock",2,"Creature - Human Peasant",W,"eld","28",uncommon,w,Owned,Non-foil,false,,,"core;blink;spells;flash;humans;aggro;aggrocontrol","",78152
 "Soulfire Grand Master",2,"Creature - Human Monk",W,"frf","27",mythic,White,Owned,Non-foil,false,,,"occasional","",55614
-"Squall Drifter",2,"Snow Creature - Elemental",W,"csp","17",common,w,Not Owned,Non-foil,false,,,"fliers, tappers, evasion, u4.4, core, manasink","",24767
-"Stone Haven Pilgrim",2,"Creature - Kor Cleric",W,"jmp","6",uncommon,w,Owned,Non-foil,false,,,"core, artifacts, lifegain","",
+"Stone Haven Pilgrim",2,"Creature - Kor Cleric",W,"jmp","6",uncommon,w,Owned,Non-foil,false,,,"core;artifacts;lifegain;aggro;control","",81759
 "Thalia, Guardian of Thraben",2,"Legendary Creature - Human Soldier",W,"sld","37",rare,w,Owned,Non-foil,false,,,"occasional","",
-"Topan Freeblade",2,"Creature - Human Soldier",W,"ori","36",common,w,Not Owned,Non-foil,false,,,"humans, counters, tappers, soldiers, aggrocontrol, u2.0, core","",57836
+"Thalia's Lieutenant",2,"Creature - Human Soldier",W,"c20","103",rare,w,Owned,Non-foil,false,,,"core;humans;counters;aggro","",
 "Abzan Falconer",3,"Creature - Human Soldier",W,"cm2","15",uncommon,w,Owned,Non-foil,false,,,"occasional","",
-"Ardenvale Tactician",3,"Creature - Human Knight",W,"eld","5",common,w,Owned,Non-foil,false,,,"u4.9.3, humans, fliers, spells, heroic, tappers, aggrocontrol, core","",78096
-"Attended Knight",3,"Creature - Human Knight",W,"m13","5",common,w,Not Owned,Non-foil,false,,,"humans, blink, tokens, sacrifice, wide, stax, soldiers, u2.80, core","",45492
+"Attended Knight",3,"Creature - Human Knight",W,"m13","5",common,w,Not Owned,Non-foil,false,,,"humans;blink;tokens;sacrifice;wide;stax;soldiers;u2.80;core;aggro;control","",45492
 "Benalish Marshal",3,"Creature - Human Knight",W,"gnt","8",rare,w,Owned,Non-foil,false,,,"occasional","",
-"Bygone Bishop",3,"Creature - Spirit Cleric",W,"soi","8",rare,w,Owned,Non-foil,false,,,"u4.9.3, u2.77, fliers, artifacts, aggrocontrol, manasink, core","",60212
-"Elite Spellbinder",3,"Creature - Human Cleric",W,"stx","17",rare,w,Owned,Non-foil,false,,,"occasional","",88511
-"Flickerwisp",3,"Creature - Elemental",W,"mma","16",uncommon,w,Not Owned,Non-foil,false,,,"fliers, blink, evasion, aggrocontrol, u2.0, core","",48776
-"Gideon's Avenger",3,"Creature - Human Soldier",W,"m12","17",rare,w,Not Owned,Non-foil,false,,,"humans, tappers, counters, tappers_payoff, soldiers, u4.4, core","",41433
+"Bygone Bishop",3,"Creature - Spirit Cleric",W,"soi","8",rare,w,Owned,Non-foil,false,,,"u4.9.3;u2.77;fliers;artifacts;aggrocontrol;manasink;core;aggro","",60212
+"Elite Spellbinder",3,"Creature - Human Cleric",W,"stx","17",rare,w,Owned,Non-foil,false,,,"core;aggrocontrol;fliers;humans;aggro","",88511
+"Flickerwisp",3,"Creature - Elemental",W,"mma","16",uncommon,w,Not Owned,Non-foil,false,,,"fliers;blink;evasion;aggrocontrol;u2.0;core;aggro;control","",48776
 "Mangara of Corondor",3,"Legendary Creature - Human Wizard",W,"bbd","98",rare,w,Owned,Non-foil,false,,,"occasional","",
 "Mentor of the Meek",3,"Creature - Human Soldier",W,"m19","27",rare,w,Owned,Non-foil,false,,,"occasional","",68215
+"Ministrant of Obligation",3,"Creature - Human Cleric",W,"rna","16",uncommon,w,Owned,Non-foil,false,,,"core;sacrifice;tokens;fliers;humans;control","",71032
 "Resplendent Marshal",3,"Creature - Angel Warrior",W,"khm","22",mythic,w,Owned,Non-foil,false,,,"occasional","",87367
 "Soltari Crusader",3,"Creature - Soltari Knight",W,"tmp","41",uncommon,w,Owned,Non-foil,false,,,"occasional","",10123
-"Splendor Mare",3,"Creature - Elk Unicorn",W,"iko","32",uncommon,w,Owned,Non-foil,false,,,"core, lifegain","",80073
 "Twilight Drover",3,"Creature - Spirit",W,"ddk","9",rare,w,Owned,Non-foil,false,,,"occasional","",48171
-"Abzan Battle Priest",4,"Creature - Human Cleric",W,"ima","2",uncommon,w,Owned,Non-foil,false,,,"core, lifegain, counters, counters_payoff, humans","",65883
 "Brigid, Hero of Kinsbaile",4,"Legendary Creature - Kithkin Archer",W,"lrw","6",rare,w,Owned,Non-foil,false,,,"occasional","",28507
-"Daghatar the Adamant",4,"Legendary Creature - Human Warrior",W,"frf","9",rare,White,Owned,Non-foil,false,,,"core, manasink, humans, counters","",55316
-"Dawnbringer Charioteers",4,"Creature - Human Soldier",W,"jou","6",rare,w,Not Owned,Non-foil,false,,,"humans, fliers, heroic, lifegain, evasion, soldiers, u4.2, core","",52180
-"Emeria Angel",4,"Creature - Angel",W,"ima","20",rare,w,Owned,Non-foil,false,,,"u2.0, u4.9.3, fliers, tokens, ramp, wide, occasional","",65919
+"Daghatar the Adamant",4,"Legendary Creature - Human Warrior",W,"frf","9",rare,White,Owned,Non-foil,false,,,"core;manasink;humans;counters;aggro","",55316
+"Emeria Angel",4,"Creature - Angel",W,"ima","20",rare,w,Owned,Non-foil,false,,,"u2.0;u4.9.3;fliers;tokens;ramp;wide;occasional","",65919
 "Galepowder Mage",4,"Creature - Kithkin Wizard",W,"ddi","12",rare,w,Owned,Non-foil,false,,,"occasional","",43664
 "High Sentinels of Arashin",4,"Creature - Bird Soldier",W,"ktk","13",rare,w,Owned,Non-foil,false,,,"occasional","",54286
-"Hundred-Handed One",4,"Creature - Giant",W,"ths","20",rare,w,Not Owned,Non-foil,false,,,"counters, manasink, ramp, enrage, u2.63, u2.77, core","",50372
-"Magus of the Disk",4,"Creature - Human Wizard",W,"c20","94",rare,w,Owned,Non-foil,false,,,"core, humans, wizards, wrath, artifact_removal, enchantment_removal, control","",
-"Master Splicer",4,"Creature - Human Artificer",W,"nph","16",uncommon,w,Not Owned,Non-foil,false,,,"artifacts, humans, golems, blink, sacrifice, tokens, wide, stax, u2.99, core","",39984
+"Hundred-Handed One",4,"Creature - Giant",W,"ths","20",rare,w,Not Owned,Non-foil,false,,,"counters;manasink;ramp;enrage;u2.63;u2.77;occasional","",50372
+"Magus of the Disk",4,"Creature - Human Wizard",W,"c20","94",rare,w,Owned,Non-foil,false,,,"core;humans;wizards;wrath;artifact_removal;enchantment_removal;control;removal","",
 "Meadowboon",4,"Creature - Elemental",W,"mor","17",uncommon,w,Owned,Non-foil,false,,,"occasional","",29240
 "Odric, Lunarch Marshal",4,"Legendary Creature - Human Soldier",W,"c20","95",rare,w,Owned,Non-foil,false,,,"occasional","",
-"Rhox Veteran",4,"Creature - Rhino Soldier",W,"mh1","24",common,w,Owned,Non-foil,false,,,"core, tokens, wide, tappers","",72420
-"Visionary Augmenter",4,"Creature - Dwarf Artificer",W,"kld","34",uncommon,w,Owned,Non-foil,false,,,"core, tokens, artifacts, wide, counters, blink","",61617
-"Archon of Justice",5,"Creature - Archon",W,"m12","6",rare,w,Owned,Non-foil,false,,,"occasional","",41161
+"Rhox Veteran",4,"Creature - Rhino Soldier",W,"mh1","24",common,w,Owned,Non-foil,false,,,"core;tokens;wide;tappers;aggro","",72420
+"Visionary Augmenter",4,"Creature - Dwarf Artificer",W,"kld","34",uncommon,w,Owned,Non-foil,false,,,"core;counters;tokens;artifacts;wide;sacrifice;blink","",61617
+"Archon of Justice",5,"Creature - Archon",W,"m12","6",rare,w,Owned,Non-foil,false,,,"core;ramp;fliers;control;sacrifice","",41161
 "Aven Gagglemaster",5,"Creature - Bird Warrior",W,"m21","5",uncommon,w,Owned,Non-foil,false,,,"occasional","",81237
 "Belfry Spirit",5,"Creature - Spirit",W,"gk2","29",uncommon,w,Owned,Non-foil,false,,,"occasional","",
-"Cataclysmic Gearhulk",5,"Artifact Creature - Construct",W,"c20","80",mythic,w,Owned,Non-foil,false,,,"core, artifacts, control, ramp, blink, wrath","",
-"Reveillark",5,"Creature - Elemental",W,"c20","97",rare,w,Owned,Non-foil,false,,,"core, fliers, blink, graveyard","",
+"Constable of the Realm",5,"Creature - Giant Soldier",W,"mh2","10",uncommon,w,Owned,Non-foil,false,,,"core;counters_payoff;counters","",90389
 "Serra Angel",5,"Creature - Angel",W,"gnt","16",uncommon,w,Owned,Non-foil,false,,,"occasional","",
-"Sunscorch Regent",5,"Creature - Dragon",W,"c17","74",rare,w,Owned,Non-foil,false,,,"occasional","",
+"Sunscorch Regent",5,"Creature - Dragon",W,"dtk","41",rare,w,Owned,Non-foil,false,,,"occasional","",56196
 "Felidar Sovereign",6,"Creature - Cat Beast",W,"bfz","26",rare,w,Owned,Non-foil,false,,,"occasional","",58283
-"Sunblast Angel",6,"Creature - Angel",W,"c14","92",rare,w,Not Owned,Non-foil,false,,,"tappers, blink, ramp, reanimator, enrage, tappers_payoff, evasion, control, u2.74, u4.4, core","",54897
-"Twilight Shepherd",6,"Creature - Angel",W,"shm","25",rare,w,Owned,Non-foil,false,,,"core, control","",29595
+"Twilight Shepherd",6,"Creature - Angel",W,"shm","25",rare,w,Owned,Non-foil,false,,,"control;occasional","",29595
 "Angel of Serenity",7,"Creature - Angel",W,"cm2","16",mythic,w,Owned,Non-foil,false,,,"occasional","",
-"Angel of the Ruins",7,"Artifact Creature - Angel",W,"c21","11",rare,w,Owned,Non-foil,false,,,"artifacts, ramp, fliers, reanimator, smoothing, artifact_removal, enchantment_removal, control, core","",89765
-"Eternal Dragon",7,"Creature - Dragon Spirit",W,"c20","88",rare,w,Owned,Non-foil,false,,,"occasional","",
+"Eternal Dragon",7,"Creature - Dragon Spirit",W,"c20","88",rare,w,Owned,Non-foil,false,,,"ramp;graveyard;smoothing;fliers;control;reanimator;occasional","",
 "Sephara, Sky's Blade",7,"Legendary Creature - Angel",W,"m20","36",rare,w,Owned,Non-foil,false,,,"occasional","",72971
 "Akroma, Angel of Wrath",8,"Legendary Creature - Angel",W,"c20","73",mythic,w,Owned,Non-foil,false,,,"occasional","",
 "Myojin of Cleansing Fire",8,"Legendary Creature - Spirit",W,"chk","35",rare,w,Owned,Non-foil,false,,,"occasional","",21215
-"Condemn",1,"Instant",W,"c17","58",uncommon,w,Owned,Non-foil,false,,,"occasional","",
-"Emerge Unscathed",1,"Instant",W,"roe","20",uncommon,w,Not Owned,Non-foil,false,,,"heroic, spells, flash, aggrocontrol, u3.4, core","",36714
-"Fight as One",1,"Instant",W,"iko","12",uncommon,w,Owned,Non-foil,false,,,"occasional","",80033
-"Harm's Way",1,"Instant",W,"ddg","23",uncommon,w,Owned,Non-foil,false,,,"occasional","",40102
-"Light of Hope",1,"Instant",W,"iko","20",common,w,Owned,Non-foil,false,,,"u4.9.3, lifegain, enchantment_removal, counters, heroic, spells, flash, core","",80049
+"Condemn",1,"Instant",W,"dis","8",uncommon,w,Owned,Non-foil,false,,,"occasional","",24253
+"Emerge Unscathed",1,"Instant",W,"roe","20",uncommon,w,Not Owned,Non-foil,false,,,"heroic;spells;flash;aggrocontrol;u3.4;core;aggro","",36714
+"Fight as One",1,"Instant",W,"iko","12",uncommon,w,Owned,Non-foil,false,,,"core;humans;heroic;aggrocontrol;spells;flash;aggro","",80033
 "Mana Tithe",1,"Instant",W,"plc","25",common,w,Owned,Non-foil,false,,,"occasional","",26511
-"Swords to Plowshares",1,"Instant",W,"bbd","110",uncommon,w,Owned,Non-foil,false,,,"core, spells, control, flash, removal","",
+"Path to Exile",1,"Instant",W,"md1","3",uncommon,w,Owned,Non-foil,false,,,"core;removal;spells;flash;aggro;control","",
+"Swords to Plowshares",1,"Instant",W,"bbd","110",uncommon,w,Owned,Non-foil,false,,,"core;spells;control;flash;removal;aggro","",
 "Take Heart",1,"Instant",W,"grn","28",common,w,Owned,Non-foil,false,,,"occasional","",69429
-"Blessed Alliance",2,"Instant",W,"emn","13",uncommon,w,Owned,Non-foil,false,,,"core, lifegain, control, manasink, removal","",61088
+"Fateful Absence",2,"Instant",W,"mid","18",rare,w,Owned,Non-foil,false,,,"core;aggro;removal;spells;flash;aggrocontrol","",92962
 "Guided Strike",2,"Instant",W,"ima","23",common,w,Owned,Non-foil,false,,,"occasional","",65925
-"In Oketra's Name",2,"Instant",W,"akh","19",common,w,Owned,Non-foil,false,,,"occasional","",63640
 "Redeem the Lost",2,"Instant",W,"mor","21",uncommon,w,Owned,Non-foil,false,,,"occasional","",28980
 "Shelter",2,"Instant",W,"mh1","28",common,w,Owned,Non-foil,false,,,"occasional","",72428
 "Shining Shoal",2,"Instant - Arcane",W,"bok","21",rare,w,Owned,Non-foil,false,,,"occasional","",21773
-"Test of Faith",2,"Instant",W,"mma","33",common,w,Not Owned,Non-foil,false,,,"enrage, counters, spells, flash, heroic, aggrocontrol, u2.77, core","",48928
-"Blinding Beam",3,"Instant",W,"mrd","7",common,w,Not Owned,Non-foil,false,,,"tappers, flash, spells, aggrocontrol, u3.0, core","",19773
+"You Hear Something on Watch",2,"Instant",W,"afr","42",common,w,Owned,Non-foil,false,,,"core;tokens;wide;removal;control;spells;flash;aggro","",91586
+"Blinding Beam",3,"Instant",W,"mrd","7",common,w,Not Owned,Non-foil,false,,,"tappers;flash;spells;aggrocontrol;u3.0;core;aggro","",19773
 "Embolden",3,"Instant",W,"ody","22",common,w,Owned,Non-foil,false,,,"occasional","",17029
-"Fortify",3,"Instant",W,"mm2","17",common,w,Owned,Non-foil,false,,,"core, tokens, wide, fliers, spells","",57502
 "Prismatic Strands",3,"Instant",W,"c19","69",common,w,Owned,Non-foil,false,,,"occasional","",77252
 "Pulse of the Fields",3,"Instant",W,"dst","11",rare,w,Owned,Non-foil,false,,,"occasional","",20487
 "Safe Passage",3,"Instant",W,"m13","30",common,w,Owned,Non-foil,false,,,"occasional","",45296
-"Chastise",4,"Instant",W,"9ed","9",uncommon,w,Owned,Non-foil,false,,,"occasional","",22697
-"Refraction Trap",4,"Instant - Trap",W,"wwk","17",uncommon,w,Owned,Non-foil,false,,,"occasional","",35767
+"Chastise",4,"Instant",W,"9ed","9",uncommon,w,Owned,Non-foil,false,,,"spells;lifegain;control;flash;removal;occasional","",22697
+"Refraction Trap",4,"Instant - Trap",W,"wwk","17",uncommon,w,Owned,Non-foil,false,,,"core;flash;spells;aggrocontrol;removal;aggro","",35767
 "Arrow Volley Trap",5,"Instant - Trap",W,"ddn","71",uncommon,w,Owned,Non-foil,false,,,"occasional","",
 "Second Thoughts",5,"Instant",W,"ema","27",common,w,Owned,Non-foil,false,,,"occasional","",60693
-"Gird for Battle",1,"Sorcery",W,"grn","12",uncommon,w,Not Owned,Non-foil,false,,,"counters, heroic, spells, aggrocontrol, u4.6.4, occasional","",69397
+"Gird for Battle",1,"Sorcery",W,"grn","12",uncommon,w,Not Owned,Non-foil,false,,,"counters;heroic;spells;aggrocontrol;u4.6.4;occasional","",69397
 "Balance",2,"Sorcery",W,"ema","2",mythic,w,Owned,Non-foil,false,,,"occasional","",60981
-"Sevinne's Reclamation",3,"Sorcery",W,"c19","5",rare,w,Owned,Non-foil,false,,,"core, manasink, graveyard","",77064
-"Sheer Drop",3,"Sorcery",W,"bfz","48",common,w,Not Owned,Non-foil,false,,,"manasink, tappers_payoff, counters, tappers, u4.7.7, removal, core","",58333
-"Day of Judgment",4,"Sorcery",W,"zen","9",rare,w,Not Owned,Non-foil,false,,,"control, spells, wrath, u2.0, removal, core","",34552
+"Divine Gambit",2,"Sorcery",W,"khm","8",uncommon,w,Owned,Non-foil,false,,,"core;spells;removal;artifact_removal;enchantment_removal;aggro;control","",87335
+"Angelic Purge",3,"Sorcery",W,"soi","3",common,w,Owned,Non-foil,false,,,"core;removal;sacrifice;spells;aggro","",59756
+"Sevinne's Reclamation",3,"Sorcery",W,"c19","5",rare,w,Owned,Non-foil,false,,,"core;manasink;graveyard;spells;aggro","",77064
+"Day of Judgment",4,"Sorcery",W,"zen","9",rare,w,Not Owned,Non-foil,false,,,"control;spells;wrath;u2.0;removal;core;control","",34552
 "Decree of Justice",4,"Sorcery",W,"c20","85",rare,w,Owned,Non-foil,false,,,"occasional","",
-"Great Teacher's Decree",4,"Sorcery",W,"dtk","21",uncommon,w,Not Owned,Non-foil,false,,,"tokens, spells, wide, u3.9, occasional, fliers","",55954
+"Great Teacher's Decree",4,"Sorcery",W,"dtk","21",uncommon,w,Not Owned,Non-foil,false,,,"tokens;spells;wide;u3.9;occasional;fliers","",55954
 "Sram's Expertise",4,"Sorcery",W,"aer","24",rare,w,Owned,Non-foil,false,,,"occasional","",62609
 "Wrath of God",4,"Sorcery",W,"ema","38",rare,w,Owned,Non-foil,false,,,"occasional","",60649
 "Akroma's Vengeance",6,"Sorcery",W,"c20","74",rare,w,Owned,Non-foil,false,,,"occasional","",
 "Catastrophe",6,"Sorcery",W,"usg","6",rare,w,Owned,Non-foil,false,,,"occasional","",12283
 "Approach of the Second Sun",7,"Sorcery",W,"akh","4",rare,w,Owned,Non-foil,false,,,"occasional","",63610
 "Hour of Reckoning",7,"Sorcery",W,"c19","65",rare,w,Owned,Non-foil,false,,,"occasional","",77244
-"Ancestral Blade",2,"Artifact - Equipment",W,"m20","3",uncommon,w,Not Owned,Non-foil,false,,,"artifacts, tokens, heroic, soldiers, u4.7.7, core, fliers","",72905
-"Glass Casket",2,"Artifact",W,"eld","15",uncommon,w,Owned,Non-foil,false,,,"artifacts, removal, core","",78122
+"Ancestral Blade",2,"Artifact - Equipment",W,"m20","3",uncommon,w,Not Owned,Non-foil,false,,,"artifacts;tokens;heroic;soldiers;u4.7.7;core;fliers;aggro;control","",72905
+"Glass Casket",2,"Artifact",W,"eld","15",uncommon,w,Owned,Non-foil,false,,,"artifacts;removal;core;aggro;control","",78122
+"Potion of Healing",2,"Artifact",W,"afr","34",common,w,Owned,Non-foil,false,,,"occasional","",91570
+"Cleric Class",1,"Enchantment - Class",W,"afr","6",uncommon,w,Owned,Non-foil,false,,,"occasional","",91514
 "Legion's Landing",1,"Legendary Enchantment",W,"xln","22",rare,w,Owned,Non-foil,false,,,"occasional","",65054
 "Myth Realized",1,"Enchantment",W,"dtk","26",rare,w,Owned,Non-foil,false,,,"occasional","",56212
-"All That Glitters",2,"Enchantment - Aura",W,"eld","2",uncommon,w,Owned,Non-foil,false,,,"occasional","",78090
-"Bonds of Faith",2,"Enchantment - Aura",W,"isd","5",common,w,Not Owned,Non-foil,false,,,"humans, heroic, tribal_payoff, u2.70, u4.4, removal, core","",42358
-"Dawn of Hope",2,"Enchantment",W,"grn","8",rare,w,Not Owned,Non-foil,false,,,"flash, lifegain, tokens, sacrifice, manasink, wide, soldiers, u4.6.1, core, lifegain_payoff","",69389
+"All That Glitters",2,"Enchantment - Aura",W,"eld","2",uncommon,w,Owned,Non-foil,false,,,"core;artifacts;heroic;aggro","",78090
+"Dawn of Hope",2,"Enchantment",W,"grn","8",rare,w,Not Owned,Non-foil,false,,,"flash;lifegain;tokens;sacrifice;manasink;wide;soldiers;u4.6.1;core;lifegain_payoff;control","",69389
 "Intangible Virtue",2,"Enchantment",W,"ema","15",uncommon,w,Owned,Non-foil,false,,,"occasional","",60725
-"Journey to Nowhere",2,"Enchantment",W,"cmd","17",common,w,Owned,Non-foil,false,,,"occasional","",40568
-"Rune of Sustenance",2,"Enchantment - Aura Rune",W,"khm","25",uncommon,w,Owned,Non-foil,false,,,"core, heroic, artifacts, lifegain","",87373
+"Journey to Nowhere",2,"Enchantment",W,"zen","14",common,w,Owned,Non-foil,false,,,"occasional","",34390
+"Rune of Sustenance",2,"Enchantment - Aura Rune",W,"khm","25",uncommon,w,Owned,Non-foil,false,,,"core;heroic;artifacts;lifegain;aggro","",87373
+"Abiding Grace",3,"Enchantment",W,"mh2","1",uncommon,w,Owned,Non-foil,false,,,"occasional","",90371
 "Cage of Hands",3,"Enchantment - Aura",W,"pca","4",common,w,Owned,Non-foil,false,,,"occasional","",
-"Glorious Anthem",3,"Enchantment",W,"10e","17",rare,w,Owned,Non-foil,false,,,"wide, tokens, occasional","",27288
+"Glorious Anthem",3,"Enchantment",W,"10e","17",rare,w,Owned,Non-foil,false,,,"wide;tokens;occasional","",27288
 "Griffin Guide",3,"Enchantment - Aura",W,"tsp","21",uncommon,w,Owned,Non-foil,false,,,"occasional","",25567
 "Lashknife Barrier",3,"Enchantment",W,"pls","9",uncommon,w,Owned,Non-foil,false,,,"occasional","",15257
 "Nine Lives",3,"Enchantment",W,"m21","28",rare,w,Owned,Non-foil,false,,,"occasional","",81283
-"Oblivion Ring",3,"Enchantment",W,"arc","3",common,w,Not Owned,Non-foil,false,,,"artifact_removal, enchantment_removal, u2.0, removal, occasional","",
-"Prison Term",3,"Enchantment - Aura",W,"cmd","27",uncommon,w,Owned,Non-foil,false,,,"occasional","",40520
-"Promise of Bunrei",3,"Enchantment",W,"a25","30",uncommon,w,Owned,Non-foil,false,,,"occasional","",66974
-"Recumbent Bliss",3,"Enchantment - Aura",W,"eve","13",common,w,Not Owned,Non-foil,false,,,"lifegain, u2.0, u3.4, removal, core","",30100
+"Oblivion Ring",3,"Enchantment",W,"arc","3",common,w,Not Owned,Non-foil,false,,,"artifact_removal;enchantment_removal;u2.0;removal;occasional","",
+"Prison Term",3,"Enchantment - Aura",W,"shm","18",uncommon,w,Owned,Non-foil,false,,,"occasional","",29411
+"Promise of Bunrei",3,"Enchantment",W,"a25","30",uncommon,w,Owned,Non-foil,false,,,"core;sacrifice;tokens;aggro","",66974
+"Recumbent Bliss",3,"Enchantment - Aura",W,"eve","13",common,w,Not Owned,Non-foil,false,,,"lifegain;u2.0;u3.4;removal;core;aggro;control","",30100
 "Anointed Procession",4,"Enchantment",W,"akh","2",rare,w,Owned,Non-foil,false,,,"occasional","",63606
-"Conclave Tribunal",4,"Enchantment",W,"grn","6",uncommon,w,Owned,Non-foil,false,,,"core, tokens, wide, artifact_removal, enchantment_removal, removal","",69385
-"Faith's Fetters",4,"Enchantment - Aura",W,"rav","16",common,w,Not Owned,Non-foil,false,,,"lifegain, artifact_removal, control, u2.0, removal, core","",23020
+"Faith's Fetters",4,"Enchantment - Aura",W,"rav","16",common,w,Not Owned,Non-foil,false,,,"lifegain;artifact_removal;control;u2.0;removal;core","",23020
 "Force of Virtue",4,"Enchantment",W,"mh1","10",rare,w,Owned,Non-foil,false,,,"occasional","",72392
 "Righteous Cause",5,"Enchantment",W,"cma","21",uncommon,w,Owned,Non-foil,false,,,"occasional","",
-"Cloudfin Raptor",1,"Creature - Bird Mutant",U,"gtc","32",common,u,Not Owned,Non-foil,false,,,"fliers, counters, evasion, wide, aggrocontrol, u2.63, occasional","",47523
-"Delver of Secrets",1,"Creature - Human Wizard ",U,"isd","51",common,u,Not Owned,Non-foil,false,,,"wizards, humans, spells, evasion, aggrocontrol, u2.0, u3.4, core","",42436
+"Cloudfin Raptor",1,"Creature - Bird Mutant",U,"gtc","32",common,u,Not Owned,Non-foil,false,,,"fliers;counters;evasion;wide;aggrocontrol;u2.63;occasional","",47523
+"Delver of Secrets",1,"Creature - Human Wizard ",U,"isd","51",common,u,Not Owned,Non-foil,false,,,"wizards;humans;spells;evasion;aggrocontrol;u2.0;u3.4;core;aggro","",42436
 "Drifter il-Dal",1,"Creature - Human Wizard",U,"tsp","59",common,u,Owned,Non-foil,false,,,"occasional","",25479
 "Enclave Cryptologist",1,"Creature - Merfolk Wizard",U,"roe","66",uncommon,u,Owned,Non-foil,false,,,"occasional","",36660
-"Hedron Crab",1,"Creature - Crab",U,"zen","47",uncommon,u,Owned,Non-foil,false,,,"core, mill, graveyard, control","",34460
-"Pteramander",1,"Creature - Salamander Drake",U,"rna","47",uncommon,u,Owned,Non-foil,false,,,"fliers, spells, flash, graveyard, counters, occasional","",71094
-"Siren Stormtamer",1,"Creature - Siren Pirate Wizard",U,"xln","79",uncommon,u,Not Owned,Non-foil,false,,,"wizards, fliers, flash, wide, heroic, evasion, aggrocontrol, u3.3, core","",65172
-"Spectral Sailor",1,"Creature - Spirit Pirate",U,"m20","76",uncommon,u,Not Owned,Non-foil,false,,,"flash, fliers, manasink, wide, evasion, aggrocontrol, u4.7.7, occasional","",73051
+"Hedron Crab",1,"Creature - Crab",U,"zen","47",uncommon,u,Owned,Non-foil,false,,,"core;mill;graveyard;control","",34460
+"Pteramander",1,"Creature - Salamander Drake",U,"rna","47",uncommon,u,Owned,Non-foil,false,,,"fliers;spells;flash;graveyard;counters;occasional","",71094
+"Siren Stormtamer",1,"Creature - Siren Pirate Wizard",U,"xln","79",uncommon,u,Not Owned,Non-foil,false,,,"wizards;fliers;flash;wide;heroic;evasion;aggrocontrol;u3.3;core;aggro","",65172
+"Spectral Sailor",1,"Creature - Spirit Pirate",U,"m20","76",uncommon,u,Not Owned,Non-foil,false,,,"flash;fliers;manasink;wide;evasion;aggrocontrol;u4.7.7;occasional","",73051
 "Baral, Chief of Compliance",2,"Legendary Creature - Human Wizard",U,"aer","28",rare,u,Owned,Non-foil,false,,,"occasional","",62653
-"Brineborn Cutthroat",2,"Creature - Merfolk Pirate",U,"m20","50",uncommon,u,Not Owned,Non-foil,false,,,"flash, aggrocontrol, u4.7.7, core","",72999
-"Daring Saboteur",2,"Creature - Human Pirate",U,"xln","49",rare,u,Owned,Non-foil,false,,,"core, aggrocontrol, graveyard, manasink, tappers","",65110
-"Fae of Wishes",2,"Creature - Faerie Wizard ",U,"eld","44",rare,u,Not Owned,Non-foil,false,,,"fliers, graveyard, spells, wizards, evasion, u4.8, core","",78192
-"Ghostly Pilferer",2,"Creature - Spirit Rogue",U,"m21","52",rare,u,Owned,Non-foil,false,,,"core, graveyard, aggrocontrol, rogues, tappers, manasink","",81331
+"Brineborn Cutthroat",2,"Creature - Merfolk Pirate",U,"m20","50",uncommon,u,Not Owned,Non-foil,false,,,"flash;aggrocontrol;u4.7.7;core;aggro","",72999
+"Daring Saboteur",2,"Creature - Human Pirate",U,"xln","49",rare,u,Owned,Non-foil,false,,,"core;aggrocontrol;graveyard;manasink;tappers;humans;aggro","",65110
+"Fae of Wishes",2,"Creature - Faerie Wizard ",U,"eld","44",rare,u,Not Owned,Non-foil,false,,,"fliers;graveyard;spells;wizards;evasion;u4.8;core;control","",78192
+"Ghostly Pilferer",2,"Creature - Spirit Rogue",U,"m21","52",rare,u,Owned,Non-foil,false,,,"core;graveyard;aggrocontrol;rogues;tappers;manasink;aggro","",81331
 "Lighthouse Chronologist",2,"Creature - Human Wizard",U,"roe","75",mythic,u,Owned,Non-foil,false,,,"occasional","",36574
-"Merfolk Trickster",2,"Creature - Merfolk Wizard",U,"dom","56",uncommon,u,Not Owned,Non-foil,false,,,"wizards, flash, blink, tappers, aggrocontrol, u4.7.10, core","",67577
+"Merfolk Trickster",2,"Creature - Merfolk Wizard",U,"dom","56",uncommon,u,Not Owned,Non-foil,false,,,"wizards;flash;blink;tappers;aggrocontrol;u4.7.10;core;aggro","",67577
 "Mystic Archaeologist",2,"Creature - Human Wizard",U,"m19","63",rare,u,Owned,Non-foil,false,,,"occasional","",68287
+"Nightveil Sprite",2,"Creature - Faerie Rogue",U,"grn","48",uncommon,u,Owned,Non-foil,false,,,"core;rogues;fliers;aggrocontrol;smoothing;graveyard;aggro","",69469
 "Spellskite",2,"Artifact Creature - Horror",U,"mm2","230",rare,u,Owned,Non-foil,false,,,"occasional","",57318
-"Thassa's Oracle",2,"Creature - Merfolk Wizard",U,"thb","73",rare,u,Owned,Non-foil,false,,,"core, wizards, control, blink","",79270
-"Thieving Skydiver",2,"Creature - Merfolk Rogue",U,"znr","85",rare,u,Owned,Non-foil,false,,,"core, fliers, aggrocontrol, artifacts, rogues","",83127
-"Thought Courier",2,"Creature - Human Wizard",U,"5dn","38",common,u,Not Owned,Non-foil,false,,,"humans, wizards, graveyard, control, u4.9, smoothing, core","",20914
+"Thassa's Oracle",2,"Creature - Merfolk Wizard",U,"thb","73",rare,u,Owned,Non-foil,false,,,"core;wizards;control;blink","",79270
+"Thought Courier",2,"Creature - Human Wizard",U,"5dn","38",common,u,Not Owned,Non-foil,false,,,"humans;wizards;graveyard;control;u4.9;smoothing;core","",20914
 "Waterfront Bouncer",2,"Creature - Merfolk Spellshaper",U,"mmq","114",common,u,Owned,Non-foil,false,,,"occasional","",13175
 "Wharf Infiltrator",2,"Creature - Human Horror",U,"emn","80",rare,u,Owned,Non-foil,false,,,"occasional","",61332
-"Aether Adept",3,"Creature - Human Wizard",U,"m11","41",common,u,Owned,Non-foil,false,,,"humans, wizards, aggrocontrol, blink, u2.63, u2.80, u4.9.2, core","",37390
-"Ambassador Laquatus",3,"Legendary Creature - Merfolk Wizard",U,"10e","65",rare,u,Owned,Non-foil,false,,,"core, mill, wizards, manasink","",27156
-"Callaphe, Beloved of the Sea",3,"Legendary Enchantment Creature - Demigod",U,"thb","45",uncommon,u,Owned,Non-foil,false,,,"core, aggrocontrol","",79214
-"Champion of Wits",3,"Creature - Naga Wizard",U,"hou","31",rare,u,Not Owned,Non-foil,false,,,"zombies, wizards, graveyard, heroic, manasink, blink, tokens, reanimator, u3.4, smoothing, core","",64546
-"Frost Trickster",3,"Creature - Bird Wizard",U,"stx","43",common,u,Owned,Non-foil,false,,,"fliers, wizards, tappers, core, blink, aggrocontrol","",88563
+"Aether Adept",3,"Creature - Human Wizard",U,"m11","41",common,u,Owned,Non-foil,false,,,"humans;wizards;aggrocontrol;blink;u2.63;u2.80;u4.9.2;core;aggro","",37390
+"Champion of Wits",3,"Creature - Naga Wizard",U,"hou","31",rare,u,Not Owned,Non-foil,false,,,"zombies;wizards;graveyard;heroic;manasink;blink;tokens;reanimator;u3.4;smoothing;occasional","",64546
+"Frost Trickster",3,"Creature - Bird Wizard",U,"stx","43",common,u,Owned,Non-foil,false,,,"fliers;wizards;tappers;core;blink;aggrocontrol;aggro","",88563
 "Grand Architect",3,"Creature - Vedalken Artificer",U,"som","33",rare,u,Owned,Non-foil,false,,,"occasional","",38193
+"Grazilaxx, Illithid Scholar",3,"Legendary Creature - Horror",U,"afr","60",rare,u,Owned,Non-foil,false,,,"aggrocontrol;blink;fliers;core;aggro","",91622
 "Master of Etherium",3,"Artifact Creature - Vedalken Wizard",U,"c16","92",rare,u,Owned,Non-foil,false,,,"occasional","",
-"Nimble Obstructionist",3,"Creature - Bird Wizard",U,"hou","40",rare,u,Not Owned,Non-foil,false,,,"wizards, fliers, flash, evasion, aggrocontrol, u3.2, core","",64564
+"Nimble Obstructionist",3,"Creature - Bird Wizard",U,"hou","40",rare,u,Not Owned,Non-foil,false,,,"wizards;fliers;flash;evasion;aggrocontrol;u3.2;core;aggro;control","",64564
 "Patron Wizard",3,"Creature - Human Wizard",U,"ody","89",rare,u,Owned,Non-foil,false,,,"occasional","",16875
-"Prodigal Sorcerer",3,"Creature - Human Wizard",U,"ema","67",uncommon,u,Not Owned,Non-foil,false,,,"humans, pingers, wizards, u2.89, u3.4, occasional","",60893
-"Sea Gate Oracle",3,"Creature - Human Wizard",U,"mm3","48",common,u,Not Owned,Non-foil,false,,,"wizards, humans, blink, u2.0, smoothing, core","",63225
+"Prodigal Sorcerer",3,"Creature - Human Wizard",U,"ema","67",uncommon,u,Not Owned,Non-foil,false,,,"humans;pingers;wizards;u2.89;u3.4;occasional","",60893
+"Sea Gate Oracle",3,"Creature - Human Wizard",U,"mm3","48",common,u,Not Owned,Non-foil,false,,,"wizards;humans;blink;u2.0;smoothing;core;control","",63225
 "Shu Yun, the Silent Tempest",3,"Legendary Creature - Human Monk",U,"frf","52",rare,Blue,Owned,Non-foil,false,,,"occasional","",55342
+"Soulknife Spy",3,"Creature - Elf Rogue",U,"afr","75",common,u,Owned,Non-foil,false,,,"core;elves;aggrocontrol;aggro","",91652
 "Thassa, God of the Sea",3,"Legendary Enchantment Creature - God",U,"ths","66",mythic,u,Owned,Non-foil,false,,,"occasional","",50306
-"Trinket Mage",3,"Creature - Human Wizard",U,"som","48",uncommon,u,Not Owned,Non-foil,false,,,"wizards, humans, artifacts, blink, stax, u2.61, u3.2, core","",38255
-"Vedalken Anatomist",3,"Creature - Vedalken Wizard",U,"mbs","36",uncommon,u,Owned,Non-foil,false,,,"occasional","",39593
-"Wake Thrasher",3,"Creature - Merfolk Soldier",U,"eve","31",rare,u,Not Owned,Non-foil,false,,,"soldiers, aggrocontrol, u2.0, occasional","",30196
-"Clever Impersonator",4,"Creature - Shapeshifter",U,"c19","82",mythic,u,Owned,Non-foil,false,,,"core","",77278
+"Trinket Mage",3,"Creature - Human Wizard",U,"som","48",uncommon,u,Not Owned,Non-foil,false,,,"wizards;humans;artifacts;blink;stax;u2.61;u3.2;core;aggro;control","",38255
+"Wake Thrasher",3,"Creature - Merfolk Soldier",U,"eve","31",rare,u,Not Owned,Non-foil,false,,,"soldiers;aggrocontrol;u2.0;occasional","",30196
+"Clever Impersonator",4,"Creature - Shapeshifter",U,"c19","82",mythic,u,Owned,Non-foil,false,,,"core;aggro;control","",77278
 "Clone",4,"Creature - Shapeshifter",U,"m14","47",rare,u,Owned,Non-foil,false,,,"occasional","",49591
+"Inga Rune-Eyes",4,"Legendary Creature - Human Wizard",U,"khm","64",uncommon,u,Owned,Non-foil,false,,,"core;wizards;humans;sacrifice;smoothing;aggro;control","",87455
 "Master of Waves",4,"Creature - Merfolk Wizard",U,"ths","53",mythic,u,Owned,Non-foil,false,,,"occasional","",50550
-"Murmuring Mystic",4,"Creature - Human Wizard",U,"grn","45",uncommon,u,Not Owned,Non-foil,false,,,"wizards, humans, spells, tokens, enrage, evasion, u4.6.1, core","",69463
-"Ninja of the Deep Hours",4,"Creature - Human Ninja",U,"c18","95",common,u,Owned,Non-foil,false,,,"core, tappers, aggrocontrol, fliers, humans","",
-"Wing Splicer",4,"Creature - Human Artificer",U,"mm3","57",uncommon,u,Not Owned,Non-foil,false,,,"humans, fliers, artifacts, golems, blink, tokens, wide, stax, evasion, aggrocontrol, u2.67, u3.1, core","",63255
-"Azami, Lady of Scrolls",5,"Legendary Creature - Human Wizard",U,"c13","31",rare,u,Not Owned,Non-foil,false,,,"wizards, humans, tribal_payoff, u4.6.3, core","",51458
+"Murmuring Mystic",4,"Creature - Human Wizard",U,"grn","45",uncommon,u,Not Owned,Non-foil,false,,,"wizards;humans;spells;tokens;enrage;evasion;u4.6.1;occasional","",69463
+"Naru Meha, Master Wizard",4,"Legendary Creature - Human Wizard",U,"dom","59",mythic,u,Owned,Non-foil,false,,,"core;wizards;humans;spells;flash","",67583
+"Ninja of the Deep Hours",4,"Creature - Human Ninja",U,"c18","95",common,u,Owned,Non-foil,false,,,"core;tappers;aggrocontrol;fliers;humans;aggro","",
 "Djinn of Wishes",5,"Creature - Djinn",U,"c18","87",rare,u,Owned,Non-foil,false,,,"occasional","",
 "Mulldrifter",5,"Creature - Elemental",U,"c20","117",uncommon,u,Owned,Non-foil,false,,,"occasional","",
-"Willbreaker",5,"Creature - Human Wizard",U,"ori","84",rare,u,Not Owned,Non-foil,false,,,"wizards, humans, pingers, heroic, u3.9, occasional","",57774
-"Arcanis the Omnipotent",6,"Legendary Creature - Wizard",U,"c17","80",rare,u,Owned,Non-foil,false,,,"occasional","",
+"Willbreaker",5,"Creature - Human Wizard",U,"ori","84",rare,u,Not Owned,Non-foil,false,,,"wizards;humans;pingers;heroic;u3.9;occasional","",57774
+"Arcanis the Omnipotent",6,"Legendary Creature - Wizard",U,"ons","66",rare,u,Owned,Non-foil,false,,,"occasional","",17871
 "Draining Whelk",6,"Creature - Illusion",U,"tsp","57",rare,u,Owned,Non-foil,false,,,"occasional","",25587
-"Ethereal Forager",6,"Creature - Elemental Whale",U,"c20","34",rare,u,Owned,Non-foil,false,,,"occasional","",80649
-"Geralf's Mindcrusher",6,"Creature - Zombie Horror",U,"dka","37",rare,u,Owned,Non-foil,false,,,"ramp, mill, control, zombies, core","",43401
+"Ethereal Forager",6,"Creature - Elemental Whale",U,"c20","34",rare,u,Owned,Non-foil,false,,,"core;fliers;graveyard;spells;aggro;control;aggrocontrol","",80649
+"Geralf's Mindcrusher",6,"Creature - Zombie Horror",U,"dka","37",rare,u,Owned,Non-foil,false,,,"ramp;mill;control;zombies;core","",43401
 "Angler Turtle",7,"Creature - Turtle",U,"g18","GP2",rare,u,Owned,Non-foil,false,,,"occasional","",
 "Quicksilver Gargantuan",7,"Creature - Shapeshifter",U,"som","39",mythic,u,Owned,Non-foil,false,,,"occasional","",38183
-"Waker of Waves",7,"Creature - Whale",U,"m21","84",uncommon,u,Owned,Non-foil,false,,,"core, reanimator, graveyard, control, ramp","",81395
+"Waker of Waves",7,"Creature - Whale",U,"m21","84",uncommon,u,Owned,Non-foil,false,,,"core;reanimator;graveyard;control;ramp","",81395
 "Elder Deep-Fiend",8,"Creature - Eldrazi Octopus",U,"emn","5",rare,u,Owned,Non-foil,false,,,"occasional","",61326
-"Broken Ambitions",1,"Instant",U,"lrw","54",common,u,Owned,Non-foil,false,,,"spells, flash, core, smoothing, mill","",28677
-"Dive Down",1,"Instant",U,"xln","53",common,u,Not Owned,Non-foil,false,,,"heroic, flash, spells, aggrocontrol, u3.8, core","",65118
-"Force Spike",1,"Instant",U,"ddj","14",common,u,Owned,Non-foil,false,,,"core, flash, aggrocontrol, spells","",46069
+"Broken Ambitions",1,"Instant",U,"lrw","54",common,u,Owned,Non-foil,false,,,"spells;flash;core;smoothing;mill;aggro;control","",28677
+"Condescend",1,"Instant",U,"dd2","28",common,u,Owned,Non-foil,false,,,"core;spells;smoothing;flash;aggrocontrol;aggro;control","",31621
+"Dive Down",1,"Instant",U,"xln","53",common,u,Not Owned,Non-foil,false,,,"heroic;flash;spells;aggrocontrol;u3.8;core;aggro","",65118
+"Force Spike",1,"Instant",U,"ddj","14",common,u,Owned,Non-foil,false,,,"flash;aggrocontrol;spells;occasional","",46069
 "Spell Pierce",1,"Instant",U,"xln","81",common,u,Owned,Non-foil,false,,,"occasional","",65176
 "Triton Tactics",1,"Instant",U,"ddt","23",uncommon,u,Owned,Non-foil,false,,,"occasional","",
 "Arcane Denial",2,"Instant",U,"a25","41",common,u,Owned,Non-foil,false,,,"occasional","",66996
-"Counterspell",2,"Instant",U,"tmp","57",common,u,Not Owned,Non-foil,false,,,"flash, spells, aggrocontrol, u2.0, core","",9631
-"Into the Roil",2,"Instant",U,"zen","48",common,u,Not Owned,Non-foil,false,,,"spells, flash, aggrocontrol, u2.74, u4.7, core","",34448
-"Mana Leak",2,"Instant",U,"mm2","50",common,u,Not Owned,Non-foil,false,,,"flash, spells, aggrocontrol, u2.0, core","",57220
+"Counterspell",2,"Instant",U,"tmp","57",common,u,Not Owned,Non-foil,false,,,"flash;spells;aggrocontrol;u2.0;core;aggro;control","",9631
+"Into the Roil",2,"Instant",U,"zen","48",common,u,Not Owned,Non-foil,false,,,"spells;flash;aggrocontrol;u2.74;u4.7;core;aggro;control","",34448
+"Mana Leak",2,"Instant",U,"mm2","50",common,u,Not Owned,Non-foil,false,,,"flash;spells;aggrocontrol;u2.0;core;aggro;control","",57220
 "Memory Lapse",2,"Instant",U,"ema","60",common,u,Owned,Non-foil,false,,,"occasional","",60923
-"Negate",2,"Instant",U,"m15","71",common,u,Not Owned,Non-foil,false,,,"flash, spells, aggrocontrol, u2.0, occasional","",53276
-"Remand",2,"Instant",U,"mm2","55",uncommon,u,Owned,Non-foil,false,,,"core, aggrocontrol, smoothing, flash, spells","",57372
-"Withdraw",2,"Instant",U,"pcy","54",common,u,Owned,Non-foil,false,,,"flash, spells, aggrocontrol, blink, occasional","",14263
+"Negate",2,"Instant",U,"m15","71",common,u,Not Owned,Non-foil,false,,,"flash;spells;aggrocontrol;u2.0;occasional","",53276
+"Remand",2,"Instant",U,"mm2","55",uncommon,u,Owned,Non-foil,false,,,"core;aggrocontrol;smoothing;flash;spells;aggro;control","",57372
+"Withdraw",2,"Instant",U,"pcy","54",common,u,Owned,Non-foil,false,,,"flash;spells;aggrocontrol;blink;occasional","",14263
 "Cackling Counterpart",3,"Instant",U,"mm3","32",rare,u,Owned,Non-foil,false,,,"occasional","",63297
-"Complicate",3,"Instant",U,"ons","76",uncommon,u,Owned,Non-foil,false,,,"core, smoothing, aggrocontrol, flash, spells","",17849
-"Exclude",3,"Instant",U,"mb1","369",uncommon,u,Not Owned,Non-foil,false,,,"flash, spells, aggrocontrol, u2.0, u4.8.2, occasional","",
+"Complicate",3,"Instant",U,"ons","76",uncommon,u,Owned,Non-foil,false,,,"core;smoothing;aggrocontrol;flash;spells;control","",17849
+"Exclude",3,"Instant",U,"mb1","369",uncommon,u,Not Owned,Non-foil,false,,,"flash;spells;aggrocontrol;u2.0;u4.8.2;occasional","",
 "Forbid",3,"Instant",U,"exo","35",uncommon,u,Owned,Non-foil,false,,,"occasional","",10459
 "Frantic Search",3,"Instant",U,"ulg","32",common,u,Owned,Non-foil,false,,,"occasional","",12615
 "Intuition",3,"Instant",U,"tmp","70",rare,u,Owned,Non-foil,false,,,"occasional","",9897
-"Neutralize",3,"Instant",U,"iko","59",uncommon,u,Owned,Non-foil,false,,,"u4.9.3, flash, spells, core","",80127
-"Ojutai's Breath",3,"Instant",U,"ima","68",common,u,Not Owned,Non-foil,false,,,"tappers, flash, spells, aggrocontrol, u2.0, u2.86, u3.8, core","",66015
+"Neutralize",3,"Instant",U,"iko","59",uncommon,u,Owned,Non-foil,false,,,"u4.9.3;flash;spells;core;control","",80127
+"Ojutai's Breath",3,"Instant",U,"ima","68",common,u,Not Owned,Non-foil,false,,,"tappers;flash;spells;aggrocontrol;u2.0;u2.86;u3.8;core;aggro","",66015
 "Psionic Blast",3,"Instant",U,"tsb","30",special,u,Owned,Non-foil,false,,,"occasional","",25977
-"Repulse",3,"Instant",U,"cn2","119",common,u,Owned,Non-foil,false,,,"spells, aggrocontrol, control, occasional","",
-"Rushing River",3,"Instant",U,"pls","30",common,u,Owned,Non-foil,false,,,"core, aggrocontrol, ramp, spells","",15243
+"Repulse",3,"Instant",U,"cn2","119",common,u,Owned,Non-foil,false,,,"spells;aggrocontrol;control;occasional","",
+"Rushing River",3,"Instant",U,"pls","30",common,u,Owned,Non-foil,false,,,"core;aggrocontrol;ramp;spells;flash;aggro","",15243
 "Scatter to the Winds",3,"Instant",U,"bfz","85",rare,u,Owned,Non-foil,false,,,"occasional","",58625
-"Thirst for Knowledge",3,"Instant",U,"ddf","68",uncommon,u,Not Owned,Non-foil,false,,,"artifacts, graveyard, flash, reanimator, spells, aggrocontrol, u2.0, smoothing, core","",37704
-"Chemister's Insight",4,"Instant",U,"grn","32",uncommon,u,Not Owned,Non-foil,false,,,"spells, graveyard, flash, mansink, aggrocontrol, u4.7, reanimator, core","",69437
-"Choking Tethers",4,"Instant",U,"ons","74",common,u,Not Owned,Non-foil,false,,,"tappers, flash, spells, aggrocontrol, u3.9, smoothing, core","",17839
+"Thirst for Knowledge",3,"Instant",U,"ddf","68",uncommon,u,Not Owned,Non-foil,false,,,"artifacts;graveyard;flash;reanimator;spells;aggrocontrol;u2.0;smoothing;core;control;aggro","",37704
 "Cryptic Command",4,"Instant",U,"ima","48",rare,u,Owned,Non-foil,false,,,"occasional","",65975
 "Dismiss",4,"Instant",U,"cn2","108",uncommon,u,Owned,Non-foil,false,,,"occasional","",
-"Fact or Fiction",4,"Instant",U,"c19","85",uncommon,u,Owned,Non-foil,false,,,"flash, spells, graveyard, core","",77284
-"Gifts Ungiven",4,"Instant",U,"ss1","5",rare,u,Owned,Non-foil,false,,,"occasional","",
+"Fact or Fiction",4,"Instant",U,"inv","57",uncommon,u,Owned,Non-foil,false,,,"flash;spells;graveyard;core;aggro;control","",14505
 "Misdirection",5,"Instant",U,"ddt","15",rare,u,Owned,Non-foil,false,,,"occasional","",
 "Sublime Epiphany",6,"Instant",U,"m21","74",rare,u,Owned,Non-foil,false,,,"occasional","",81375
 "Breakthrough",1,"Sorcery",U,"cns","92",uncommon,u,Owned,Non-foil,false,,,"occasional","",
 "Careful Study",1,"Sorcery",U,"ody","70",common,u,Owned,Non-foil,false,,,"occasional","",16929
-"Chart a Course",2,"Sorcery",U,"xln","48",uncommon,u,Not Owned,Non-foil,false,,,"graveyard, spells, fliers, reanimator, aggrocontrol, u3.3, smoothing, core","",65108
+"Chart a Course",2,"Sorcery",U,"xln","48",uncommon,u,Not Owned,Non-foil,false,,,"graveyard;spells;fliers;reanimator;aggrocontrol;u3.3;smoothing;core;aggro","",65108
 "Mind Spring",2,"Sorcery",U,"c20","116",rare,u,Owned,Non-foil,false,,,"occasional","",
-"Scour All Possibilities",2,"Sorcery",U,"mh1","67",common,u,Owned,Non-foil,false,,,"core, spells, graveyard, manasink","",72506
+"Scour All Possibilities",2,"Sorcery",U,"mh1","67",common,u,Owned,Non-foil,false,,,"core;spells;graveyard;manasink;control","",72506
+"Deep Analysis",4,"Sorcery",U,"tor","36",common,u,Owned,Non-foil,false,,,"core;graveyard;spells;lifegain;aggro;control","",17135
 "Rite of Replication",4,"Sorcery",U,"c15","105",rare,u,Owned,Non-foil,false,,,"occasional","",
 "Startled Awake",4,"Sorcery",U,"soi","88",mythic,u,Owned,Non-foil,false,,,"occasional","",60014
-"Rise from the Tides",6,"Sorcery",U,"soi","83",uncommon,u,Not Owned,Non-foil,false,,,"spells, u2.80, core","",59824
-"Giant's Amulet",1,"Artifact - Equipment",U,"khm","59",uncommon,u,Owned,Non-foil,false,,,"core, wizards, tokens, artifacts","",87445
-"Witching Well",1,"Artifact",U,"eld","74",common,u,Owned,Non-foil,false,,,"artifacts, manasink, flash, occasional","",78260
+"Rise from the Tides",6,"Sorcery",U,"soi","83",uncommon,u,Not Owned,Non-foil,false,,,"spells;u2.80;core;graveyard;zombies;tokens;control","",59824
+"Aether Spellbomb",1,"Artifact",U,"mma","196",common,u,Owned,Non-foil,false,,,"core;artifacts;aggrocontrol;aggro","",48916
+"Witching Well",1,"Artifact",U,"eld","74",common,u,Owned,Non-foil,false,,,"artifacts;manasink;flash;occasional","",78260
 "Midnight Clock",3,"Artifact",U,"eld","54",rare,u,Owned,Non-foil,false,,,"occasional","",78218
 "Cumber Stone",4,"Artifact",U,"con","24",uncommon,u,Owned,Non-foil,false,,,"occasional","",31805
-"Curiosity",1,"Enchantment - Aura",U,"isd","49",uncommon,u,Not Owned,Non-foil,false,,,"heroic, fliers, pingers, tappers, fliers_payoff, tappers_payoff, aggrocontrol, u3.8, occasional","",42538
-"Curious Obsession",1,"Enchantment - Aura",U,"jmp","148",uncommon,u,Owned,Non-foil,false,,,"core, aggrocontrol, heroic, fliers, tappers","",
+"Curiosity",1,"Enchantment - Aura",U,"isd","49",uncommon,u,Not Owned,Non-foil,false,,,"heroic;fliers;pingers;tappers;fliers_payoff;tappers_payoff;aggrocontrol;u3.8;occasional","",42538
+"Curious Obsession",1,"Enchantment - Aura",U,"jmp","148",uncommon,u,Owned,Non-foil,false,,,"core;aggrocontrol;heroic;fliers;tappers;aggro","",
 "Spontaneous Mutation",1,"Enchantment - Aura",U,"emn","74",common,u,Owned,Non-foil,false,,,"occasional","",61126
 "Compulsion",2,"Enchantment",U,"tor","34",uncommon,u,Owned,Non-foil,false,,,"occasional","",17163
 "Ensoul Artifact",2,"Enchantment - Aura",U,"m15","54",uncommon,u,Owned,Non-foil,false,,,"occasional","",53602
-"Favorable Winds",2,"Enchantment",U,"cns","98",uncommon,u,Not Owned,Non-foil,false,,,"fliers_payoff, u2.67, u3.6, fliers, occasional","",
+"Favorable Winds",2,"Enchantment",U,"cns","98",uncommon,u,Not Owned,Non-foil,false,,,"fliers_payoff;u2.67;u3.6;fliers;occasional","",
 "Legacy's Allure",2,"Enchantment",U,"tmp","71",uncommon,u,Owned,Non-foil,false,,,"occasional","",10109
+"Medomai's Prophecy",2,"Enchantment - Saga",U,"thb","53",uncommon,u,Owned,Non-foil,false,,,"core;smoothing;control","",79230
 "One With the Wind",2,"Enchantment - Aura",U,"xln","64",common,u,Owned,Non-foil,false,,,"occasional","",65140
-"Ongoing Investigation",2,"Enchantment",U,"soi","77",uncommon,Blue,Not Owned,Non-foil,false,,,"artifacts, manasink, fliers, lifegain, graveyard, tokens, tappers, wide, stax, fliers_payoff, tappers_payoff, aggrocontrol, u2.78, u4.1, core","",60358
 "Pendrell Flux",2,"Enchantment - Aura",U,"usg","87",common,u,Owned,Non-foil,false,,,"occasional","",12281
-"Rune of Flight",2,"Enchantment - Aura Rune",U,"khm","75",uncommon,u,Owned,Non-foil,false,,,"occasional","",87477
-"Standstill",2,"Enchantment",U,"ody","102",uncommon,u,Not Owned,Non-foil,false,,,"flash, aggrocontrol, u2.0, core","",16855
-"Drake Haven",3,"Enchantment",U,"akh","51",rare,u,Not Owned,Non-foil,false,,,"graveyard, evasion, u3.0, u4.8, core","",63704
-"Verity Circle",3,"Enchantment",U,"rna","58",rare,u,Not Owned,Non-foil,false,,,"tappers, manasink, tappers_payoff, u4.6.4, core","",71116
+"Rune of Flight",2,"Enchantment - Aura Rune",U,"khm","75",uncommon,u,Owned,Non-foil,false,,,"core;heroic;fliers;artifacts;smoothing;aggro","",87477
+"Standstill",2,"Enchantment",U,"ody","102",uncommon,u,Not Owned,Non-foil,false,,,"flash;aggrocontrol;u2.0;occasional","",16855
 "Domestication",4,"Enchantment - Aura",U,"m14","53",rare,u,Owned,Non-foil,false,,,"occasional","",49199
 "Mechanized Production",4,"Enchantment - Aura",U,"aer","38",mythic,u,Owned,Non-foil,false,,,"occasional","",62559
-"The Antiquities War",4,"Enchantment - Saga",U,"dom","42",rare,u,Owned,Non-foil,false,,,"core, artifacts_payoff, artifacts","",67549
-"Thopter Spy Network",4,"Enchantment",U,"ori","79",rare,u,Not Owned,Non-foil,false,,,"artifacts, stax, artifacts_payoff, evasion, u2.0, occasional","",57906
-"Time of Ice",4,"Enchantment - Saga",U,"dom","70",uncommon,u,Not Owned,Non-foil,false,,,"tappers, tappers_payoff, aggrocontrol, u4.4, core","",67605
+"The Antiquities War",4,"Enchantment - Saga",U,"dom","42",rare,u,Owned,Non-foil,false,,,"core;artifacts_payoff;artifacts","",67549
+"Thopter Spy Network",4,"Enchantment",U,"ori","79",rare,u,Not Owned,Non-foil,false,,,"artifacts;stax;artifacts_payoff;evasion;u2.0;core","",57906
+"Time of Ice",4,"Enchantment - Saga",U,"dom","70",uncommon,u,Not Owned,Non-foil,false,,,"tappers;tappers_payoff;aggrocontrol;u4.4;core;aggro;control","",67605
 "Corrupted Conscience",5,"Enchantment - Aura",U,"mbs","22",uncommon,u,Owned,Non-foil,false,,,"occasional","",39509
 "The Mirari Conjecture",5,"Enchantment - Saga",U,"dom","57",rare,u,Owned,Non-foil,false,,,"occasional","",67579
-"Bloodsoaked Champion",1,"Creature - Human Warrior",B,"ktk","66",rare,b,Not Owned,Non-foil,false,,,"sacrifice, stax, humans, graveyard, wide, aggrocontrol, u2.60, occasional","",54172
-"Changeling Outcast",1,"Creature - Shapeshifter",B,"mh1","82",common,b,Owned,Non-foil,false,,,"u4.9.3, tribal, zombies, core, rogues","",72536
-"Cryptbreaker",1,"Creature - Zombie",B,"emn","86",rare,b,Not Owned,Non-foil,false,,,"zombies, graveyard, reanimator, tokens, wide, tribal_payoff, u2.98, smoothing, core, manasink","",61372
-"Dreadmalkin",1,"Creature - Zombie Cat",B,"war","87",uncommon,b,Not Owned,Non-foil,false,,,"sacrifice, counters, heroic, zombies, flash, evasion, aggrocontrol, u4.7, core, manasink","",71780
-"Gravecrawler",1,"Creature - Zombie",B,"ddq","59",rare,b,Owned,Non-foil,false,,,"core, zombies, tribal_payoff, sacrifice","",
-"Knight of the Ebon Legion",1,"Creature - Vampire Knight",B,"m20","105",rare,b,Owned,Non-foil,false,,,"aggrocontrol, manasink, counters, core","",73109
-"Blood Artist",2,"Creature - Vampire",B,"avr","86",uncommon,b,Not Owned,Non-foil,false,,,"sacrifice, lifegain, tokens, u2.0, core","",44105
+"Ongoing Investigation",2,"Enchantment",UG,"soi","77",uncommon,Blue,Not Owned,Non-foil,false,,,"artifacts;manasink;fliers;lifegain;graveyard;tokens;tappers;wide;stax;fliers_payoff;tappers_payoff;aggrocontrol;u2.78;u4.1;core;aggro","",60358
+"Bloodsoaked Champion",1,"Creature - Human Warrior",B,"ktk","66",rare,b,Not Owned,Non-foil,false,,,"sacrifice;stax;humans;graveyard;wide;aggrocontrol;u2.60;occasional","",54172
+"Carnophage",1,"Creature - Zombie",B,"exo","53",common,b,Owned,Non-foil,false,,,"core;zombies;aggro;aggrocontrol;lifegain","",10655
+"Carrion Feeder",1,"Creature - Zombie",B,"dde","2",common,b,Owned,Non-foil,false,,,"core;sacrifice;counters;zombies;aggro","",35501
+"Changeling Outcast",1,"Creature - Shapeshifter",B,"mh1","82",common,b,Owned,Non-foil,false,,,"u4.9.3;tribal;zombies;rogues;occasional","",72536
+"Cryptbreaker",1,"Creature - Zombie",B,"emn","86",rare,b,Not Owned,Non-foil,false,,,"zombies;graveyard;reanimator;tokens;wide;tribal_payoff;u2.98;smoothing;core;manasink;control","",61372
+"Gravecrawler",1,"Creature - Zombie",B,"ddq","59",rare,b,Owned,Non-foil,false,,,"core;zombies;tribal_payoff;sacrifice;graveyard;aggro","",
+"Shambling Ghast",1,"Creature - Zombie",B,"afr","119",common,b,Owned,Non-foil,false,,,"artifacts;removal;sacrifice;zombies;core;ramp;control","",91740
+"Blood Artist",2,"Creature - Vampire",B,"avr","86",uncommon,b,Not Owned,Non-foil,false,,,"sacrifice;lifegain;tokens;u2.0;core;aggro;control","",44105
 "Cabal Interrogator",2,"Creature - Zombie Wizard",B,"scg","57",uncommon,b,Owned,Non-foil,false,,,"occasional","",18802
-"Dark Confidant",2,"Creature - Human Wizard",B,"rav","81",rare,b,Not Owned,Non-foil,false,,,"humans, wizards, aggrocontrol, lifegain, u4.7.13, smoothing, core","",23084
+"Dark Confidant",2,"Creature - Human Wizard",B,"rav","81",rare,b,Not Owned,Non-foil,false,,,"humans;wizards;aggrocontrol;lifegain;u4.7.13;smoothing;core;aggro","",23084
 "Heir of Falkenrath",2,"Creature - Vampire",B,"soi","116",uncommon,b,Owned,Non-foil,false,,,"occasional","",59960
-"Kiku, Night's Flower",2,"Legendary Creature - Human Assassin",B,"chk","121",rare,b,Not Owned,Non-foil,false,,,"control, humans, flash, u2.84, manasink, occasional","",21251
-"Kitesail Freebooter",2,"Creature - Human Pirate",B,"xln","110",uncommon,b,Not Owned,Non-foil,false,,,"humans, fliers, evasion, aggrocontrol, u3.4, core","",65236
-"Mire Triton",2,"Creature - Zombie Merfolk",B,"thb","105",uncommon,b,Owned,Non-foil,false,,,"core, zombies, lifegain, graveyard, blink","",79334
+"Kiku, Night's Flower",2,"Legendary Creature - Human Assassin",B,"chk","121",rare,b,Not Owned,Non-foil,false,,,"control;humans;flash;u2.84;manasink;occasional","",21251
+"Kitesail Freebooter",2,"Creature - Human Pirate",B,"xln","110",uncommon,b,Not Owned,Non-foil,false,,,"humans;fliers;evasion;aggrocontrol;u3.4;core;aggro","",65236
+"Mire Triton",2,"Creature - Zombie Merfolk",B,"thb","105",uncommon,b,Owned,Non-foil,false,,,"core;zombies;lifegain;graveyard;blink;aggro;control","",79334
+"Nantuko Shade",2,"Creature - Insect Shade",B,"tor","74",rare,b,Owned,Non-foil,false,,,"manasink;aggro;control;occasional","",17211
 "Nezumi Cutthroat",2,"Creature - Rat Warrior",B,"a25","99",common,b,Owned,Non-foil,false,,,"occasional","",67112
-"Nezumi Graverobber",2,"Creature - Rat Rogue",B,"cm2","71",uncommon,b,Owned,Non-foil,false,,,"core, rogues, graveyard, manasink, reanimator","",
-"Oona's Blackguard",2,"Creature - Faerie Rogue",B,"mor","72",uncommon,b,Owned,Non-foil,false,,,"fliers, counters_payoff, counters, rogues, occasional","",29162
-"Oona's Prowler",2,"Creature - Faerie Rogue",B,"lrw","133",rare,b,Not Owned,Non-foil,false,,,"fliers, graveyard, evasion, aggrocontrol, u2.0, core, rogues","",28739
-"Order of Midnight",2,"Creature - Human Knight",B,"eld","99",uncommon,b,Owned,Non-foil,false,,,"u4.9.3, humans, fliers, spells, graveyard, aggrocontrol, manasink, occasional","",78314
+"Nezumi Graverobber",2,"Creature - Rat Rogue",B,"cm2","71",uncommon,b,Owned,Non-foil,false,,,"core;rogues;graveyard;manasink;reanimator;aggro;control","",
+"Oona's Blackguard",2,"Creature - Faerie Rogue",B,"mor","72",uncommon,b,Owned,Non-foil,false,,,"fliers;counters_payoff;counters;rogues;occasional","",29162
+"Oona's Prowler",2,"Creature - Faerie Rogue",B,"lrw","133",rare,b,Not Owned,Non-foil,false,,,"fliers;graveyard;evasion;aggrocontrol;u2.0;core;rogues;aggro","",28739
+"Order of Midnight",2,"Creature - Human Knight",B,"eld","99",uncommon,b,Owned,Non-foil,false,,,"u4.9.3;humans;fliers;spells;graveyard;aggrocontrol;manasink;core;aggro","",78314
 "Piper of the Swarm",2,"Creature - Human Warlock",B,"eld","100",rare,b,Owned,Non-foil,false,,,"occasional","",78318
-"Priest of Forgotten Gods",2,"Creature - Human Cleric",B,"rna","83",rare,b,Owned,Non-foil,false,,,"core, humans, sacrifice","",71166
+"Priest of Forgotten Gods",2,"Creature - Human Cleric",B,"rna","83",rare,b,Owned,Non-foil,false,,,"core;humans;sacrifice","",71166
 "Reassembling Skeleton",2,"Creature - Skeleton Warrior",B,"m19","116",uncommon,b,Owned,Non-foil,false,,,"occasional","",68393
 "Relentless Dead",2,"Creature - Zombie",B,"soi","131",mythic,b,Owned,Non-foil,false,,,"occasional","",60018
-"Undead Augur",2,"Creature - Zombie Wizard",B,"mh1","112",uncommon,b,Not Owned,Non-foil,false,,,"sacrifice, wizards, stax, tribal_payoff, zombies, u4.7, core","",72596
+"Sepulcher Ghoul",2,"Creature - Zombie",B,"afr","118",common,b,Owned,Non-foil,false,,,"core;sacrifice;zombies;aggro","",91738
+"Sinister Starfish",2,"Creature - Starfish",B,"mh2","99",common,b,Owned,Non-foil,false,,,"core;graveyard;control;smoothing","",90571
 "Wall of Souls",2,"Creature - Wall",B,"sth","75",uncommon,b,Owned,Non-foil,false,,,"occasional","",10439
-"Audacious Thief",3,"Creature - Human Rogue",B,"m20","84",common,b,Owned,Non-foil,false,,,"core, humans, rogues, tappers, aggrocontrol, heroic","",73067
-"Banewhip Punisher",3,"Creature - Human Warrior",B,"hou","59",uncommon,b,Not Owned,Non-foil,false,,,"blink, counters, humans, u3.4, removal, core","",64602
-"Bone Shredder",3,"Creature - Minion",B,"dde","5",uncommon,b,Owned,Non-foil,false,,,"occasional","",35401
-"Cemetery Reaper",3,"Creature - Zombie",B,"m12","86",rare,b,Owned,Non-foil,false,,,"occasional","",41183
-"Dusk Urchins",3,"Creature - Ouphe",B,"shm","65",rare,b,Owned,Non-foil,false,,,"occasional","",29413
-"Duskfang Mentor",3,"Creature - Human Cleric",B,"iko","86",uncommon,b,Owned,Non-foil,false,,,"core, counters, lifegain, manasink, humans","",80181
-"Hypnotic Specter",3,"Creature - Specter",B,"10e","151",rare,b,Not Owned,Non-foil,false,,,"fliers, evasion, aggrocontrol, u2.0, u2.89, u4.5, occasional","",27693
+"Wight of Precinct Six",2,"Creature - Zombie",B,"jmp","287",common,b,Owned,Non-foil,false,,,"occasional","",
+"Audacious Thief",3,"Creature - Human Rogue",B,"m20","84",common,b,Owned,Non-foil,false,,,"core;humans;rogues;tappers;aggrocontrol;heroic;aggro","",73067
+"Banewhip Punisher",3,"Creature - Human Warrior",B,"hou","59",uncommon,b,Not Owned,Non-foil,false,,,"blink;counters;humans;u3.4;removal;core;aggro;control","",64602
+"Cemetery Reaper",3,"Creature - Zombie",B,"m12","86",rare,b,Owned,Non-foil,false,,,"core;zombies;graveyard;tokens","",41183
+"Dusk Urchins",3,"Creature - Ouphe",B,"shm","65",rare,b,Owned,Non-foil,false,,,"core;counters;sacrifice;smoothing;aggro;control","",29413
+"Hypnotic Specter",3,"Creature - Specter",B,"10e","151",rare,b,Not Owned,Non-foil,false,,,"fliers;evasion;aggrocontrol;u2.0;u2.89;u4.5;occasional","",27693
 "Mad Auntie",3,"Creature - Goblin Shaman",B,"mma","90",uncommon,b,Owned,Non-foil,false,,,"occasional","",48672
-"Necroskitter",3,"Creature - Elemental",B,"mm2","88",rare,b,Not Owned,Non-foil,false,,,"counters, counters_payoff, u4.7, core","",57074
-"Needle Specter",3,"Creature - Specter",B,"eve","39",rare,b,Owned,Non-foil,false,,,"occasional","",30124
+"Necroskitter",3,"Creature - Elemental",B,"mm2","88",rare,b,Not Owned,Non-foil,false,,,"counters;counters_payoff;u4.7;core;control","",57074
 "Nyxathid",3,"Creature - Elemental",B,"bbd","153",rare,b,Owned,Non-foil,false,,,"occasional","",
-"Pawn of Ulamog",3,"Creature - Vampire Shaman",B,"c17","120",uncommon,b,Owned,Non-foil,false,,,"occasional","",
-"Rotting Regisaur",3,"Creature - Zombie Dinosaur",B,"m20","111",rare,b,Not Owned,Non-foil,false,,,"graveyard, zombies, dinosaurs, aggrocontrol, u4.7.7, core","",73121
-"Royal Assassin",3,"Creature - Human Assassin",B,"m11","116",rare,b,Not Owned,Non-foil,false,,,"tappers, control, humans, tappers_payoff, u2.80, occasional","",37540
+"Pawn of Ulamog",3,"Creature - Vampire Shaman",B,"roe","122",uncommon,b,Owned,Non-foil,false,,,"occasional","",36662
+"Royal Assassin",3,"Creature - Human Assassin",B,"m11","116",rare,b,Not Owned,Non-foil,false,,,"tappers;control;humans;tappers_payoff;u2.80;occasional","",37540
 "Ruin Raider",3,"Creature - Orc Pirate",B,"xln","118",rare,b,Owned,Non-foil,false,,,"occasional","",65252
-"Stinkweed Imp",3,"Creature - Imp",B,"gk1","53",common,b,Owned,Non-foil,false,,,"core, graveyard, fliers","",
-"Varragoth, Bloodsky Sire",3,"Legendary Creature - Demon Rogue",B,"khm","115",rare,b,Owned,Non-foil,false,,,"rogues, manasink, aggrocontrol, core","",87563
-"Vito, Thorn of the Dusk Rose",3,"Legendary Creature - Vampire Cleric",B,"m21","127",rare,b,Owned,Non-foil,false,,,"core, lifegain_payoff, lifegain, manasink","",81481
+"Skullport Merchant",3,"Creature - Dwarf Citizen",B,"afr","120",uncommon,b,Owned,Non-foil,false,,,"core;sacrifice;artifacts;manasink;ramp;control","",91742
+"Stinkweed Imp",3,"Creature - Imp",B,"gk1","53",common,b,Owned,Non-foil,false,,,"graveyard;fliers;occasional","",
+"Varragoth, Bloodsky Sire",3,"Legendary Creature - Demon Rogue",B,"khm","115",rare,b,Owned,Non-foil,false,,,"rogues;manasink;aggrocontrol;core;aggro;control","",87563
 "Yahenni, Undying Partisan",3,"Legendary Creature - Aetherborn Vampire",B,"aer","74",rare,b,Owned,Non-foil,false,,,"occasional","",62701
 "Abyssal Persecutor",4,"Creature - Demon",B,"ima","78",rare,b,Owned,Non-foil,false,,,"occasional","",66035
-"Bone Picker",4,"Creature - Bird",B,"akh","81",uncommon,b,Not Owned,Non-foil,false,,,"sacrifice, fliers, evasion, aggrocontrol, u3.0, core","",63764
-"Braids, Cabal Minion",4,"Legendary Creature - Human Minion",B,"ody","117",rare,b,Not Owned,Non-foil,false,,,"stax, tokens, sacrifice, humans, u4.7, core","",16749
+"Bone Picker",4,"Creature - Bird",B,"akh","81",uncommon,b,Not Owned,Non-foil,false,,,"sacrifice;fliers;evasion;aggrocontrol;u3.0;core;aggro;control","",63764
+"Braids, Cabal Minion",4,"Legendary Creature - Human Minion",B,"ody","117",rare,b,Not Owned,Non-foil,false,,,"stax;tokens;sacrifice;humans;u4.7;core;artifacts","",16749
 "Crypt Ghast",4,"Creature - Spirit",B,"c14","139",rare,b,Owned,Non-foil,false,,,"occasional","",55047
+"Hell Mongrel",4,"Creature - Nightmare Dog",B,"mh2","88",common,b,Owned,Non-foil,false,,,"graveyard;core;reanimator","",90549
 "Horobi, Death's Wail",4,"Legendary Creature - Spirit",B,"chk","117",rare,b,Owned,Non-foil,false,,,"occasional","",21245
-"Marsh Flitter",4,"Creature - Faerie Rogue",B,"lrw","125",uncommon,b,Owned,Non-foil,false,,,"core, tokens, sacrifice, goblins, fliers, wide, rogues, blink","",28397
 "Nekrataal",4,"Creature - Human Assassin",B,"ema","99",uncommon,b,Owned,Non-foil,false,,,"occasional","",60555
-"Skinrender",4,"Creature - Zombie",B,"som","78",uncommon,b,Not Owned,Non-foil,false,,,"zombies, counters, blink, aggrocontrol, u2.0, u4.5, removal, core","",38453
-"Gray Merchant of Asphodel",5,"Creature - Zombie",B,"thb","99",uncommon,b,Owned,Non-foil,false,,,"lifegain, zombies, blink, core","",79322
-"Noxious Ghoul",5,"Creature - Zombie",B,"lgn","77",uncommon,b,Owned,Non-foil,false,,,"u4.9.3, zombies, blink, tribal_payoff, occasional","",18561
+"Skinrender",4,"Creature - Zombie",B,"som","78",uncommon,b,Not Owned,Non-foil,false,,,"zombies;counters;blink;aggrocontrol;u2.0;u4.5;removal;core;aggro;control","",38453
+"Gray Merchant of Asphodel",5,"Creature - Zombie",B,"thb","99",uncommon,b,Owned,Non-foil,false,,,"lifegain;zombies;blink;occasional","",79322
+"Noxious Ghoul",5,"Creature - Zombie",B,"lgn","77",uncommon,b,Owned,Non-foil,false,,,"u4.9.3;zombies;blink;tribal_payoff;occasional","",18561
 "Ob Nixilis, the Fallen",5,"Legendary Creature - Demon",B,"ima","101",mythic,b,Owned,Non-foil,false,,,"occasional","",66081
-"Priest of the Blood Rite",5,"Creature - Human Cleric",B,"ori","112",rare,b,Not Owned,Non-foil,false,,,"blink, sacrifice, stax, humans, tokens, fliers, lifegain, ramp, wide, evasion, u2.65, u4.1, core","",57950
-"Puppeteer Clique",5,"Creature - Faerie Wizard",B,"c17","121",rare,b,Owned,Non-foil,false,,,"occasional","",
-"Syr Konrad, the Grim",5,"Legendary Creature - Human Knight",B,"znc","56",uncommon,b,Owned,Non-foil,false,,,"core, mill, humans, graveyard, sacrifice, reanimator, manasink","",
-"Throat Slitter",5,"Creature - Rat Ninja",B,"pca","37",uncommon,b,Owned,Non-foil,false,,,"occasional","",
-"Kokusho, the Evening Star",6,"Legendary Creature - Dragon Spirit",B,"mma","89",mythic,b,Owned,Non-foil,false,,,"core, ramp, fliers, control, lifegain, sacrifice","",48962
-"Noosegraf Mob",6,"Creature - Zombie",B,"emn","98",rare,b,Not Owned,Non-foil,false,,,"counters, zombies, tokens, wide, blink, stax, u4.6.3, reanimator, occasional","",61374
+"Priest of the Blood Rite",5,"Creature - Human Cleric",B,"ori","112",rare,b,Not Owned,Non-foil,false,,,"blink;sacrifice;stax;humans;tokens;fliers;lifegain;ramp;wide;evasion;u2.65;u4.1;core;aggro","",57950
+"Syr Konrad, the Grim",5,"Legendary Creature - Human Knight",B,"znc","56",uncommon,b,Owned,Non-foil,false,,,"occasional","",
+"Throat Slitter",5,"Creature - Rat Ninja",B,"pca","37",uncommon,b,Owned,Non-foil,false,,,"core;aggrocontrol;blink;removal;aggro","",
+"Kokusho, the Evening Star",6,"Legendary Creature - Dragon Spirit",B,"mma","89",mythic,b,Owned,Non-foil,false,,,"core;ramp;fliers;control;lifegain;sacrifice","",48962
+"Marionette Master",6,"Creature - Human Artificer",B,"kld","90",rare,b,Owned,Non-foil,false,,,"core;artifacts;humans;counters","",61941
+"Noosegraf Mob",6,"Creature - Zombie",B,"emn","98",rare,b,Not Owned,Non-foil,false,,,"counters;zombies;tokens;wide;blink;stax;u4.6.3;reanimator;occasional","",61374
 "Skeletal Vampire",6,"Creature - Vampire Skeleton",B,"gk2","34",rare,b,Owned,Non-foil,false,,,"occasional","",
-"Soulflayer",6,"Creature - Demon",B,"frf","84",rare,b,Owned,Non-foil,false,,,"core, graveyard","",55418
 "Tasigur, the Golden Fang",6,"Legendary Creature - Human Shaman",B,"uma","117",rare,Black,Owned,Non-foil,false,,,"occasional","",70019
 "Visara the Dreadful",6,"Legendary Creature - Gorgon",B,"ema","114",rare,b,Owned,Non-foil,false,,,"occasional","",60767
-"Overseer of the Damned",7,"Creature - Demon",B,"e01","36",rare,b,Not Owned,Non-foil,false,,,"ramp, reanimator, zombies, control, fliers, u4.9, removal, core, blink","",
+"Overseer of the Damned",7,"Creature - Demon",B,"e01","36",rare,b,Not Owned,Non-foil,false,,,"ramp;reanimator;zombies;control;fliers;u4.9;removal;blink;occasional","",
 "Dark Ritual",1,"Instant",B,"a25","82",common,b,Owned,Non-foil,false,,,"occasional","",67078
 "Fatal Push",1,"Instant",B,"aer","57",uncommon,b,Owned,Non-foil,false,,,"occasional","",62689
 "Fungal Infection",1,"Instant",B,"dom","94",common,b,Owned,Non-foil,false,,,"occasional","",67653
-"Ghastly Demise",1,"Instant",B,"cmr","129",common,b,Owned,Non-foil,false,,,"core, removal, graveyard, control","",85040
 "Supernatural Stamina",1,"Instant",B,"akh","111",common,b,Owned,Non-foil,false,,,"occasional","",63824
-"Tragic Slip",1,"Instant",B,"dka","76",common,b,Not Owned,Non-foil,false,,,"sacrifice, spells, flash, u2.0, removal, core","",43189
-"Undying Evil",1,"Instant",B,"dka","77",common,b,Not Owned,Non-foil,false,,,"blink, heroic, counters, spells, flash, aggrocontrol, u2.79, core","",43393
-"Village Rites",1,"Instant",B,"khm","117",common,b,Owned,Non-foil,false,,,"core, sacrifice, flash, spells","",87567
-"Doom Blade",2,"Instant",B,"e02","18",uncommon,b,Owned,Non-foil,false,,,"core, removal, spells, flash","",
-"Last Gasp",2,"Instant",B,"uma","103",common,b,Owned,Non-foil,false,,,"occasional","",70279
-"Raise the Draugr",2,"Instant",B,"khm","105",common,b,Owned,Non-foil,false,,,"core, spells, flash, graveyard, tribal_payoff, tribal","",87539
+"Tragic Slip",1,"Instant",B,"dka","76",common,b,Not Owned,Non-foil,false,,,"sacrifice;spells;flash;u2.0;removal;core;aggro;control","",43189
+"Undying Evil",1,"Instant",B,"dka","77",common,b,Not Owned,Non-foil,false,,,"blink;heroic;counters;spells;flash;aggrocontrol;u2.79;core;aggro","",43393
+"Village Rites",1,"Instant",B,"khm","117",common,b,Owned,Non-foil,false,,,"sacrifice;flash;spells;occasional","",87567
+"Doom Blade",2,"Instant",B,"e02","18",uncommon,b,Owned,Non-foil,false,,,"removal;spells;flash;occasional","",
+"Last Gasp",2,"Instant",B,"rav","93",common,b,Owned,Non-foil,false,,,"core;spells;flash;removal;aggro;control","",23446
 "Smother",2,"Instant",B,"ddp","57",uncommon,b,Owned,Non-foil,false,,,"occasional","",
 "Subtle Strike",2,"Instant",B,"kld","100",common,b,Owned,Non-foil,false,,,"occasional","",61665
 "Dismember",3,"Instant",B,"mm2","79",uncommon,b,Owned,Non-foil,false,,,"occasional","",57330
 "Grim Affliction",3,"Instant",B,"mm2","84",common,b,Owned,Non-foil,false,,,"occasional","",57316
 "Sudden Death",3,"Instant",B,"tsp","134",uncommon,b,Owned,Non-foil,false,,,"occasional","",25743
-"Bake into a Pie",4,"Instant",B,"eld","76",common,b,Not Owned,Non-foil,false,,,"artifacts, spells, lifegain, flash, u4.8, removal, core","",78264
-"Torment of Venom",4,"Instant",B,"hou","79",common,b,Owned,Non-foil,false,,,"counters, removal, core","",64642
+"Bake into a Pie",4,"Instant",B,"eld","76",common,b,Not Owned,Non-foil,false,,,"artifacts;spells;lifegain;flash;u4.8;removal;core;control","",78264
+"Torment of Venom",4,"Instant",B,"hou","79",common,b,Owned,Non-foil,false,,,"counters;removal;core;spells;flash;aggro;control","",64642
 "Contagion",5,"Instant",B,"all","45",uncommon,b,Owned,Non-foil,false,,,"occasional","",
 "Rescue from the Underworld",5,"Instant",B,"ths","102",uncommon,b,Owned,Non-foil,false,,,"occasional","",50380
-"Blackmail",1,"Sorcery",B,"9ed","115",uncommon,b,Owned,Non-foil,false,,,"occasional","",22715
+"Blackmail",1,"Sorcery",B,"9ed","115",uncommon,b,Owned,Non-foil,false,,,"core;aggrocontrol;spells;aggro","",22715
 "Cabal Therapy",1,"Sorcery",B,"jud","62",uncommon,b,Owned,Non-foil,false,,,"occasional","",17496
 "Innocent Blood",1,"Sorcery",B,"e02","19",common,b,Owned,Non-foil,false,,,"occasional","",
-"Reanimate",1,"Sorcery",B,"uma","110",rare,b,Owned,Non-foil,false,,,"core, graveyard, spells, lifegain, reanimator","",70017
+"Reanimate",1,"Sorcery",B,"uma","110",rare,b,Owned,Non-foil,false,,,"core;graveyard;spells;lifegain;reanimator;aggro","",70017
 "Collective Brutality",2,"Sorcery",B,"emn","85",rare,b,Owned,Non-foil,false,,,"occasional","",61144
-"Feed the Swarm",2,"Sorcery",B,"znr","102",common,b,Owned,Non-foil,false,,,"core, removal, enchantment_removal, lifegain","",83167
-"Night's Whisper",2,"Sorcery",B,"5dn","55",uncommon,b,Not Owned,Non-foil,false,,,"lifegain, spells, aggrocontrol, u2.0, smoothing, core","",20816
+"Feed the Swarm",2,"Sorcery",B,"znr","102",common,b,Owned,Non-foil,false,,,"core;removal;enchantment_removal;lifegain;spells;aggro;control","",83167
+"Night's Whisper",2,"Sorcery",B,"5dn","55",uncommon,b,Not Owned,Non-foil,false,,,"lifegain;spells;aggrocontrol;u2.0;smoothing;core;aggro;control","",20816
 "Profane Command",2,"Sorcery",B,"c20","135",rare,b,Owned,Non-foil,false,,,"occasional","",
 "Sign in Blood",2,"Sorcery",B,"cm2","77",common,b,Owned,Non-foil,false,,,"occasional","",
-"Torment of Hailfire",2,"Sorcery",B,"hou","77",rare,b,Not Owned,Non-foil,false,,,"control, ramp, spells, u4.1, occasional","",64638
-"Bleeding Edge",3,"Sorcery",B,"war","78",uncommon,b,Owned,Non-foil,false,,,"core, removal, counters, tokens, zombies, spells","",71762
+"Torment of Hailfire",2,"Sorcery",B,"hou","77",rare,b,Not Owned,Non-foil,false,,,"control;ramp;spells;u4.1;occasional","",64638
+"Bleeding Edge",3,"Sorcery",B,"war","78",uncommon,b,Owned,Non-foil,false,,,"core;removal;counters;tokens;zombies;spells;control;aggro","",71762
 "Buried Alive",3,"Sorcery",B,"uma","88",uncommon,b,Owned,Non-foil,false,,,"occasional","",70249
 "Infest",3,"Sorcery",B,"cn2","139",uncommon,b,Owned,Non-foil,false,,,"occasional","",
-"Never // Return",3,"Sorcery",B,"akh","212",rare,b,Owned,Non-foil,false,,,"core, graveyard, zombies, tokens, removal, manasink","",64038
-"Read the Bones",3,"Sorcery",B,"c17","122",common,b,Owned,Non-foil,false,,,"occasional","",
-"Stupor",3,"Sorcery",B,"tsb","48",special,b,Not Owned,Non-foil,false,,,"spells, aggrocontrol, u2.0, core","",26079
-"Crippling Fear",4,"Sorcery",B,"khm","82",rare,b,Owned,Non-foil,false,,,"occasional","",87491
-"Damnation",4,"Sorcery",B,"sld","121",rare,b,Owned,Non-foil,false,,,"wrath, control, core, spells, removal","",
-"Dread Return",4,"Sorcery",B,"c14","142",uncommon,b,Not Owned,Non-foil,false,,,"graveyard, sacrifice, spells, reanimator, u3.9, u4.7, occasional","",55286
+"Never // Return",3,"Sorcery",B,"akh","212",rare,b,Owned,Non-foil,false,,,"core;graveyard;zombies;tokens;removal;manasink;spells;aggro;control","",64038
+"Read the Bones",3,"Sorcery",B,"ths","101",common,b,Owned,Non-foil,false,,,"occasional","",50170
+"Stupor",3,"Sorcery",B,"tsb","48",special,b,Not Owned,Non-foil,false,,,"spells;aggrocontrol;u2.0;core;aggro","",26079
+"Damnation",4,"Sorcery",B,"sld","121",rare,b,Owned,Non-foil,false,,,"wrath;control;core;spells;removal","",
+"Dread Return",4,"Sorcery",B,"c14","142",uncommon,b,Not Owned,Non-foil,false,,,"graveyard;sacrifice;spells;reanimator;u3.9;u4.7;occasional","",55286
 "Extinction Event",4,"Sorcery",B,"iko","88",rare,b,Owned,Non-foil,false,,,"occasional","",80185
 "Mutilate",4,"Sorcery",B,"tor","73",rare,b,Owned,Non-foil,false,,,"occasional","",17337
-"Crux of Fate",5,"Sorcery",B,"frf","65",rare,b,Not Owned,Non-foil,false,,,"spells, wrath, u2.0, u4.1, removal, occasional","",55450
-"From Under the Floorboards",5,"Sorcery",B,"soi","111",rare,b,Owned,Non-foil,false,,,"graveyard, zombies, tokens, lifegain, core","",60092
+"Crux of Fate",5,"Sorcery",B,"frf","65",rare,b,Not Owned,Non-foil,false,,,"spells;wrath;u2.0;u4.1;removal;occasional","",55450
+"From Under the Floorboards",5,"Sorcery",B,"soi","111",rare,b,Owned,Non-foil,false,,,"graveyard;zombies;tokens;lifegain;core;spells;control","",60092
+"Incremental Blight",5,"Sorcery",B,"arc","17",uncommon,b,Owned,Non-foil,false,,,"occasional","",
 "Living Death",5,"Sorcery",B,"cm2","68",rare,b,Owned,Non-foil,false,,,"occasional","",
-"Necromantic Summons",5,"Sorcery",B,"ori","110",uncommon,b,Owned,Non-foil,false,,,"core, spells, reanimator, graveyard, mill","",57978
+"Necromantic Summons",5,"Sorcery",B,"ori","110",uncommon,b,Owned,Non-foil,false,,,"core;spells;reanimator;graveyard;mill;control","",57978
 "Army of the Damned",8,"Sorcery",B,"c18","113",mythic,b,Owned,Non-foil,false,,,"occasional","",
-"Decree of Pain",8,"Sorcery",B,"c17","111",rare,b,Owned,Non-foil,false,,,"occasional","",
+"Decree of Pain",8,"Sorcery",B,"c13","72",rare,b,Owned,Non-foil,false,,,"occasional","",51286
+"Thieves' Tools",2,"Artifact - Equipment",B,"afr","122",common,b,Owned,Non-foil,false,,,"aggrocontrol;artifacts;core;ramp;aggro","",91746
 "Wishclaw Talisman",2,"Artifact",B,"eld","110",rare,b,Owned,Non-foil,false,,,"occasional","",78342
+"Phyrexian Reclamation",1,"Enchantment",B,"ulg","63",uncommon,b,Owned,Non-foil,false,,,"lifegain;manasink;graveyard;occasional","",12705
 "Unholy Strength",1,"Enchantment - Aura",B,"7ed","168",common,b,Owned,Non-foil,false,,,"occasional","",15948
+"Warlock Class",1,"Enchantment - Class",B,"afr","125",uncommon,b,Owned,Non-foil,false,,,"occasional","",91752
 "Animate Dead",2,"Enchantment - Aura",B,"4ed","118",uncommon,b,Owned,Non-foil,false,,,"occasional","",
-"Dreadhorde Invasion",2,"Enchantment",B,"war","86",rare,b,Not Owned,Non-foil,false,,,"zombies, counters, lifegain, sacrifice, stax, u4.7.1, core","",71778
-"Rune of Mortality",2,"Enchantment - Aura Rune",B,"khm","108",uncommon,b,Owned,Non-foil,false,,,"occasional","",87545
-"Necromancy",3,"Enchantment",B,"vis","64",uncommon,b,Owned,Non-foil,false,,,"occasional","",7649
-"Phyrexian Arena",3,"Enchantment",B,"dde","27",rare,b,Not Owned,Non-foil,false,,,"lifegain, u2.0, control, smoothing, core","",35497
-"Stab Wound",3,"Enchantment - Aura",B,"gk2","35",uncommon,b,Owned,Non-foil,false,,,"occasional","",
+"Rune of Mortality",2,"Enchantment - Aura Rune",B,"khm","108",uncommon,b,Owned,Non-foil,false,,,"core;heroic;artifacts;smoothing;aggro;control","",87545
+"Necromancy",3,"Enchantment",B,"vis","64",uncommon,b,Owned,Non-foil,false,,,"core;reanimator;graveyard","",7649
+"Phyrexian Arena",3,"Enchantment",B,"dde","27",rare,b,Not Owned,Non-foil,false,,,"lifegain;u2.0;control;smoothing;core;aggro;control","",35497
 "Demonic Pact",4,"Enchantment",B,"ori","92",mythic,b,Owned,Non-foil,false,,,"occasional","",57934
-"Diabolic Servitude",4,"Enchantment",B,"cma","53",uncommon,b,Owned,Non-foil,false,,,"core, reanimator, graveyard","",
+"Diabolic Servitude",4,"Enchantment",B,"cma","53",uncommon,b,Owned,Non-foil,false,,,"core;reanimator;graveyard;aggro","",
 "Night of Souls' Betrayal",4,"Legendary Enchantment",B,"ima","99",rare,b,Owned,Non-foil,false,,,"occasional","",66077
 "Pestilence",4,"Enchantment",B,"brb","49",uncommon,b,Owned,Non-foil,false,,,"occasional","",
-"Rite of Belzenlok",4,"Enchantment - Saga",B,"dom","102",rare,b,Not Owned,Non-foil,false,,,"sacrifice, tokens, counters, stax, evasion, u4.7.2, core","",67669
 "Liliana's Mastery",5,"Enchantment",B,"gnt","32",rare,b,Owned,Non-foil,false,,,"occasional","",
 "Sanguine Bond",5,"Enchantment",B,"ima","107",uncommon,b,Owned,Non-foil,false,,,"occasional","",66093
-"Goblin Guide",1,"Creature - Goblin Scout",R,"2xm","127",rare,r,Owned,Non-foil,false,,,"core, goblins, aggrocontrol, burn, wide","",82288
+"Blazing Rootwalla",1,"Creature - Lizard",R,"mh2","115",uncommon,r,Owned,Non-foil,false,,,"core;graveyard;manasink;aggro;aggrocontrol","",90603
+"Bomat Courier",1,"Artifact Creature - Construct",,"kld","199",rare,Red,Not Owned,Non-foil,false,,,"artifacts;burn;aggrocontrol;u4.7.6;core;manasink;graveyard;aggro","",62075
+"Goblin Banneret",1,"Creature - Goblin Soldier",R,"grn","102",uncommon,r,Owned,Non-foil,false,,,"core;manasink;counters;goblins;aggro;heroic","",69577
+"Goblin Guide",1,"Creature - Goblin Scout",R,"2xm","127",rare,r,Owned,Non-foil,false,,,"core;goblins;aggrocontrol;burn;wide;aggro","",82288
 "Goblin Welder",1,"Creature - Goblin Artificer",R,"cm2","101",rare,r,Owned,Non-foil,false,,,"occasional","",
-"Grim Lavamancer",1,"Creature - Human Wizard",R,"m12","145",rare,r,Not Owned,Non-foil,false,,,"wizards, humans, graveyard, burn, u2.0, core, removal","",41611
+"Grim Lavamancer",1,"Creature - Human Wizard",R,"m12","145",rare,r,Not Owned,Non-foil,false,,,"wizards;humans;graveyard;burn;u2.0;core;removal;aggro;control","",41611
 "Magus of the Scroll",1,"Creature - Human Wizard",R,"tsp","169",rare,r,Owned,Non-foil,false,,,"occasional","",25921
-"Monastery Swiftspear",1,"Creature - Human Monk",R,"ima","140",uncommon,r,Not Owned,Non-foil,false,,,"spells, burn, aggrocontrol, humans, u2.60, u2.69, u3.1, u4.9, core","",66159
-"Spikeshot Elder",1,"Creature - Goblin Shaman",R,"som","104",rare,r,Not Owned,Non-foil,false,,,"heroic, goblins, manasink, flash, wide, u2.0, u2.80, core, pingers","",38297
-"Aether Chaser",2,"Creature - Human Artificer",R,"aer","76",common,r,Owned,Non-foil,false,,,"artifacts, aggrocontrol, tokens, wide, blink, humans, core","",62715
-"Burning Prophet",2,"Creature - Human Wizard",R,"war","117",common,r,Not Owned,Non-foil,false,,,"spells, humans, wizards, burn, u4.7.1, smoothing, core","",71840
-"Cheering Fanatic",2,"Creature - Goblin",R,"bbd","58",uncommon,r,Owned,Non-foil,false,,,"core, goblins, ramp","",68844
-"Dark-Dweller Oracle",2,"Creature - Goblin Shaman",R,"m19","134",rare,r,Not Owned,Non-foil,false,,,"goblins, sacrifice, tokens, burn, u4.4, smoothing, core","",68429
-"Dismissive Pyromancer",2,"Creature - Human Wizard",R,"m19","136",rare,r,Not Owned,Non-foil,false,,,"humans, wizards, graveyard, u4.8, smoothing, core, removal, manasink","",68433
-"Dreadhorde Arcanist",2,"Creature - Zombie Wizard",R,"tsr","341",special,r,Owned,Non-foil,false,,,"occasional","",
+"Monastery Swiftspear",1,"Creature - Human Monk",R,"ima","140",uncommon,r,Not Owned,Non-foil,false,,,"spells;burn;aggrocontrol;humans;u2.60;u2.69;u3.1;u4.9;core;aggro","",66159
+"Spikeshot Elder",1,"Creature - Goblin Shaman",R,"som","104",rare,r,Not Owned,Non-foil,false,,,"heroic;goblins;manasink;flash;wide;u2.0;u2.80;core;pingers;removal;aggro;control","",38297
+"Battle Cry Goblin",2,"Creature - Goblin",R,"afr","132",uncommon,r,Owned,Non-foil,false,,,"core;goblins;tokens;aggro;manasink","",91766
+"Bloodbraid Marauder",2,"Creature - Human Berserker",R,"mh2","116",rare,r,Owned,Non-foil,false,,,"occasional","",90605
+"Burning-Fist Minotaur",2,"Creature - Minotaur Wizard",R,"hou","85",uncommon,r,Owned,Non-foil,false,,,"core;graveyard;aggrocontrol;aggro;control","",64654
+"Dark-Dweller Oracle",2,"Creature - Goblin Shaman",R,"m19","134",rare,r,Not Owned,Non-foil,false,,,"goblins;sacrifice;tokens;burn;u4.4;smoothing;core;aggro","",68429
+"Dismissive Pyromancer",2,"Creature - Human Wizard",R,"m19","136",rare,r,Not Owned,Non-foil,false,,,"humans;wizards;graveyard;u4.8;smoothing;core;removal;manasink;aggro;control","",68433
+"Dreadhorde Arcanist",2,"Creature - Zombie Wizard",R,"war","125",rare,r,Owned,Non-foil,false,,,"core;spells;graveyard;zombies;wizards;heroic;burn;aggro","",71856
 "Earthshaker Khenra",2,"Creature - Jackal Warrior",R,"hou","90",rare,r,Owned,Non-foil,false,,,"occasional","",64664
 "Eidolon of the Great Revel",2,"Enchantment Creature - Spirit",R,"a25","128",rare,r,Owned,Non-foil,false,,,"occasional","",67170
-"Embereth Shieldbreaker",2,"Creature - Human Knight ",R,"eld","122",uncommon,r,Not Owned,Non-foil,false,,,"humans, artifact_removal, spells, u4.8, core","",78368
-"Fireslinger",2,"Creature - Human Wizard",R,"dd2","36",common,r,Not Owned,Non-foil,false,,,"wizards, humans, pingers, u2.80, u4.2, occasional","",31536
-"Goblin Cratermaker",2,"Creature - Goblin Warrior",R,"grn","103",uncommon,r,Not Owned,Non-foil,false,,,"goblins, artifact_removal, u4.6.1, core","",69579
+"Fireslinger",2,"Creature - Human Wizard",R,"dd2","36",common,r,Not Owned,Non-foil,false,,,"wizards;humans;pingers;u2.80;u4.2;occasional","",31536
+"Goblin Cratermaker",2,"Creature - Goblin Warrior",R,"grn","103",uncommon,r,Not Owned,Non-foil,false,,,"goblins;artifact_removal;u4.6.1;core;removal;aggro;control","",69579
 "Goblin Piledriver",2,"Creature - Goblin Warrior",R,"sld","21",rare,r,Owned,Non-foil,false,,,"occasional","",
 "Goblin Wardriver",2,"Creature - Goblin Warrior",R,"ddt","50",uncommon,r,Owned,Non-foil,false,,,"occasional","",
-"Kari Zev, Skyship Raider",2,"Legendary Creature - Human Pirate",R,"aer","87",rare,r,Not Owned,Non-foil,false,,,"humans, heroic, sacrifice, tokens, burn, evasion, aggrocontrol, u2.92, occasional","",62745
-"Kiln Fiend",2,"Creature - Elemental Beast",R,"roe","153",common,r,Not Owned,Non-foil,false,,,"spells, burn, aggrocontrol, u2.60, u3.4, occasional","",36668
-"Krark, the Thumbless",2,"Legendary Creature - Goblin Wizard",R,"cmr","189",rare,r,Owned,Non-foil,false,,,"spells, goblins, core, burn","",85160
-"Mogg War Marshal",2,"Creature - Goblin Warrior",R,"ema","139",common,r,Not Owned,Non-foil,false,,,"goblins, blink, sacrifice, tokens, wide, stax, u2.0, core","",60941
-"Rimrock Knight",2,"Creature - Dwarf Knight",R,"eld","137",common,r,Owned,Non-foil,false,,,"heroic, spells, wide, flash, occasional","",78402
+"Hobgoblin Captain",2,"Creature - Goblin Barbarian",R,"afr","148",common,r,Owned,Non-foil,false,,,"core;aggro;goblins;heroic","",91798
+"Kiln Fiend",2,"Creature - Elemental Beast",R,"roe","153",common,r,Not Owned,Non-foil,false,,,"spells;burn;aggrocontrol;u2.60;u3.4;occasional","",36668
+"Magda, Brazen Outlaw",2,"Legendary Creature - Dwarf Berserker",R,"khm","142",rare,r,Owned,Non-foil,false,,,"artifacts;core;aggro;ramp","",87619
+"Mogg War Marshal",2,"Creature - Goblin Warrior",R,"ema","139",common,r,Not Owned,Non-foil,false,,,"goblins;blink;sacrifice;tokens;wide;stax;u2.0;core;control","",60941
+"Rimrock Knight",2,"Creature - Dwarf Knight",R,"eld","137",common,r,Owned,Non-foil,false,,,"heroic;spells;wide;flash;core;aggro","",78402
 "Robber of the Rich",2,"Creature - Human Archer Rogue",R,"eld","138",mythic,r,Owned,Non-foil,false,,,"occasional","",78406
 "Satyr Firedancer",2,"Enchantment Creature - Satyr",R,"bng","108",rare,r,Owned,Non-foil,false,,,"occasional","",51729
 "Sparksmith",2,"Creature - Goblin",R,"ons","235",common,r,Owned,Non-foil,false,,,"occasional","",18009
 "Stingscourger",2,"Creature - Goblin Warrior",R,"mma","131",common,r,Owned,Non-foil,false,,,"occasional","",48630
 "Young Pyromancer",2,"Creature - Human Shaman",R,"uma","155",uncommon,r,Owned,Non-foil,false,,,"occasional","",70383
 "Alesha, Who Smiles at Death",3,"Legendary Creature - Human Warrior",R,"c20","143",rare,Red,Owned,Non-foil,false,,,"occasional","",
-"Arms Dealer",3,"Creature - Goblin Rogue",R,"m13","120",uncommon,r,Owned,Non-foil,false,,,"occasional","",45662
 "Ball Lightning",3,"Creature - Elemental",R,"pd2","12",rare,r,Owned,Non-foil,false,,,"occasional","",39254
 "Chandra's Phoenix",3,"Creature - Phoenix",R,"e01","44",rare,r,Owned,Non-foil,false,,,"occasional","",
-"Feldon of the Third Path",3,"Legendary Creature - Human Artificer",R,"c14","35",mythic,r,Not Owned,Non-foil,false,,,"artifacts, blink, tokens, graveyard, humans, sacrifice, manasink, stax, u2.0, u4.7, reanimator, core","",55107
-"Fire Imp",3,"Creature - Imp",R,"por","126",uncommon,r,Not Owned,Non-foil,false,,,"blink, aggrocontrol, u2.0, removal, core","",
-"Flamewake Phoenix",3,"Creature - Phoenix",R,"frf","100",rare,r,Owned,Non-foil,false,,,"graveyard, core, fliers, ramp, reanimator, burn","",55604
-"Gadrak, the Crown-Scourge",3,"Legendary Creature - Dragon",R,"m21","146",rare,r,Owned,Non-foil,false,,,"core, artifacts, sacrifice, artifacts_payoff, fliers","",81519
+"Feldon of the Third Path",3,"Legendary Creature - Human Artificer",R,"c14","35",mythic,r,Not Owned,Non-foil,false,,,"artifacts;blink;tokens;graveyard;humans;sacrifice;manasink;stax;u2.0;u4.7;reanimator;core;control","",55107
+"Fire Imp",3,"Creature - Imp",R,"por","126",uncommon,r,Not Owned,Non-foil,false,,,"blink;aggrocontrol;u2.0;removal;core;aggro;control","",
 "Gempalm Incinerator",3,"Creature - Goblin",R,"lgn","94",uncommon,r,Owned,Non-foil,false,,,"occasional","",18511
-"Ghost-Lit Raider",3,"Creature - Spirit",R,"sok","99",uncommon,r,Owned,Non-foil,false,,,"occasional","",22162
 "Goblin Chieftain",3,"Creature - Goblin",R,"ddt","41",rare,r,Owned,Non-foil,false,,,"occasional","",
-"Goblin Sharpshooter",3,"Creature - Goblin",R,"c13","111",rare,r,Not Owned,Non-foil,false,,,"pingers, goblins, sacrifice, u2.63, u2.89, occasional","",51318
+"Goblin Sharpshooter",3,"Creature - Goblin",R,"c13","111",rare,r,Not Owned,Non-foil,false,,,"pingers;goblins;sacrifice;u2.63;u2.89;occasional","",51318
 "Guttersnipe",3,"Creature - Goblin Shaman",R,"c19","145",uncommon,r,Owned,Non-foil,false,,,"occasional","",77404
 "Irencrag Pyromancer",3,"Creature - Human Wizard",R,"eld","128",rare,r,Owned,Non-foil,false,,,"occasional","",78382
-"Izzet Chemister",3,"Creature - Goblin Wizard",R,"a25","138",rare,r,Not Owned,Non-foil,false,,,"goblins, spells, burn, graveyard, wizards, u4.4, u4.8, core, manasink","",67190
+"Izzet Chemister",3,"Creature - Goblin Wizard",R,"a25","138",rare,r,Not Owned,Non-foil,false,,,"goblins;spells;burn;graveyard;wizards;u4.4;u4.8;core;manasink;control","",67190
 "Jaya Ballard, Task Mage",3,"Legendary Creature - Human Spellshaper",R,"tsp","166",rare,r,Owned,Non-foil,false,,,"occasional","",25541
-"Magus of the Wheel",3,"Creature - Human Wizard",R,"c20","156",rare,r,Owned,Non-foil,false,,,"core, humans, wizards, graveyard, burn, manasink","",
-"Pashalik Mons",3,"Legendary Creature - Goblin Warrior",R,"mh1","138",rare,r,Not Owned,Non-foil,false,,,"goblins, sacrifice, tokens, wide, manasink, u4.8, core, tribal_payoff","",72648
-"Pia Nalaar",3,"Legendary Creature - Human Artificer",R,"kld","124",rare,r,Owned,Non-foil,false,,,"core, fliers, tokens, wide, artifacts, artifacts_payoff, humans, manasink, blink","",61719
-"Rage Forger",3,"Creature - Elemental Shaman",R,"mor","97",uncommon,r,Owned,Non-foil,false,,,"occasional","",29168
+"Pashalik Mons",3,"Legendary Creature - Goblin Warrior",R,"mh1","138",rare,r,Not Owned,Non-foil,false,,,"goblins;sacrifice;tokens;wide;manasink;u4.8;core;tribal_payoff;control;aggro","",72648
+"Plundering Barbarian",3,"Creature - Dwarf Barbarian",R,"afr","158",common,r,Owned,Non-foil,false,,,"artifacts;artifact_removal;ramp;core;aggro;control","",91818
 "Rockslide Elemental",3,"Creature - Elemental",R,"hop","63",uncommon,r,Owned,Non-foil,false,,,"occasional","",44428
 "Squee, Goblin Nabob",3,"Legendary Creature - Goblin",R,"c19","152",rare,r,Owned,Non-foil,false,,,"occasional","",77418
-"Squee, the Immortal",3,"Legendary Creature - Goblin",R,"dom","146",rare,r,Owned,Non-foil,false,,,"core, graveyard, sacrifice, goblins, manasink","",67757
-"Toggo, Goblin Weaponsmith",3,"Legendary Creature - Goblin Artificer",R,"cmr","576",uncommon,r,Owned,Non-foil,false,,,"occasional","",
-"Tuktuk the Explorer",3,"Legendary Creature - Goblin",R,"roe","169",rare,r,Not Owned,Non-foil,false,,,"artifacts, golems, goblins, sacrifice, tokens, enrage, pingers, wide, stax, u2.0, core","",36704
-"Tuskeri Firewalker",3,"Creature - Human Berserker",R,"khm","157",common,r,Owned,Non-foil,false,,,"core, humans, burn, manasink","",87651
+"Stromkirk Occultist",3,"Creature - Vampire Horror",R,"emn","146",rare,r,Owned,Non-foil,false,,,"core;reanimator;graveyard;aggro;aggrocontrol","",61212
+"Toggo, Goblin Weaponsmith",3,"Legendary Creature - Goblin Artificer",R,"cmr","204",uncommon,r,Owned,Non-foil,false,,,"occasional","",85190
+"Tuktuk the Explorer",3,"Legendary Creature - Goblin",R,"roe","169",rare,r,Not Owned,Non-foil,false,,,"artifacts;golems;goblins;sacrifice;tokens;enrage;pingers;wide;stax;u2.0;core;control;aggro","",36704
+"Tuskeri Firewalker",3,"Creature - Human Berserker",R,"khm","157",common,r,Owned,Non-foil,false,,,"core;humans;burn;manasink;aggro","",87651
 "Zo-Zu the Punisher",3,"Legendary Creature - Goblin Warrior",R,"dds","41",rare,r,Owned,Non-foil,false,,,"occasional","",
-"Anger",4,"Creature - Incarnation",R,"mb1","839",uncommon,r,Not Owned,Non-foil,false,,,"graveyard, reanimator, u2.61, u4.8, core","",
+"Anger",4,"Creature - Incarnation",R,"mb1","839",uncommon,r,Not Owned,Non-foil,false,,,"graveyard;reanimator;u2.61;u4.8;core;aggro","",
 "Avalanche Riders",4,"Creature - Human Nomad",R,"tsb","55",special,r,Owned,Non-foil,false,,,"occasional","",26123
-"Basalt Ravager",4,"Creature - Giant Wizard",R,"khm","122",uncommon,r,Owned,Non-foil,false,,,"core, tribal_payoff, tribal, wizards, blink, burn, tokens, wide","",87577
-"Beetleback Chief",4,"Creature - Goblin Warrior",R,"c14","171",uncommon,r,Not Owned,Non-foil,false,,,"goblins, blink, tokens, sacrifice, wide, stax, u2.63, u2.80, core","",54991
-"Captivating Crew",4,"Creature - Human Pirate",R,"xln","137",rare,r,Not Owned,Non-foil,false,,,"sacrifice, humans, manasink, u4.7, core","",65290
-"Fumiko the Lowblood",4,"Legendary Creature - Human Samurai",R,"bok","104",rare,r,Owned,Non-foil,false,,,"occasional","",21621
+"Basalt Ravager",4,"Creature - Giant Wizard",R,"khm","122",uncommon,r,Owned,Non-foil,false,,,"core;tribal_payoff;tribal;wizards;blink;burn;tokens;wide;removal;aggro;control","",87577
+"Beetleback Chief",4,"Creature - Goblin Warrior",R,"c14","171",uncommon,r,Not Owned,Non-foil,false,,,"goblins;blink;tokens;sacrifice;wide;stax;u2.63;u2.80;aggro;control;occasional","",54991
+"Captivating Crew",4,"Creature - Human Pirate",R,"xln","137",rare,r,Not Owned,Non-foil,false,,,"sacrifice;humans;manasink;u4.7;core;aggro","",65290
 "Goblin Heelcutter",4,"Creature - Goblin Berserker",R,"frf","102",common,r,Owned,Non-foil,false,,,"occasional","",55478
-"Goblin Trashmaster",4,"Creature - Goblin Warrior",R,"m19","144",rare,r,Not Owned,Non-foil,false,,,"goblins, tribal_payoff, artifact_removal, u4.6, core","",68449
-"Krenko, Mob Boss",4,"Legendary Creature - Goblin Warrior",R,"ddt","52",rare,r,Owned,Non-foil,false,,,"goblins, tokens, wide, occasional","",
+"Goblin Traprunner",4,"Creature - Goblin",R,"mh2","130",uncommon,r,Owned,Non-foil,false,,,"core;goblins;aggro;tokens;wide;sacrifice","",90637
+"Krenko, Mob Boss",4,"Legendary Creature - Goblin Warrior",R,"ddt","52",rare,r,Owned,Non-foil,false,,,"goblins;tokens;wide;occasional","",
 "Lord of Shatterskull Pass",4,"Creature - Minotaur Shaman",R,"roe","156",rare,r,Owned,Non-foil,false,,,"occasional","",36724
 "Quicksmith Rebel",4,"Creature - Human Artificer",R,"aer","93",rare,r,Owned,Non-foil,false,,,"occasional","",62747
-"Surly Badgersaur",4,"Creature - Badger Dinosaur",R,"c20","57",rare,r,Owned,Non-foil,false,,,"core, graveyard","",80695
-"Charging Monstrosaur",5,"Creature - Dinosaur",R,"xln","138",uncommon,r,Not Owned,Non-foil,false,,,"dinosaurs, ramp, reanimator, enrage, burn, u3.3, core","",65292
+"Charging Monstrosaur",5,"Creature - Dinosaur",R,"xln","138",uncommon,r,Not Owned,Non-foil,false,,,"dinosaurs;ramp;reanimator;enrage;burn;u3.3;core;aggro;control","",65292
 "Fire Servant",5,"Creature - Elemental",R,"pd2","15",uncommon,r,Owned,Non-foil,false,,,"occasional","",39260
 "Siege-Gang Commander",5,"Creature - Goblin",R,"scg","103",rare,r,Owned,Non-foil,false,,,"occasional","",18820
-"Zealous Conscripts",5,"Creature - Human Warrior",R,"avr","166",rare,r,Not Owned,Non-foil,false,,,"humans, twin, blink, sacrifice, burn, u2.0, core","",44033
-"Chandra's Incinerator",6,"Creature - Elemental",R,"m21","136",rare,r,Owned,Non-foil,false,,,"core, burn, ramp","",81499
-"Combustible Gearhulk",6,"Artifact Creature - Construct",R,"kld","112",mythic,r,Not Owned,Non-foil,false,,,"artifacts, blink, ramp, reanimator, enrage, burn, u2.89, occasional","",61989
-"Rorix Bladewing",6,"Legendary Creature - Dragon",R,"ons","224",rare,r,Not Owned,Non-foil,false,,,"ramp, reanimator, enrage, burn, evasion, u2.0, u2.73, occasional","",18081
+"Zealous Conscripts",5,"Creature - Human Warrior",R,"avr","166",rare,r,Not Owned,Non-foil,false,,,"humans;twin;blink;sacrifice;burn;u2.0;core;aggro","",44033
+"Combustible Gearhulk",6,"Artifact Creature - Construct",R,"kld","112",mythic,r,Not Owned,Non-foil,false,,,"artifacts;blink;ramp;reanimator;enrage;burn;u2.89;occasional","",61989
+"Rorix Bladewing",6,"Legendary Creature - Dragon",R,"ons","224",rare,r,Not Owned,Non-foil,false,,,"ramp;reanimator;enrage;burn;evasion;u2.0;u2.73;occasional","",18081
 "Ryusei, the Falling Star",6,"Legendary Creature - Dragon Spirit",R,"ima","144",rare,r,Owned,Non-foil,false,,,"occasional","",66167
-"Yidaro, Wandering Monster",7,"Legendary Creature - Dinosaur Turtle",R,"iko","141",rare,r,Owned,Non-foil,false,,,"core, reanimator, ramp, control, graveyard","",80291
 "Bedlam Reveler",8,"Creature - Devil Horror",R,"emn","118",rare,r,Owned,Non-foil,false,,,"occasional","",61224
-"Daretti, Scrap Savant",4,"Legendary Planeswalker - Daretti",R,"cm2","4",mythic,r,Not Owned,Non-foil,false,,,"graveyard, artifacts, u4.9.1, reanimator, occasional","",
+"Daretti, Scrap Savant",4,"Legendary Planeswalker - Daretti",R,"cm2","4",mythic,r,Not Owned,Non-foil,false,,,"graveyard;artifacts;u4.9.1;reanimator;occasional","",
 "Brute Force",1,"Instant",R,"mm2","108",common,r,Owned,Non-foil,false,,,"occasional","",57008
-"Galvanic Blast",1,"Instant",R,"som","91",common,r,Not Owned,Non-foil,false,,,"artifacts, burn, spells, flash, artifacts_payoff, aggrocontrol, u2.72, u4.7, removal, core","",38203
-"Lightning Bolt",1,"Instant",R,"a25","141",uncommon,r,Owned,Non-foil,false,,,"core, burn, flash, spells, removal","",67196
-"Lash Out",2,"Instant",R,"cmd","127",common,r,Owned,Non-foil,false,,,"occasional","",40506
-"Lightning Strike",2,"Instant",R,"ths","127",common,r,Not Owned,Non-foil,false,,,"flash, spells, burn, aggrocontrol, u2.80, removal, occasional","",50572
-"Searing Blaze",2,"Instant",R,"ddi","67",common,r,Owned,Non-foil,false,,,"core, burn, removal","",43706
-"Shrapnel Blast",2,"Instant",R,"ddu","48",uncommon,r,Owned,Non-foil,false,,,"core, artifacts, burn, removal","",
+"Galvanic Blast",1,"Instant",R,"som","91",common,r,Not Owned,Non-foil,false,,,"artifacts;burn;spells;flash;artifacts_payoff;aggrocontrol;u2.72;u4.7;removal;core;aggro;control","",38203
+"Lightning Bolt",1,"Instant",R,"a25","141",uncommon,r,Owned,Non-foil,false,,,"core;burn;flash;spells;removal;aggro;control","",67196
+"Abrade",2,"Instant",R,"hou","83",uncommon,r,Owned,Non-foil,false,,,"core;artifact_removal;removal;spells;flash;aggro;control","",64650
+"Fire Prophecy",2,"Instant",R,"iko","116",common,r,Owned,Non-foil,false,,,"smoothing;spells;flash;removal;aggro;control;occasional","",80241
+"Lash Out",2,"Instant",R,"lrw","183",common,r,Owned,Non-foil,false,,,"occasional","",28687
+"Lightning Strike",2,"Instant",R,"ths","127",common,r,Not Owned,Non-foil,false,,,"flash;spells;burn;aggrocontrol;u2.80;removal;occasional","",50572
+"Magma Jet",2,"Instant",R,"jvc","52",uncommon,r,Owned,Non-foil,false,,,"core;smoothing;removal;burn;spells;flash;aggro;control","",
+"Searing Blaze",2,"Instant",R,"ddi","67",common,r,Owned,Non-foil,false,,,"burn;removal;occasional","",43706
+"Shrapnel Blast",2,"Instant",R,"ddu","48",uncommon,r,Owned,Non-foil,false,,,"artifacts;burn;removal;occasional","",
 "Sudden Shock",2,"Instant",R,"mma","133",uncommon,r,Owned,Non-foil,false,,,"occasional","",49052
 "Temur Battle Rage",2,"Instant",R,"frf","116",common,r,Owned,Non-foil,false,,,"occasional","",55524
-"Brimstone Volley",3,"Instant",R,"isd","132",common,r,Not Owned,Non-foil,false,,,"flash, sacrifice, spells, burn, u2.0, u2.92, removal, core","",42580
+"Brimstone Volley",3,"Instant",R,"isd","132",common,r,Not Owned,Non-foil,false,,,"flash;sacrifice;spells;burn;u2.0;u2.92;removal;core;aggro;control","",42580
 "Char",3,"Instant",R,"gk1","28",rare,r,Owned,Non-foil,false,,,"occasional","",
+"Fiery Temper",3,"Instant",R,"uma","129",common,r,Owned,Non-foil,false,,,"core;graveyard;removal;burn;spells;flash;aggro;control","",70331
 "Pulse of the Forge",3,"Instant",R,"dst","66",rare,r,Owned,Non-foil,false,,,"occasional","",20473
-"Risk Factor",3,"Instant",R,"grn","113",rare,r,Not Owned,Non-foil,false,,,"burn, spells, graveyard, flash, aggrocontrol, u4.6.4, reanimator, core","",69599
+"Risk Factor",3,"Instant",R,"grn","113",rare,r,Not Owned,Non-foil,false,,,"burn;spells;graveyard;flash;aggrocontrol;u4.6.4;reanimator;core;aggro","",69599
 "Volt Charge",3,"Instant",R,"ddl","68",common,r,Owned,Non-foil,false,,,"occasional","",49917
-"Bolt Bend",4,"Instant",R,"war","115",uncommon,r,Owned,Non-foil,false,,,"occasional","",71836
+"You See a Pair of Goblins",3,"Instant",R,"afr","170",uncommon,r,Owned,Non-foil,false,,,"core;goblins;tokens;wide;spells;flash;aggro","",91842
 "Goblin Wizardry",4,"Instant",R,"m21","148",common,r,Owned,Non-foil,false,,,"occasional","",81523
 "Hidetsugu's Second Rite",4,"Instant",R,"sok","102",rare,r,Owned,Non-foil,false,,,"occasional","",22226
-"Stoke the Flames",4,"Instant",R,"m15","164",uncommon,r,Not Owned,Non-foil,false,,,"tokens, flash, spells, burn, wide, aggrocontrol, u2.72, u3.9, removal, core","",53544
-"Sulfurous Blast",4,"Instant",R,"tsp","180",uncommon,r,Owned,Non-foil,false,,,"control, wrath, spells, flash, core","",25495
-"Violent Eruption",4,"Instant",R,"c19","154",uncommon,r,Not Owned,Non-foil,false,,,"burn, enrage, spells, graveyard, u2.79, u4.8, removal, core","",77422
-"Fireblast",6,"Instant",R,"jvc","55",common,r,Owned,Non-foil,false,,,"core, burn, spells","",
+"Stoke the Flames",4,"Instant",R,"m15","164",uncommon,r,Not Owned,Non-foil,false,,,"tokens;flash;spells;burn;wide;aggrocontrol;u2.72;u3.9;removal;occasional","",53544
+"Sulfurous Blast",4,"Instant",R,"tsp","180",uncommon,r,Owned,Non-foil,false,,,"control;wrath;spells;flash;core;removal;control","",25495
+"Fireblast",6,"Instant",R,"jvc","55",common,r,Owned,Non-foil,false,,,"core;burn;spells;removal;aggro","",
 "Banefire",1,"Sorcery",R,"m19","130",rare,r,Owned,Non-foil,false,,,"occasional","",68421
-"Faithless Looting",1,"Sorcery",R,"mb1","919",common,r,Not Owned,Non-foil,false,,,"graveyard, spells, u2.63, u4.8, smoothing, reanimator, core","",
-"Firebolt",1,"Sorcery",R,"ody","193",common,r,Not Owned,Non-foil,false,,,"graveyard, manasink, spells, burn, aggrocontrol, u2.0, removal, core","",16705
-"Ghitu Fire",1,"Sorcery",R,"inv","144",rare,r,Owned,Non-foil,false,,,"u4.9.3, ramp, burn, spells, flash, removal, core","",14855
+"Disintegrate",1,"Sorcery",R,"tsb","58",special,r,Owned,Non-foil,false,,,"core;burn;spells;ramp;removal;aggro;control","",25965
+"Faithless Looting",1,"Sorcery",R,"mb1","919",common,r,Not Owned,Non-foil,false,,,"graveyard;spells;u2.63;u4.8;smoothing;reanimator;core","",
+"Firebolt",1,"Sorcery",R,"ody","193",common,r,Not Owned,Non-foil,false,,,"graveyard;manasink;spells;burn;aggrocontrol;u2.0;removal;core","",16705
 "Purphoros's Intervention",1,"Sorcery",R,"thb","151",rare,r,Owned,Non-foil,false,,,"occasional","",79426
 "Reckless Charge",1,"Sorcery",R,"ody","215",common,r,Owned,Non-foil,false,,,"occasional","",16707
+"Kaleidoscorch",2,"Sorcery",R,"mh2","133",uncommon,r,Owned,Non-foil,false,,,"core;removal;spells;burn;graveyard;manasink;control","",90643
 "Browbeat",3,"Sorcery",R,"a25","123",uncommon,r,Owned,Non-foil,false,,,"occasional","",67160
-"Fight with Fire",3,"Sorcery",R,"dom","119",uncommon,r,Not Owned,Non-foil,false,,,"spells, burn, ramp, u4.4, removal, core","",67703
+"Fight with Fire",3,"Sorcery",R,"dom","119",uncommon,r,Not Owned,Non-foil,false,,,"spells;burn;ramp;u4.4;removal;occasional","",67703
 "Hammer of Bogardan",3,"Sorcery",R,"pd2","23",rare,r,Owned,Non-foil,false,,,"occasional","",39222
-"Hordeling Outburst",3,"Sorcery",R,"ktk","111",uncommon,r,Not Owned,Non-foil,false,,,"goblins, tokens, spells, wide, stax, u2.93, u4.6, core","",54362
-"Light Up the Stage",3,"Sorcery",R,"rna","107",uncommon,r,Not Owned,Non-foil,false,,,"burn, spells, pingers, aggrocontrol, u4.6.4, smoothing, core","",71214
+"Light Up the Stage",3,"Sorcery",R,"rna","107",uncommon,r,Not Owned,Non-foil,false,,,"burn;spells;pingers;aggrocontrol;u4.6.4;smoothing;core;aggro","",71214
 "Incendiary Command",5,"Sorcery",R,"c13","113",rare,r,Owned,Non-foil,false,,,"occasional","",50850
 "Shower of Coals",5,"Sorcery",R,"ody","221",uncommon,r,Owned,Non-foil,false,,,"occasional","",16679
-"Descent of the Dragons",6,"Sorcery",R,"dtk","133",mythic,r,Owned,Non-foil,false,,,"occasional","",56394
-"Slice and Dice",6,"Sorcery",R,"ons","232",uncommon,r,Not Owned,Non-foil,false,,,"enrage, spells, ramp, wrath, u2.0, u2.76, removal, core","",18087
+"Slice and Dice",6,"Sorcery",R,"ons","232",uncommon,r,Not Owned,Non-foil,false,,,"enrage;spells;ramp;wrath;u2.0;u2.76;removal;core;control","",18087
+"Pyrite Spellbomb",1,"Artifact",R,"2xm","283",common,r,Owned,Non-foil,false,,,"core;artifacts;burn;flash;removal;aggro;control","",82600
+"Cursed Mirror",3,"Artifact",R,"c21","50",rare,r,Owned,Non-foil,false,,,"occasional","",89843
 "Pyromancer's Goggles",5,"Legendary Artifact",R,"ori","236",mythic,r,Owned,Non-foil,false,,,"occasional","",58140
 "Dragon Mantle",1,"Enchantment - Aura",R,"ths","119",common,r,Owned,Non-foil,false,,,"occasional","",50342
 "Genju of the Spires",1,"Enchantment - Aura",R,"a25","132",uncommon,r,Owned,Non-foil,false,,,"occasional","",67178
-"Cavalcade of Calamity",2,"Enchantment",R,"rna","95",uncommon,r,Owned,Non-foil,false,,,"tokens, occasional","",71190
-"Rune of Speed",2,"Enchantment - Aura Rune",R,"khm","148",uncommon,r,Owned,Non-foil,false,,,"core, artifacts, heroic","",87631
+"Weaponize the Monsters",1,"Enchantment",R,"iko","140",uncommon,r,Owned,Non-foil,false,,,"core;sacrifice;burn","",80289
+"Cavalcade of Calamity",2,"Enchantment",R,"rna","95",uncommon,r,Owned,Non-foil,false,,,"tokens;occasional","",71190
+"Rune of Speed",2,"Enchantment - Aura Rune",R,"khm","148",uncommon,r,Owned,Non-foil,false,,,"core;artifacts;heroic;aggro","",87631
 "Ghirapur Aether Grid",3,"Enchantment",R,"ori","148",uncommon,r,Owned,Non-foil,false,,,"occasional","",58010
 "Shared Animosity",3,"Enchantment",R,"c20","158",rare,r,Owned,Non-foil,false,,,"occasional","",
+"Words of War",3,"Enchantment",R,"ons","244",rare,r,Owned,Non-foil,false,,,"occasional","",18107
 "Fires of Invention",4,"Enchantment",R,"eld","125",rare,r,Owned,Non-foil,false,,,"occasional","",78376
 "Manabarbs",4,"Enchantment",R,"m12","150",rare,r,Owned,Non-foil,false,,,"occasional","",41145
 "Sneak Attack",4,"Enchantment",R,"ema","148",mythic,r,Owned,Non-foil,false,,,"occasional","",60769
-"Birds of Paradise",1,"Creature - Bird",G,"m11","165",rare,g,Not Owned,Non-foil,false,,,"ramp, wide, evasion, aggrocontrol, u2.0, smoothing, core","",37576
-"Jaspera Sentinel",1,"Creature - Elf Rogue",G,"khm","178",common,g,Owned,Non-foil,false,,,"core, ramp, elves, wide","",87695
+"Basking Rootwalla",1,"Creature - Lizard",G,"tor","121",common,g,Owned,Non-foil,false,,,"core;aggro;aggrocontrol;graveyard;manasink","",17293
+"Birds of Paradise",1,"Creature - Bird",G,"m11","165",rare,g,Not Owned,Non-foil,false,,,"ramp;wide;evasion;aggrocontrol;u2.0;smoothing;core;aggro;control","",37576
 "Joraga Treespeaker",1,"Creature - Elf Druid",G,"roe","190",uncommon,g,Owned,Non-foil,false,,,"occasional","",36408
-"Kessig Prowler",1,"Creature - Werewolf Horror ",G,"emn","163",uncommon,g,Not Owned,Non-foil,false,,,"flash, manasink, wide, aggrocontrol, u2.86, core","",61446
-"Llanowar Elves",1,"Creature - Elf Druid",G,"m11","184",common,g,Not Owned,Non-foil,false,,,"elves, ramp, wide, aggrocontrol, u2.0, u2.76, smoothing, core","",37568
+"Kessig Prowler",1,"Creature - Werewolf Horror ",G,"emn","163",uncommon,g,Not Owned,Non-foil,false,,,"flash;manasink;wide;aggrocontrol;u2.86;core;aggro","",61446
+"Llanowar Elves",1,"Creature - Elf Druid",G,"m11","184",common,g,Not Owned,Non-foil,false,,,"elves;ramp;wide;aggrocontrol;u2.0;u2.76;smoothing;core;aggro;control","",37568
 "Protean Hydra",1,"Creature - Hydra",G,"m11","194",rare,g,Owned,Non-foil,false,,,"occasional","",37284
 "Scute Mob",1,"Creature - Insect",G,"c18","161",rare,g,Owned,Non-foil,false,,,"occasional","",
 "Sylvan Safekeeper",1,"Creature - Human Wizard",G,"cma","152",rare,g,Owned,Non-foil,false,,,"occasional","",
 "Taunting Elf",1,"Creature - Elf",G,"ons","290",common,g,Owned,Non-foil,false,,,"occasional","",18125
-"Twinblade Slasher",1,"Creature - Elf Warrior",G,"eve","79",uncommon,g,Not Owned,Non-foil,false,,,"counters, manasink, elves, wide, aggrocontrol, u2.0, u2.86, u4.9, core","",30102
+"Twinblade Slasher",1,"Creature - Elf Warrior",G,"eve","79",uncommon,g,Not Owned,Non-foil,false,,,"counters;manasink;elves;wide;aggrocontrol;u2.0;u2.86;u4.9;core;aggro;control","",30102
 "Wild Nacatl",1,"Creature - Cat Warrior",G,"ddh","4",common,g,Owned,Non-foil,false,,,"occasional","",42086
 "Bloodline Shaman",2,"Creature - Elf Wizard Shaman",G,"ons","249",uncommon,g,Owned,Non-foil,false,,,"occasional","",18169
 "Brindle Shoat",2,"Creature - Boar",G,"pca","60",uncommon,g,Owned,Non-foil,false,,,"occasional","",
 "Deeproot Champion",2,"Creature - Merfolk Shaman",G,"xln","185",rare,g,Owned,Non-foil,false,,,"occasional","",65388
 "Dryad Greenseeker",2,"Creature - Dryad",G,"m19","178",uncommon,g,Owned,Non-foil,false,,,"occasional","",68517
-"Elvish Warmaster",2,"Creature - Elf Warrior",G,"khm","167",rare,g,Owned,Non-foil,false,,,"core, elves, tokens, manasink, tribal_payoff","",87671
-"Fauna Shaman",2,"Creature - Elf Shaman",G,"uma","164",rare,g,Owned,Non-foil,false,,,"occasional","",70401
-"Incubation Druid",2,"Creature - Elf Druid",G,"rna","131",rare,g,Not Owned,Non-foil,false,,,"elves, counters, manasink, ramp, flash, u4.6.4, smoothing, core","",71262
-"Jade Mage",2,"Creature - Human Shaman",G,"m12","181",uncommon,g,Owned,Non-foil,false,,,"core, manasink, tokens, humans, wide, flash","",41455
-"Longtusk Cub",2,"Creature - Cat",G,"kld","161",uncommon,g,Owned,Non-foil,false,,,"aggrocontrol, counters, occasional","",61729
-"Masked Vandal",2,"Creature - Shapeshifter",G,"khm","184",common,g,Owned,Non-foil,false,,,"core, artifact_removal, enchantment_removal, elves, tribal, blink","",87711
+"Elvish Warmaster",2,"Creature - Elf Warrior",G,"khm","167",rare,g,Owned,Non-foil,false,,,"core;elves;tokens;manasink;tribal_payoff;aggro","",87671
+"Fauna Shaman",2,"Creature - Elf Shaman",G,"uma","164",rare,g,Owned,Non-foil,false,,,"core;graveyard;elves;aggro","",70401
+"Jade Mage",2,"Creature - Human Shaman",G,"m12","181",uncommon,g,Owned,Non-foil,false,,,"core;manasink;tokens;humans;wide;flash;aggro","",41455
+"Longtusk Cub",2,"Creature - Cat",G,"kld","161",uncommon,g,Owned,Non-foil,false,,,"aggrocontrol;counters;occasional","",61729
+"Masked Vandal",2,"Creature - Shapeshifter",G,"khm","184",common,g,Owned,Non-foil,false,,,"core;artifact_removal;enchantment_removal;elves;tribal;blink;control","",87711
+"Noose Constrictor",2,"Creature - Snake",G,"emn","164",uncommon,g,Owned,Non-foil,false,,,"core;graveyard;aggro","",61466
 "Quirion Dryad",2,"Creature - Dryad",G,"m13","184",rare,g,Owned,Non-foil,false,,,"occasional","",45236
 "Resilient Khenra",2,"Creature - Jackal Wizard",G,"hou","131",rare,g,Owned,Non-foil,false,,,"occasional","",64746
-"Sakura-Tribe Elder",2,"Creature - Snake Shaman",G,"chk","239",common,g,Not Owned,Non-foil,false,,,"ramp, u2.0, smoothing, core","",21097
-"Silhana Ledgewalker",2,"Creature - Elf Rogue",G,"pc2","77",common,g,Owned,Non-foil,false,,,"core, elves, heroic, aggrocontrol, rogues","",45160
-"Skinshifter",2,"Creature - Human Shaman",G,"m12","195",rare,g,Owned,Non-foil,false,,,"occasional","",41391
-"Strangleroot Geist",2,"Creature - Spirit",G,"dka","127",uncommon,g,Not Owned,Non-foil,false,,,"counters, sacrifice, enrage, blink, aggrocontrol, u2.0, core","",43153
-"Thornweald Archer",2,"Creature - Elf Archer",G,"ema","189",common,g,Not Owned,Non-foil,false,,,"elves, aggrocontrol, u2.86, u4.6.2, core","",60551
+"Sakura-Tribe Elder",2,"Creature - Snake Shaman",G,"chk","239",common,g,Not Owned,Non-foil,false,,,"ramp;u2.0;smoothing;core;control","",21097
+"Skinshifter",2,"Creature - Human Shaman",G,"m12","195",rare,g,Owned,Non-foil,false,,,"core;humans;aggro;fliers;control","",41391
+"Strangleroot Geist",2,"Creature - Spirit",G,"dka","127",uncommon,g,Not Owned,Non-foil,false,,,"counters;sacrifice;enrage;blink;aggrocontrol;u2.0;core;aggro;control","",43153
+"Thornweald Archer",2,"Creature - Elf Archer",G,"c14","219",common,g,Owned,Non-foil,false,,,"core;elves;aggro;control","",54663
 "Vine Trellis",2,"Creature - Plant Wall",G,"gvl","4",common,g,Owned,Non-foil,false,,,"occasional","",
-"Vinelasher Kudzu",2,"Creature - Plant",G,"rav","189",rare,g,Not Owned,Non-foil,false,,,"counters, ramp, aggrocontrol, u2.0, occasional","",22996
-"Viridian Emissary",2,"Creature - Elf Scout",G,"mbs","95",common,g,Not Owned,Non-foil,false,,,"elves, sacrifice, ramp, enrage, stax, aggrocontrol, u4.7, smoothing, core","",39325
+"Vinelasher Kudzu",2,"Creature - Plant",G,"rav","189",rare,g,Not Owned,Non-foil,false,,,"counters;ramp;aggrocontrol;u2.0;occasional","",22996
 "Wall of Roots",2,"Creature - Plant Wall",G,"ima","190",common,g,Owned,Non-foil,false,,,"occasional","",66259
 "Wellwisher",2,"Creature - Elf",G,"cma","166",common,g,Owned,Non-foil,false,,,"occasional","",
-"Wildborn Preserver",2,"Creature - Elf Archer",G,"eld","182",rare,g,Owned,Non-foil,false,,,"u4.9.3, elves, counters, flash, manasink, core, blink","",78508
-"Woodland Champion",2,"Creature - Elf Scout",G,"m20","205",uncommon,g,Not Owned,Non-foil,false,,,"tokens, elves, u4.7.7, core","",73309
-"Atzocan Archer",3,"Creature - Human Archer",G,"xln","176",uncommon,g,Not Owned,Non-foil,false,,,"enrage, pingers, blink, u3.8, u4.8, removal, core","",65370
-"Beanstalk Giant",3,"Creature - Giant",G,"eld","149",uncommon,g,Owned,Non-foil,false,,,"u4.9.3, ramp, control, core","",78428
-"Boon Satyr",3,"Enchantment Creature - Satyr",G,"ths","152",rare,g,Not Owned,Non-foil,false,,,"flash, heroic, aggrocontrol, u2.0, core","",50136
-"Elder of Laurels",3,"Creature - Human Advisor",G,"isd","177",rare,g,Owned,Non-foil,false,,,"core, wide, tokens, manasink, flash","",42768
+"Wild Mongrel",2,"Creature - Dog",G,"gvl","5",common,g,Owned,Non-foil,false,,,"core;graveyard;aggro","",
+"Woodland Champion",2,"Creature - Elf Scout",G,"m20","205",uncommon,g,Not Owned,Non-foil,false,,,"tokens;elves;u4.7.7;core;aggro","",73309
+"Beanstalk Giant",3,"Creature - Giant",G,"eld","149",uncommon,g,Owned,Non-foil,false,,,"u4.9.3;ramp;control;core","",78428
+"Elder of Laurels",3,"Creature - Human Advisor",G,"isd","177",rare,g,Owned,Non-foil,false,,,"wide;tokens;manasink;flash;humans;occasional","",42768
 "Eternal Witness",3,"Creature - Human Shaman",G,"uma","163",uncommon,g,Owned,Non-foil,false,,,"occasional","",70025
-"Evolution Sage",3,"Creature - Elf Druid",G,"war","159",uncommon,g,Not Owned,Non-foil,false,,,"counters, ramp, elves, counters_payoff, u4.7, core","",71924
-"Generous Patron",3,"Creature - Elf Advisor",G,"bbd","70",rare,g,Not Owned,Non-foil,false,,,"blink, elves, counters_payoff, counters, u4.6.3, smoothing, core","",68868
-"Ohran Viper",3,"Snow Creature - Snake",G,"csp","115",rare,g,Not Owned,Non-foil,false,,,"tappers, tappers_payoff, aggrocontrol, u2.84, core","",24755
+"Evolution Sage",3,"Creature - Elf Druid",G,"war","159",uncommon,g,Not Owned,Non-foil,false,,,"counters;ramp;elves;counters_payoff;u4.7;core;aggro","",71924
+"Generous Patron",3,"Creature - Elf Advisor",G,"bbd","70",rare,g,Not Owned,Non-foil,false,,,"blink;elves;counters_payoff;counters;u4.6.3;smoothing;core;aggro","",68868
+"Inexorable Blob",3,"Creature - Ooze",G,"soi","212",rare,g,Owned,Non-foil,false,,,"core;graveyard;aggro;tokens","",60134
+"Ohran Viper",3,"Snow Creature - Snake",G,"csp","115",rare,g,Not Owned,Non-foil,false,,,"tappers;tappers_payoff;aggrocontrol;u2.84;core;aggro;control","",24755
 "Phantom Tiger",3,"Creature - Cat Spirit",G,"ima","181",common,g,Owned,Non-foil,false,,,"occasional","",66241
-"Realmwalker",3,"Creature - Shapeshifter",G,"khm","188",rare,g,Owned,Non-foil,false,,,"core, tribal, tribal_payoff, elves","",87719
-"Reclamation Sage",3,"Creature - Elf Shaman",G,"m15","194",uncommon,g,Not Owned,Non-foil,false,,,"elves, blink, artifact_removal, enchantment_removal, u2.0, occasional","",53606
-"Scourge of Skola Vale",3,"Creature - Hydra",G,"bng","137",rare,g,Owned,Non-foil,false,,,"counters, sacrifice, core","",51853
+"Realmwalker",3,"Creature - Shapeshifter",G,"khm","188",rare,g,Owned,Non-foil,false,,,"tribal;tribal_payoff;elves;occasional","",87719
+"Reclamation Sage",3,"Creature - Elf Shaman",G,"m15","194",uncommon,g,Not Owned,Non-foil,false,,,"elves;blink;artifact_removal;enchantment_removal;u2.0;occasional","",53606
+"Scourge of Skola Vale",3,"Creature - Hydra",G,"bng","137",rare,g,Owned,Non-foil,false,,,"counters;sacrifice;core","",51853
+"Spirit of the Season",3,"Creature - Treefolk Spirit",G,"und","70",uncommon,g,Owned,Non-foil,false,,,"occasional","",
 "Steel Leaf Champion",3,"Creature - Elf Knight",G,"dom","182",rare,g,Owned,Non-foil,false,,,"occasional","",67829
-"Thrashing Brontodon",3,"Creature - Dinosaur",G,"rix","148",uncommon,g,Not Owned,Non-foil,false,,,"dinosaurs, artifact_removal, enchantment_removal, u4.6, core","",66749
+"Thrashing Brontodon",3,"Creature - Dinosaur",G,"rix","148",uncommon,g,Not Owned,Non-foil,false,,,"dinosaurs;artifact_removal;enchantment_removal;u4.6;core;aggro;control","",66749
+"Tireless Provisioner",3,"Creature - Elf Scout",G,"mh2","180",uncommon,g,Owned,Non-foil,false,,,"occasional","",90737
 "Troll Ascetic",3,"Creature - Troll Shaman",G,"cm2","146",rare,g,Owned,Non-foil,false,,,"occasional","",
-"Yavimaya Elder",3,"Creature - Human Druid",G,"c18","166",common,g,Owned,Non-foil,false,,,"core, humans, ramp, sacrifice, flash","",
-"Beast Whisperer",4,"Creature - Elf Druid",G,"c20","167",rare,g,Owned,Non-foil,false,,,"elves, core","",
-"Blastoderm",4,"Creature - Beast",G,"gvl","7",common,g,Not Owned,Non-foil,false,,,"counters, ramp, enrage, aggrocontrol, u2.76, core","",
-"Briarhorn",4,"Creature - Elemental",G,"lrw","199",uncommon,g,Not Owned,Non-foil,false,,,"flash, heroic, blink, aggrocontrol, u2.0, core","",28547
-"Chameleon Colossus",4,"Creature - Shapeshifter",G,"c15","178",rare,g,Owned,Non-foil,false,,,"core, manasink, tribal, elves, flash","",
-"Dwynen, Gilt-Leaf Daen",4,"Legendary Creature - Elf Warrior",G,"ddu","2",rare,g,Not Owned,Non-foil,false,,,"elves, u4.6.2, u4.7.12, core, tribal_payoff","",
-"Forgotten Ancient",4,"Creature - Elemental",G,"cm2","137",rare,g,Owned,Non-foil,false,,,"core, counters, spells","",
-"Penumbra Spider",4,"Creature - Spider",G,"mm3","131",common,g,Not Owned,Non-foil,false,,,"sacrifice, tokens, enrage, stax, u2.67, core","",63089
-"Ripjaw Raptor",4,"Creature - Dinosaur",G,"xln","203",rare,g,Not Owned,Non-foil,false,,,"dinosaurs, enrage, ramp, pingers, u3.4, core","",65426
-"Acidic Slime",5,"Creature - Ooze",G,"m11","161",uncommon,g,Not Owned,Non-foil,false,,,"blink, ramp, artifact_removal, enchantment_removal, u3.4, core","",37180
-"Cultivator of Blades",5,"Creature - Elf Artificer",G,"kld","151",rare,g,Not Owned,Non-foil,false,,,"artifacts, heroic, elves, counters, tokens, sacrifice, blink, ramp, wide, stax, u2.92, core","",62023
+"Yavimaya Elder",3,"Creature - Human Druid",G,"c18","166",common,g,Owned,Non-foil,false,,,"core;humans;ramp;sacrifice;flash;control","",
+"Blastoderm",4,"Creature - Beast",G,"gvl","7",common,g,Not Owned,Non-foil,false,,,"counters;ramp;enrage;aggrocontrol;u2.76;core;aggro","",
+"Briarhorn",4,"Creature - Elemental",G,"lrw","199",uncommon,g,Not Owned,Non-foil,false,,,"flash;heroic;blink;aggrocontrol;u2.0;core;aggro;control","",28547
+"Deadbridge Goliath",4,"Creature - Insect",G,"rtr","120",rare,g,Owned,Non-foil,false,,,"core;counters;graveyard;manasink;ramp;aggro;control","",46753
+"Dwynen, Gilt-Leaf Daen",4,"Legendary Creature - Elf Warrior",G,"ddu","2",rare,g,Not Owned,Non-foil,false,,,"elves;u4.6.2;u4.7.12;core;tribal_payoff;lifegain;aggro","",
+"Forgotten Ancient",4,"Creature - Elemental",G,"cm2","137",rare,g,Owned,Non-foil,false,,,"counters;spells;occasional","",
+"Penumbra Spider",4,"Creature - Spider",G,"mm3","131",common,g,Not Owned,Non-foil,false,,,"sacrifice;tokens;enrage;stax;u2.67;core;control","",63089
+"Ripjaw Raptor",4,"Creature - Dinosaur",G,"xln","203",rare,g,Not Owned,Non-foil,false,,,"dinosaurs;enrage;ramp;pingers;u3.4;occasional","",65426
+"Acidic Slime",5,"Creature - Ooze",G,"m11","161",uncommon,g,Not Owned,Non-foil,false,,,"blink;ramp;artifact_removal;enchantment_removal;u3.4;core;control","",37180
+"Arrogant Wurm",5,"Creature - Wurm",G,"tor","120",uncommon,g,Owned,Non-foil,false,,,"core;graveyard;aggro","",17343
 "Garruk's Packleader",5,"Creature - Beast",G,"c19","168",uncommon,g,Owned,Non-foil,false,,,"occasional","",77450
-"Genesis",5,"Creature - Incarnation",G,"mh1","166",rare,g,Owned,Non-foil,false,,,"occasional","",72704
+"Genesis",5,"Creature - Incarnation",G,"mh1","166",rare,g,Owned,Non-foil,false,,,"core;graveyard;manasink;aggro;control","",72704
 "Indrik Stomphowler",5,"Creature - Beast",G,"cma","119",uncommon,g,Owned,Non-foil,false,,,"occasional","",
 "Keeper of Fables",5,"Creature - Cat",G,"eld","163",uncommon,g,Owned,Non-foil,false,,,"occasional","",78464
 "Majestic Myriarch",5,"Creature - Chimera",G,"c20","182",mythic,g,Owned,Non-foil,false,,,"occasional","",
 "Weatherseed Treefolk",5,"Creature - Treefolk",G,"ulg","116",rare,g,Owned,Non-foil,false,,,"occasional","",12475
 "Carnage Tyrant",6,"Creature - Dinosaur",G,"xln","179",mythic,g,Owned,Non-foil,false,,,"occasional","",65376
-"Honored Hydra",6,"Creature - Snake Hydra",G,"akh","172",rare,g,Not Owned,Non-foil,false,,,"zombies, graveyard, ramp, tokens, reanimator, enrage, u3.0, core","",63946
-"Primeval Titan",6,"Creature - Giant",G,"tsr","365",special,g,Owned,Non-foil,false,,,"core, ramp, reanimator, blink","",
+"Honored Hydra",6,"Creature - Snake Hydra",G,"akh","172",rare,g,Not Owned,Non-foil,false,,,"zombies;graveyard;ramp;tokens;reanimator;enrage;u3.0;core;control","",63946
+"Primeval Titan",6,"Creature - Giant",G,"tsr","365",special,g,Owned,Non-foil,false,,,"core;ramp;reanimator;blink;control","",
 "Rhox",6,"Creature - Rhino Beast",G,"10e","291",rare,g,Owned,Non-foil,false,,,"occasional","",27346
 "Silvos, Rogue Elemental",6,"Legendary Creature - Elemental",G,"ema","186",rare,g,Owned,Non-foil,false,,,"occasional","",60765
 "Warden of the Woods",6,"Creature - Treefolk",G,"m21","213",uncommon,g,Owned,Non-foil,false,,,"occasional","",81653
+"Krosan Tusker",7,"Creature - Boar Beast",G,"c13","154",common,g,Owned,Non-foil,false,,,"reanimator;ramp;smoothing;occasional","",51238
 "Rampaging Brontodon",7,"Creature - Dinosaur",G,"g18","GP5",rare,g,Owned,Non-foil,false,,,"occasional","",
 "Verdant Sun's Avatar",7,"Creature - Dinosaur Avatar",G,"xln","213",rare,g,Owned,Non-foil,false,,,"occasional","",65446
 "Verdant Force",8,"Creature - Elemental",G,"dom","187",rare,g,Owned,Non-foil,false,,,"occasional","",67839
 "Blossoming Defense",1,"Instant",G,"kld","146",uncommon,g,Owned,Non-foil,false,,,"occasional","",62027
 "Giant Growth",1,"Instant",G,"war","162",common,g,Owned,Non-foil,false,,,"occasional","",71930
 "Snakeskin Veil",1,"Instant",G,"khm","194",common,g,Owned,Non-foil,false,,,"occasional","",87731
-"Stinging Shot",1,"Instant",G,"akh","189",common,g,Not Owned,Non-foil,false,,,"spells, flash, u4.7, removal, smoothing, core, counters","",63980
-"Vines of Vastwood",1,"Instant",G,"zen","193",common,g,Not Owned,Non-foil,false,,,"heroic, flash, ramp, spells, aggrocontrol, u2.0, core","",34410
+"Vines of Vastwood",1,"Instant",G,"zen","193",common,g,Not Owned,Non-foil,false,,,"heroic;flash;ramp;spells;aggrocontrol;u2.0;core;aggro","",34410
+"Grapple with the Past",2,"Instant",G,"c18","148",common,g,Owned,Non-foil,false,,,"core;graveyard;spells;flash;smoothing;control","",
 "Moment's Peace",2,"Instant",G,"ody","251",common,g,Owned,Non-foil,false,,,"occasional","",16967
 "Strength of the Tajuru",2,"Instant",G,"c20","192",rare,g,Owned,Non-foil,false,,,"occasional","",
 "Sylvan Might",2,"Instant",G,"dds","51",common,g,Owned,Non-foil,false,,,"occasional","",
-"Wilt",2,"Instant",G,"iko","176",common,g,Owned,Non-foil,false,,,"artifact_removal, enchantment_removal, spells, flash, core","",80361
-"Ambuscade",3,"Instant",G,"hou","110",common,g,Not Owned,Non-foil,false,,,"flash, heroic, aggrocontrol, u4.7.5, removal, core","",64704
+"Wilt",2,"Instant",G,"iko","176",common,g,Owned,Non-foil,false,,,"artifact_removal;enchantment_removal;spells;flash;core;control","",80361
+"Ambuscade",3,"Instant",G,"hou","110",common,g,Not Owned,Non-foil,false,,,"flash;heroic;aggrocontrol;u4.7.5;removal;core;spells;aggro","",64704
 "Chord of Calling",3,"Instant",G,"m15","172",rare,g,Owned,Non-foil,false,,,"occasional","",53742
 "Invigorate",3,"Instant",G,"a25","173",uncommon,g,Owned,Non-foil,false,,,"occasional","",67260
 "Krosan Grip",3,"Instant",G,"c20","181",uncommon,g,Owned,Non-foil,false,,,"occasional","",
 "Collected Company",4,"Instant",G,"dtk","177",rare,g,Owned,Non-foil,false,,,"occasional","",56314
 "Might of Oaks",4,"Instant",G,"m10","192",rare,g,Owned,Non-foil,false,,,"occasional","",32633
 "Stonewood Invocation",4,"Instant",G,"tsp","223",rare,g,Owned,Non-foil,false,,,"occasional","",25807
-"Awakening of Vitu-Ghazi",5,"Instant",G,"war","152",rare,g,Not Owned,Non-foil,false,,,"flash, counters, enrage, spells, u4.7, core","",71910
 "Scatter the Seeds",5,"Instant",G,"gk1","106",common,g,Owned,Non-foil,false,,,"occasional","",
 "Become Immense",6,"Instant",G,"uma","157",uncommon,g,Owned,Non-foil,false,,,"occasional","",70387
 "Hurricane",1,"Sorcery",G,"ath","58",uncommon,g,Owned,Non-foil,false,,,"occasional","",
 "Primal Might",1,"Sorcery",G,"m21","197",rare,g,Owned,Non-foil,false,,,"occasional","",81621
-"Edge of Autumn",2,"Sorcery",G,"ddg","25",common,g,Owned,Non-foil,false,,,"core, ramp, smoothing, spells","",40108
+"Edge of Autumn",2,"Sorcery",G,"ddg","25",common,g,Owned,Non-foil,false,,,"core;ramp;smoothing;spells;control","",40108
 "Explore",2,"Sorcery",G,"c19","164",common,g,Owned,Non-foil,false,,,"occasional","",77442
-"Rampant Growth",2,"Sorcery",G,"mir","235",common,g,Not Owned,Non-foil,false,,,"ramp, spells, u2.0, u2.89, smoothing, occasional","",7229
-"Call of the Herd",3,"Sorcery",G,"dds","44",rare,g,Owned,Non-foil,false,,,"occasional","",
-"Kodama's Reach",3,"Sorcery - Arcane",G,"chk","225",common,g,Not Owned,Non-foil,false,,,"ramp, spells, u2.0, core","",21003
-"Savage Stomp",3,"Sorcery",G,"xln","205",uncommon,g,Not Owned,Non-foil,false,,,"dinosaurs, heroic, counters, enrage, spells, tribal_payoff, aggrocontrol, u3.9, removal, core","",65430
+"Farseek",2,"Sorcery",G,"c19","165",common,g,Owned,Non-foil,false,,,"core;ramp;spells;control","",77444
+"Rampant Growth",2,"Sorcery",G,"mir","235",common,g,Not Owned,Non-foil,false,,,"ramp;spells;u2.0;u2.89;smoothing;occasional","",7229
+"Call of the Herd",3,"Sorcery",G,"dds","44",rare,g,Owned,Non-foil,false,,,"core;tokens;spells;graveyard;aggro;control","",
+"Kodama's Reach",3,"Sorcery - Arcane",G,"chk","225",common,g,Not Owned,Non-foil,false,,,"ramp;spells;u2.0;core;control","",21003
 "Search for Tomorrow",3,"Sorcery",G,"ima","185",common,g,Owned,Non-foil,false,,,"occasional","",66249
 "Harmonize",4,"Sorcery",G,"c20","173",uncommon,g,Owned,Non-foil,false,,,"occasional","",
-"Hunting Triad",4,"Tribal Sorcery - Elf",G,"c14","200",uncommon,g,Not Owned,Non-foil,false,,,"elves, counters, flash, tokens, sacrifice, spells, fliers, heroic, wide, stax, aggrocontrol, u4.6, core","",54723
+"Hunting Triad",4,"Tribal Sorcery - Elf",G,"c14","200",uncommon,g,Not Owned,Non-foil,false,,,"elves;counters;flash;tokens;sacrifice;spells;fliers;heroic;wide;stax;aggrocontrol;u4.6;core;aggro","",54723
 "Bestial Menace",5,"Sorcery",G,"mm2","141",uncommon,g,Owned,Non-foil,false,,,"occasional","",57162
-"Seasons Past",6,"Sorcery",G,"soi","226",mythic,g,Not Owned,Non-foil,false,,,"graveyard, ramp, spells, u2.77, core","",59856
+"Seasons Past",6,"Sorcery",G,"soi","226",mythic,g,Not Owned,Non-foil,false,,,"graveyard;ramp;spells;u2.77;core;control","",59856
+"Roar of the Wurm",7,"Sorcery",G,"dds","49",uncommon,g,Owned,Non-foil,false,,,"core;spells;tokens;ramp;graveyard;control","",
 "Biorhythm",8,"Sorcery",G,"ons","247",rare,g,Owned,Non-foil,false,,,"occasional","",18197
 "Birthing Pod",4,"Artifact",G,"nph","104",rare,g,Owned,Non-foil,false,,,"occasional","",39796
 "Cryptolith Rite",2,"Enchantment",G,"soi","200",rare,g,Owned,Non-foil,false,,,"occasional","",59792
-"Evolutionary Leap",2,"Enchantment",G,"ori","176",rare,g,Not Owned,Non-foil,false,,,"sacrifice, manasink, u2.0, u4.7, smoothing, core","",57782
-"Rune of Might",2,"Enchantment - Aura Rune",G,"khm","191",uncommon,g,Owned,Non-foil,false,,,"occasional","",87725
-"Awakening Zone",3,"Enchantment",G,"roe","176",rare,g,Not Owned,Non-foil,false,,,"tokens, sacrifice, ramp, enrage, wide, stax, u2.61, u2.69, u3.1, core","",36474
+"Evolutionary Leap",2,"Enchantment",G,"ori","176",rare,g,Not Owned,Non-foil,false,,,"sacrifice;manasink;u2.0;u4.7;smoothing;core;aggro;control","",57782
+"Rune of Might",2,"Enchantment - Aura Rune",G,"khm","191",uncommon,g,Owned,Non-foil,false,,,"core;heroic;artifacts;smoothing;aggro","",87725
+"Awakening Zone",3,"Enchantment",G,"roe","176",rare,g,Not Owned,Non-foil,false,,,"tokens;sacrifice;ramp;enrage;wide;stax;u2.61;u2.69;u3.1;core;control","",36474
 "Descendants' Path",3,"Enchantment",G,"avr","173",rare,g,Owned,Non-foil,false,,,"occasional","",44237
-"Elephant Guide",3,"Enchantment - Aura",G,"ema","163",common,g,Owned,Non-foil,false,,,"occasional","",60675
-"Fecundity",3,"Enchantment",G,"uma","165",uncommon,g,Not Owned,Non-foil,false,,,"sacrifice, u2.62, u4.9, core","",70403
+"Elephant Guide",3,"Enchantment - Aura",G,"ema","163",common,g,Owned,Non-foil,false,,,"core;heroic;tokens;aggro","",60675
+"Fae Offering",3,"Enchantment",G,"mh2","158",uncommon,g,Owned,Non-foil,false,,,"occasional","",90693
+"Fecundity",3,"Enchantment",G,"uma","165",uncommon,g,Not Owned,Non-foil,false,,,"sacrifice;u2.62;u4.9;occasional","",70403
 "Hydra's Growth",3,"Enchantment - Aura",G,"thb","172",uncommon,g,Owned,Non-foil,false,,,"occasional","",79468
 "Moldervine Cloak",3,"Enchantment - Aura",G,"mma","155",common,g,Owned,Non-foil,false,,,"occasional","",49006
-"Squirrel Nest",3,"Enchantment - Aura",G,"mh1","182",uncommon,g,Owned,Non-foil,false,,,"occasional","",72736
+"Squirrel Nest",3,"Enchantment - Aura",G,"mh1","182",uncommon,g,Owned,Non-foil,false,,,"core;tokens;sacrifice;control","",72736
 "Path of Discovery",4,"Enchantment",G,"rix","142",rare,g,Owned,Non-foil,false,,,"occasional","",66737
 "Roots",4,"Enchantment - Aura",G,"ema","183",common,g,Owned,Non-foil,false,,,"occasional","",60951
 "Wilderness Reclamation",4,"Enchantment",G,"c20","196",uncommon,g,Owned,Non-foil,false,,,"occasional","",
 "Sandwurm Convergence",8,"Enchantment",G,"akh","183",rare,g,Owned,Non-foil,false,,,"occasional","",63968
+"Rakdos Cackler",1,"Creature - Devil",BR,"gk2","67",uncommon,Hybrid,Owned,Non-foil,false,,,"core;aggro;aggrocontrol;counters","",
+"Growing Ranks",4,"Enchantment",WG,"rtr","217",rare,Hybrid,Not Owned,Non-foil,false,,,"tokens;stax;u3.5;sacrifice;core","",46759
+"Debtors' Knell",7,"Enchantment",WB,"gpt","141",rare,Hybrid,Owned,Non-foil,false,,,"core;control;graveyard","",23805
+"Fire // Ice",2,"Instant",UR,"apc","128",uncommon,Hybrid,Owned,Non-foil,false,,,"core;tappers;burn;removal;spells;flash;aggro;control","",16338
+"Snakeform",3,"Instant",UG,"c15","242",common,Hybrid,Owned,Non-foil,false,,,"core;spells;flash;aggro;control","",
 "Azorius Guildmage",2,"Creature - Vedalken Wizard",UW,"gk2","9",uncommon,m,Owned,Non-foil,false,,,"occasional","",
-"Curse of Chains",2,"Enchantment - Aura",WU,"shm","139",common,m,Not Owned,Non-foil,false,,,"tappers, u4.7, removal, core","",29461
-"Momentary Blink",2,"Instant",UW,"mm3","16",common,m,Owned,Non-foil,false,,,"occasional","",63499
+"Momentary Blink",2,"Instant",WU,"mm3","16",common,m,Owned,Non-foil,false,,,"core;blink;spells;aggrocontrol;flash;graveyard","",63499
 "The Raven's Warning",3,"Enchantment - Saga",WU,"khm","227",rare,m,Owned,Non-foil,false,,,"occasional","",87797
 "Mirrorweave",4,"Instant",UW,"cm2","162",rare,m,Owned,Non-foil,false,,,"occasional","",
-"Ojutai's Command",4,"Instant",WU,"dtk","227",rare,m,Owned,Non-foil,false,,,"core, lifegain, control, flash, spells, graveyard","",56328
 "Supreme Verdict",4,"Sorcery",UW,"ima","210",rare,m,Owned,Non-foil,false,,,"occasional","",66299
 "Swans of Bryn Argoll",4,"Creature - Bird Spirit",UW,"mm2","199",rare,m,Owned,Non-foil,false,,,"occasional","",57058
-"Inniaz, the Gale Force",5,"Legendary Creature - Djinn",UW,"jmp","12",rare,m,Owned,Non-foil,false,,,"occasional","",
+"Inniaz, the Gale Force",5,"Legendary Creature - Djinn",UW,"jmp","12",rare,m,Owned,Non-foil,false,,,"occasional","",81771
 "Noyan Dar, Roil Shaper",5,"Legendary Creature - Merfolk Ally",WU,"bfz","216",rare,m,Owned,Non-foil,false,,,"occasional","",58731
+"Sky Hussar",5,"Creature - Human Knight",WU,"gk2","19",uncommon,m,Owned,Non-foil,false,,,"core;fliers;humans;twin;aggro","",
 "Oona's Gatewarden",1,"Creature - Faerie Soldier",BU,"shm","173",common,m,Owned,Non-foil,false,,,"occasional","",29327
-"Glimpse the Unthinkable",2,"Sorcery",UB,"rav","208",rare,m,Owned,Non-foil,false,,,"core, graveyard, spells, reanimator","",23012
+"Dimir Guildmage",2,"Creature - Human Wizard",UB,"mm2","192",uncommon,Multicolored,Owned,Non-foil,false,,,"core;humans;wizards;manasink;aggro;aggrocontrol;control","",57442
+"Glimpse the Unthinkable",2,"Sorcery",UB,"rav","208",rare,m,Owned,Non-foil,false,,,"core;graveyard;spells;reanimator","",23012
 "Ashiok, Dream Render",3,"Legendary Planeswalker - Ashiok",BU,"war","228",uncommon,m,Owned,Non-foil,false,,,"occasional","",72062
 "Shadowmage Infiltrator",3,"Creature - Human Wizard",BU,"a25","217",uncommon,m,Owned,Non-foil,false,,,"occasional","",67348
-"Tomebound Lich",3,"Creature - Zombie Wizard",UB,"m20","219",uncommon,m,Not Owned,Non-foil,false,,,"zombies, wizards, graveyard, lifegain, aggrocontrol, blink, u4.8, smoothing, core","",73337
+"Tomebound Lich",3,"Creature - Zombie Wizard",UB,"m20","219",uncommon,m,Not Owned,Non-foil,false,,,"zombies;wizards;graveyard;lifegain;aggrocontrol;blink;u4.8;smoothing;core;aggro;control","",73337
 "Undermine",3,"Instant",BU,"ddh","62",rare,m,Owned,Non-foil,false,,,"occasional","",42140
 "Evil Twin",4,"Creature - Shapeshifter",BU,"bbd","222",rare,m,Owned,Non-foil,false,,,"occasional","",
 "Lochmere Serpent",6,"Creature - Serpent",BU,"eld","195",rare,m,Owned,Non-foil,false,,,"occasional","",78534
 "Oona, Queen of the Fae",6,"Legendary Creature - Faerie Wizard",UB,"shm","172",rare,m,Owned,Non-foil,false,,,"occasional","",29597
 "Tymaret, the Murder King",2,"Legendary Creature - Zombie Warrior",BR,"ths","207",rare,m,Owned,Non-foil,false,,,"occasional","",50528
-"Blightning",3,"Sorcery",BR,"a25","198",uncommon,m,Owned,Non-foil,false,,,"core, aggrocontrol, burn","",67310
+"Blightning",3,"Sorcery",BR,"a25","198",uncommon,m,Owned,Non-foil,false,,,"core;aggrocontrol;burn;spells;aggro","",67310
+"Unlicensed Disintegration",3,"Instant",BR,"kld","187",uncommon,m,Owned,Non-foil,false,,,"core;spells;flash;artifacts;burn;removal;aggro;control","",62031
 "Blazing Specter",4,"Creature - Specter",BR,"ddh","52",rare,m,Owned,Non-foil,false,,,"occasional","",42136
 "Murderous Redcap",4,"Creature - Goblin Assassin",BR,"uma","217",uncommon,m,Owned,Non-foil,false,,,"occasional","",70507
 "Bituminous Blast",5,"Instant",BR,"pca","83",uncommon,m,Owned,Non-foil,false,,,"occasional","",
 "Kulrath Knight",5,"Creature - Elemental Knight",BR,"shm","190",uncommon,m,Owned,Non-foil,false,,,"occasional","",29557
-"Torrent of Souls",5,"Sorcery",BR,"mm3","213",uncommon,m,Not Owned,Non-foil,false,,,"reanimator, burn, tokens, wide, u2.87, u4.8, core, graveyard","",63091
 "Void",5,"Sorcery",BR,"ema","211",rare,m,Owned,Non-foil,false,,,"occasional","",60961
 "Rakdos, the Showstopper",6,"Legendary Creature - Demon",BR,"rna","199",mythic,m,Owned,Non-foil,false,,,"occasional","",71398
+"Collision // Colossus",2,"Instant",RG,"rna","223",uncommon,Multicolored,Owned,Non-foil,false,,,"removal;spells;flash;core;aggro","",71458
 "Reap the Past",2,"Sorcery",GR,"mh1","211",rare,m,Owned,Non-foil,false,,,"occasional","",72794
+"Territorial Kavu",2,"Creature - Kavu",RG,"mh2","216",rare,m,Owned,Non-foil,false,,,"occasional","",90813
 "Boggart Ram-Gang",3,"Creature - Goblin Warrior",GR,"pd2","13",uncommon,m,Owned,Non-foil,false,,,"occasional","",39238
 "Gruul Spellbreaker",3,"Creature - Ogre Warrior",GR,"rna","179",rare,m,Owned,Non-foil,false,,,"occasional","",71358
-"Stormbind",3,"Enchantment",GR,"tsb","102",special,m,Owned,Non-foil,false,,,"occasional","",26057
-"Bloodbraid Elf",4,"Creature - Elf Berserker",RG,"pca","84",uncommon,m,Owned,Non-foil,false,,,"core, elves","",
-"Collision // Colossus",4,"Instant",RG,"rna","223",uncommon,m,Owned,Non-foil,false,,,"removal, spells, flash, core","",71458
+"Heaven // Earth",3,"Instant",GR,"akh","224",rare,m,Owned,Non-foil,false,,,"occasional","",64110
+"Stormbind",3,"Enchantment",RG,"tsb","102",special,m,Owned,Non-foil,false,,,"core;graveyard;burn;removal","",26057
+"Bloodbraid Elf",4,"Creature - Elf Berserker",RG,"pca","84",uncommon,m,Owned,Non-foil,false,,,"core;elves;aggro","",
+"Giant Solifuge",4,"Creature - Insect",GR,"gpt","143",rare,m,Owned,Non-foil,false,,,"occasional","",23877
 "Wort, the Raidmother",6,"Legendary Creature - Goblin Shaman",GR,"c20","234",rare,m,Owned,Non-foil,false,,,"occasional","",
-"Selesnya Guildmage",2,"Creature - Elf Wizard",WG,"gk1","119",uncommon,m,Owned,Non-foil,false,,,"core, tokens, manasink, wide, elves, wizards","",
+"Selesnya Guildmage",2,"Creature - Elf Wizard",WG,"gk1","119",uncommon,m,Owned,Non-foil,false,,,"core;tokens;manasink;wide;elves;wizards;aggro;control","",
 "Travel Preparations",2,"Sorcery",GW,"uma","188",uncommon,m,Owned,Non-foil,false,,,"occasional","",70449
 "Congregation at Dawn",3,"Instant",GW,"rav","198",uncommon,m,Owned,Non-foil,false,,,"occasional","",23300
-"Fall of the Impostor",3,"Enchantment - Saga",WG,"khm","208",uncommon,m,Owned,Non-foil,false,,,"core, counters, removal","",87759
+"Fall of the Impostor",3,"Enchantment - Saga",WG,"khm","208",uncommon,m,Owned,Non-foil,false,,,"core;counters;removal;aggro","",87759
 "Kitchen Finks",3,"Creature - Ouphe",GW,"uma","216",uncommon,m,Owned,Non-foil,false,,,"occasional","",70047
-"Growing Ranks",4,"Enchantment",WG,"rtr","217",rare,m,Not Owned,Non-foil,false,,,"tokens, stax, u3.5, sacrifice, occasional","",46759
 "Loxodon Hierarch",4,"Creature - Elephant Cleric",GW,"gk1","114",rare,m,Owned,Non-foil,false,,,"occasional","",
 "Juniper Order Ranger",5,"Creature - Human Knight",GW,"cm2","158",uncommon,m,Owned,Non-foil,false,,,"occasional","",
-"Phantom Nishoba",7,"Creature - Cat Beast Spirit",GW,"c17","188",rare,m,Owned,Non-foil,false,,,"occasional","",
+"Phantom Nishoba",7,"Creature - Cat Beast Spirit",WG,"jud","140",rare,m,Owned,Non-foil,false,,,"occasional","",17622
 "Castigate",2,"Sorcery",BW,"gpt","106",common,m,Owned,Non-foil,false,,,"occasional","",23843
 "Gerrard's Verdict",2,"Sorcery",BW,"apc","102",uncommon,m,Owned,Non-foil,false,,,"occasional","",16126
+"Grind // Dust",2,"Sorcery ",WB,"hou","155",rare,m,Not Owned,Non-foil,false,,,"counters;counters_payoff;u4.7.7;removal;core;spells;graveyard;aggro;control","",64826
+"Humiliate",2,"Sorcery",WB,"stx","193",uncommon,m,Owned,Non-foil,false,,,"occasional","",88893
 "Tidehollow Sculler",2,"Artifact Creature - Zombie",BW,"md1","2",uncommon,m,Owned,Non-foil,false,,,"occasional","",
 "Mortify",3,"Instant",BW,"rna","192",uncommon,m,Owned,Non-foil,false,,,"occasional","",71384
 "Vindicate",3,"Sorcery",BW,"a25","219",rare,m,Owned,Non-foil,false,,,"occasional","",67352
-"Divinity of Pride",5,"Creature - Spirit Avatar",WB,"c13","228",rare,m,Owned,Non-foil,false,,,"core, lifegain, lifegain_payoff, fliers","",50912
-"Unburial Rites",5,"Sorcery",BW,"c20","139",uncommon,m,Owned,Non-foil,false,,,"occasional","",
-"Grind // Dust",6,"Sorcery ",WB,"hou","155",rare,m,Not Owned,Non-foil,false,,,"counters, counters_payoff, u4.7.7, removal, core","",64826
+"Blind Hunter",4,"Creature - Bat",WB,"gpt","102",common,m,Owned,Non-foil,false,,,"core;lifegain;fliers;sacrifice;aggro;aggrocontrol","",23855
+"Ghost Council of Orzhova",4,"Legendary Creature - Spirit",BW,"mm2","176",rare,m,Owned,Non-foil,false,,,"occasional","",57458
+"Divinity of Pride",5,"Creature - Spirit Avatar",WB,"c13","228",rare,m,Owned,Non-foil,false,,,"lifegain;lifegain_payoff;fliers;occasional","",50912
 "Angel of Despair",7,"Creature - Angel",BW,"gk2","37",rare,m,Owned,Non-foil,false,,,"occasional","",
 "Izzet Charm",2,"Instant",RU,"gk1","41",uncommon,m,Owned,Non-foil,false,,,"occasional","",
 "Aegar, the Freezing Flame",3,"Legendary Creature - Giant Wizard",RU,"khm","200",uncommon,m,Owned,Non-foil,false,,,"occasional","",87743
-"Enigma Drake",3,"Creature - Drake",RU,"m19","216",uncommon,m,Owned,Non-foil,false,,,"occasional","",68593
+"Enigma Drake",3,"Creature - Drake",UR,"m19","216",uncommon,m,Owned,Non-foil,false,,,"core;spells;graveyard;fliers;aggrocontrol;aggro;control","",68593
 "Geistblast",3,"Instant",RU,"soi","160",uncommon,m,Owned,Non-foil,false,,,"occasional","",60174
-"Gelectrode",3,"Creature - Weird",UR,"ddj","5",uncommon,m,Not Owned,Non-foil,false,,,"spells, pingers, u2.81, u3.10, u4.7.9, core","",46210
+"Gelectrode",3,"Creature - Weird",UR,"ddj","5",uncommon,m,Not Owned,Non-foil,false,,,"spells;pingers;u2.81;u3.10;u4.7.9;core;control","",46210
 "Rielle, the Everwise",3,"Legendary Creature - Human Wizard",RU,"iko","203",mythic,m,Owned,Non-foil,false,,,"occasional","",80415
-"Saheeli, Sublime Artificer",3,"Legendary Planeswalker - Saheeli",UR,"war","234",uncommon,m,Owned,Non-foil,false,,,"artifacts, counters, spells, core, tokens","",72074
-"Fire // Ice",4,"Instant",UR,"cmd","198",uncommon,m,Owned,Non-foil,false,,,"occasional","",40780
+"Saheeli, Sublime Artificer",3,"Legendary Planeswalker - Saheeli",UR,"war","234",uncommon,m,Owned,Non-foil,false,,,"artifacts;counters;spells;tokens;occasional","",72074
 "Suffocating Blast",4,"Instant",RU,"apc","124",rare,m,Owned,Non-foil,false,,,"occasional","",16266
 "Expansion // Explosion",6,"Instant",RU,"grn","224",rare,m,Owned,Non-foil,false,,,"occasional","",69837
 "Deathrite Shaman",1,"Creature - Elf Shaman",BG,"gk1","59",rare,m,Owned,Non-foil,false,,,"occasional","",
 "Elves of Deep Shadow",1,"Creature - Elf Druid",BG,"gk1","56",common,m,Owned,Non-foil,false,,,"occasional","",
 "Abrupt Decay",2,"Instant",BG,"gk1","57",rare,m,Owned,Non-foil,false,,,"occasional","",
-"Hapatra, Vizier of Poisons",2,"Legendary Creature - Human Cleric",BG,"akh","199",rare,m,Owned,Non-foil,false,,,"core, counters, counters_payoff, humans, tokens","",64000
+"Hapatra, Vizier of Poisons",2,"Legendary Creature - Human Cleric",BG,"akh","199",rare,m,Owned,Non-foil,false,,,"core;counters;counters_payoff;humans;tokens;aggro","",64000
 "Winding Constrictor",2,"Creature - Snake",BG,"aer","140",uncommon,m,Owned,Non-foil,false,,,"occasional","",62823
 "Dreg Mangler",3,"Creature - Plant Zombie",BG,"rtr","158",uncommon,m,Owned,Non-foil,false,,,"occasional","",46447
 "Pernicious Deed",3,"Enchantment",BG,"a25","212",rare,m,Owned,Non-foil,false,,,"occasional","",67338
-"Putrefy",3,"Instant",BG,"mb1","1466",uncommon,m,Not Owned,Non-foil,false,,,"spells, flash, artifact_removal, u2.0, u4.8, removal, core","",
+"Putrefy",3,"Instant",BG,"mb1","1466",uncommon,m,Not Owned,Non-foil,false,,,"spells;flash;artifact_removal;u2.0;u4.8;removal;core;aggro;control","",
 "Vulturous Zombie",5,"Creature - Plant Zombie",BG,"cm2","170",rare,m,Owned,Non-foil,false,,,"occasional","",
 "Hogaak, Arisen Necropolis",7,"Legendary Creature - Avatar",BG,"mh1","202",rare,m,Owned,Non-foil,false,,,"occasional","",72776
 "Figure of Destiny",1,"Creature - Kithkin",RW,"ddl","3",rare,m,Owned,Non-foil,false,,,"occasional","",49887
 "Boros Charm",2,"Instant",RW,"gk1","84",uncommon,m,Owned,Non-foil,false,,,"occasional","",
-"Koll, the Forgemaster",2,"Legendary Creature - Dwarf Warrior",RW,"khm","220",uncommon,m,Owned,Non-foil,false,,,"occasional","",87783
-"Lightning Helix",2,"Instant",RW,"gk1","90",uncommon,m,Owned,Non-foil,false,,,"occasional","",
-"Feather, the Redeemed",3,"Legendary Creature - Angel",RW,"war","197",rare,m,Owned,Non-foil,false,,,"occasional","",72000
-"Goblin Trenches",3,"Enchantment",RW,"ema","203",rare,m,Owned,Non-foil,false,,,"occasional","",60959
+"Koll, the Forgemaster",2,"Legendary Creature - Dwarf Warrior",WR,"khm","220",uncommon,m,Owned,Non-foil,false,,,"core;artifacts;heroic;aggro","",87783
+"Lightning Helix",2,"Instant",WR,"gk1","90",uncommon,m,Owned,Non-foil,false,,,"core;lifegain;burn;spells;flash;removal;aggro;control","",
 "Orim's Thunder",3,"Instant",RW,"cm2","33",common,m,Owned,Non-foil,false,,,"occasional","",
 "Rally the Peasants",3,"Instant",RW,"uma","28",uncommon,m,Owned,Non-foil,false,,,"occasional","",70129
 "Searing Meditation",3,"Enchantment",RW,"ddh","27",rare,m,Owned,Non-foil,false,,,"occasional","",42207
 "Sunforger",3,"Artifact - Equipment",RW,"c16","275",rare,m,Owned,Non-foil,false,,,"occasional","",
-"Firemane Avenger",4,"Creature - Angel",WR,"gtc","163",rare,m,Not Owned,Non-foil,false,,,"tokens, fliers, lifegain, evasion, wide, u4.6.4, core","",47699
-"Spitemare",4,"Creature - Elemental",WR,"eve","147",uncommon,m,Not Owned,Non-foil,false,,,"enrage, aggrocontrol, u2.0, u4.7, core","",30236
+"Firemane Avenger",4,"Creature - Angel",WR,"gtc","163",rare,m,Not Owned,Non-foil,false,,,"tokens;fliers;lifegain;evasion;wide;u4.6.4;occasional","",47699
+"Spitemare",4,"Creature - Elemental",WR,"eve","147",uncommon,m,Not Owned,Non-foil,false,,,"enrage;aggrocontrol;u2.0;u4.7;occasional","",30236
 "Maraleaf Pixie",2,"Creature - Faerie",GU,"eld","196",uncommon,m,Owned,Non-foil,false,,,"occasional","",78536
+"River Hoopoe",2,"Creature - Bird",UG,"hou","143",uncommon,m,Owned,Non-foil,false,,,"core;manasink;fliers;lifegain;control","",64770
 "Simic Charm",2,"Instant",GU,"gtc","195",uncommon,m,Owned,Non-foil,false,,,"occasional","",47485
 "Simic Guildmage",2,"Creature - Elf Wizard",GU,"dis","148",uncommon,m,Owned,Non-foil,false,,,"occasional","",24013
 "Primal Empathy",3,"Enchantment",GU,"iko","200",uncommon,m,Owned,Non-foil,false,,,"occasional","",80409
-"Snakeform",3,"Instant",GU,"c15","242",common,m,Owned,Non-foil,false,,,"occasional","",
-"Frilled Mystic",4,"Creature - Elf Lizard Wizard",UG,"rna","174",uncommon,m,Not Owned,Non-foil,false,,,"flash, elves, wizards, aggrocontrol, blink, u4.7, core","",71348
+"Frilled Mystic",4,"Creature - Elf Lizard Wizard",UG,"rna","174",uncommon,m,Not Owned,Non-foil,false,,,"flash;elves;wizards;aggrocontrol;blink;u4.7;core;aggro;control","",71348
 "Prime Speaker Vannifar",4,"Legendary Creature - Elf Ooze Wizard",GU,"rna","195",mythic,m,Owned,Non-foil,false,,,"occasional","",71390
 "Overbeing of Myth",5,"Creature - Spirit Avatar",GU,"eve","157",rare,m,Owned,Non-foil,false,,,"occasional","",30016
-"Simic Sky Swallower",7,"Creature - Leviathan",UG,"gk2","124",rare,m,Owned,Non-foil,false,,,"u2.0, u4.9.3, ramp, graveyard, reanimator, core","",
+"Simic Sky Swallower",7,"Creature - Leviathan",UG,"gk2","124",rare,m,Owned,Non-foil,false,,,"u2.0;u4.9.3;ramp;graveyard;reanimator;core;control","",
 "Sedraxis Specter",3,"Creature - Specter",BRU,"mm3","181",uncommon,m,Owned,Non-foil,false,,,"occasional","",63131
 "Rise // Fall",4,"Sorcery",BRU,"ddh","73",uncommon,m,Owned,Non-foil,false,,,"occasional","",42166
+"Cruel Ultimatum",7,"Sorcery",BRU,"ala","164",rare,m,Owned,Non-foil,false,,,"occasional","",31147
 "Nicol Bolas, God-Pharaoh",7,"Legendary Planeswalker - Bolas",BRU,"hou","140",mythic,m,Owned,Non-foil,false,,,"occasional","",64764
 "Sprouting Thrinax",3,"Creature - Lizard",BGR,"mm3","189",uncommon,m,Owned,Non-foil,false,,,"occasional","",63135
+"Violent Ultimatum",7,"Sorcery",BGR,"ala","206",rare,m,Owned,Non-foil,false,,,"occasional","",31211
 "Fiery Justice",3,"Sorcery",GRW,"mm3","164",rare,m,Owned,Non-foil,false,,,"occasional","",63389
 "Palladia-Mors, the Ruiner",6,"Legendary Creature - Elder Dragon",GRW,"m19","219",mythic,m,Owned,Non-foil,false,,,"occasional","",68601
 "Zurgo Helmsmasher",5,"Legendary Creature - Orc Warrior",BRW,"ktk","214",mythic,m,Owned,Non-foil,false,,,"occasional","",54250
 "Siege Rhino",4,"Creature - Rhino",BGW,"cp3","5",rare,m,Owned,Non-foil,false,,,"occasional","",
 "Jeskai Ascendancy",3,"Enchantment",RUW,"ktk","180",rare,m,Owned,Non-foil,false,,,"occasional","",54436
+"Inspired Ultimatum",7,"Sorcery",RUW,"iko","191",rare,m,Owned,Non-foil,false,,,"occasional","",80391
 "Sidisi, Brood Tyrant",4,"Legendary Creature - Naga Shaman",BGU,"ktk","199",mythic,m,Owned,Non-foil,false,,,"occasional","",54256
+"Garth One-Eye",5,"Legendary Creature - Human Wizard",BGRUW,"mh2","197",mythic,m,Owned,Non-foil,false,,,"occasional","",90771
 "Golos, Tireless Pilgrim",5,"Legendary Artifact Creature - Scout",BGRUW,"m20","226",rare,m,Owned,Non-foil,false,,,"occasional","",73351
-"Bomat Courier",1,"Artifact Creature - Construct",,"kld","199",rare,Colorless,Not Owned,Non-foil,false,,,"artifacts, burn, aggrocontrol, u4.7.6, core, manasink","",62075
-"Vault Skirge",1,"Artifact Creature - Imp",,"nph","76",common,Colorless,Not Owned,Non-foil,false,,,"artifacts, fliers, lifegain, evasion, aggrocontrol, u2.0, core","",39770
-"Arcbound Ravager",2,"Artifact Creature - Beast",,"dst","100",rare,c,Owned,Non-foil,false,,,"occasional","",20597
-"Epochrasite",2,"Artifact Creature - Construct",,"cm2","187",rare,c,Owned,Non-foil,false,,,"occasional","",
-"Metallic Mimic",2,"Artifact Creature - Shapeshifter",,"aer","164",rare,c,Not Owned,Non-foil,false,,,"artifacts, tribal, tokens, counters, blink, tribal_payoff, u3.8, core","",62565
-"Perilous Myr",2,"Artifact Creature - Myr",,"a25","227",uncommon,c,Owned,Non-foil,false,,,"core, artifacts, sacrifice, wide, removal","",67368
-"Porcelain Legionnaire",2,"Artifact Creature - Soldier",,"nph","19",common,Colorless,Not Owned,Non-foil,false,,,"artifacts, soldiers, aggrocontrol, u2.0, core","",39834
-"Scrapheap Scrounger",2,"Artifact Creature - Construct",,"kld","231",rare,Colorless,Not Owned,Non-foil,false,,,"artifacts, graveyard, aggrocontrol, u2.89, occasional","",62087
-"Adaptive Automaton",3,"Artifact Creature - Construct",,"m12","201",rare,c,Not Owned,Non-foil,false,,,"artifacts, tribal, tokens, tribal_payoff, u2.0, u4.6.2, occasional","",41577
-"Crystalline Giant",3,"Artifact Creature - Giant",,"iko","234",rare,c,Owned,Non-foil,false,,,"core, artifacts","",80477
+"Vault Skirge",1,"Artifact Creature - Imp",B,"nph","76",common,Colorless,Not Owned,Non-foil,false,,,"artifacts;fliers;lifegain;evasion;aggrocontrol;u2.0;core;aggro","",39770
+"Arcbound Ravager",2,"Artifact Creature - Beast",,"dst","100",rare,c,Owned,Non-foil,false,,,"core;artifacts;counters","",20597
+"Epochrasite",2,"Artifact Creature - Construct",,"cm2","187",rare,c,Owned,Non-foil,false,,,"core;sacrifice;counters;artifacts;reanimator;aggro;control","",
+"Metallic Mimic",2,"Artifact Creature - Shapeshifter",,"aer","164",rare,c,Not Owned,Non-foil,false,,,"artifacts;tribal;tokens;counters;blink;tribal_payoff;u3.8;core;aggro","",62565
+"Perilous Myr",2,"Artifact Creature - Myr",,"a25","227",uncommon,c,Owned,Non-foil,false,,,"core;artifacts;sacrifice;wide;removal;control","",67368
+"Porcelain Legionnaire",2,"Artifact Creature - Soldier",,"nph","19",common,Colorless,Not Owned,Non-foil,false,,,"artifacts;soldiers;aggrocontrol;u2.0;occasional","",39834
+"Scrapheap Scrounger",2,"Artifact Creature - Construct",,"kld","231",rare,Colorless,Not Owned,Non-foil,false,,,"artifacts;graveyard;aggrocontrol;u2.89;occasional","",62087
+"Adaptive Automaton",3,"Artifact Creature - Construct",,"m12","201",rare,c,Not Owned,Non-foil,false,,,"artifacts;tribal;tokens;tribal_payoff;u2.0;u4.6.2;occasional","",41577
 "Juggernaut",4,"Artifact Creature - Juggernaut",,"bbd","238",uncommon,c,Owned,Non-foil,false,,,"occasional","",
 "Lodestone Golem",4,"Artifact Creature - Golem",,"mm2","219",rare,c,Owned,Non-foil,false,,,"occasional","",57168
 "Silent Arbiter",4,"Artifact Creature - Construct",,"c20","250",rare,c,Owned,Non-foil,false,,,"occasional","",
 "Solemn Simulacrum",4,"Artifact Creature - Golem",,"c20","253",rare,c,Owned,Non-foil,false,,,"occasional","",
 "Hollow One",5,"Artifact Creature - Golem",,"hou","163",rare,c,Owned,Non-foil,false,,,"occasional","",64850
-"Scuttling Doom Engine",6,"Artifact Creature - Construct",,"m15","229",rare,c,Not Owned,Non-foil,false,,,"artifacts, ramp, reanimator, enrage, u2.72, u2.91, core","",53636
+"Precursor Golem",5,"Artifact Creature - Golem",,"som","194",rare,c,Owned,Non-foil,false,,,"occasional","",38157
+"Scuttling Doom Engine",6,"Artifact Creature - Construct",,"m15","229",rare,c,Not Owned,Non-foil,false,,,"artifacts;ramp;reanimator;enrage;u2.72;u2.91;occasional","",53636
 "Steel Hellkite",6,"Artifact Creature - Dragon",,"c18","224",rare,c,Owned,Non-foil,false,,,"occasional","",
+"Pentavus",7,"Artifact Creature - Construct",,"mrd","226",rare,c,Owned,Non-foil,false,,,"core;ramp;control;manasink;fliers;tokens;counters;reanimator","",20053
 "Platinum Angel",7,"Artifact Creature - Angel",,"cn2","214",mythic,c,Owned,Non-foil,false,,,"occasional","",
+"Chimeric Mass",0,"Artifact",,"mm2","204",rare,c,Owned,Non-foil,false,,,"core;artifacts;counters;manasink;ramp;control","",57270
+"Engineered Explosives",0,"Artifact",,"2xm","252",rare,c,Owned,Non-foil,false,,,"core;removal;artifact_removal;enchantment_removal;wrath;control","",82538
 "Sigil of Distinction",0,"Artifact - Equipment",,"ala","219",rare,c,Owned,Non-foil,false,,,"occasional","",30933
-"Basilisk Collar",1,"Artifact - Equipment",,"mm3","216",rare,c,Not Owned,Non-foil,false,,,"artifacts, pingers, lifegain, u3.9, core","",63217
 "Bonesplitter",1,"Artifact - Equipment",,"mma","202",common,c,Owned,Non-foil,false,,,"occasional","",48912
-"Brittle Effigy",1,"Artifact",,"m11","202",rare,c,Not Owned,Non-foil,false,,,"artifacts, flash, u2.0, removal, core","",37358
+"Brittle Effigy",1,"Artifact",,"m11","202",rare,c,Not Owned,Non-foil,false,,,"artifacts;flash;u2.0;removal;core;control","",37358
 "Ghostfire Blade",1,"Artifact - Equipment",,"ktk","220",rare,c,Owned,Non-foil,false,,,"occasional","",54192
-"Pacification Array",1,"Artifact",,"aer","168",uncommon,c,Not Owned,Non-foil,false,,,"artifacts, manasink, tappers, u2.92, core","",62891
-"Stoneforge Masterwork",1,"Artifact - Equipment",,"ogw","166",rare,c,Not Owned,Non-foil,false,,,"tribal, tokens, tribal_payoff, heroic, u4.4, core","",59589
-"Sylvok Lifestaff",1,"Artifact - Equipment",,"som","209",common,c,Not Owned,Non-foil,false,,,"artifacts, sacrifice, lifegain, heroic, u2.60, core","",38173
-"Witch's Oven",1,"Artifact",,"eld","237",uncommon,c,Owned,Non-foil,false,,,"sacrifice, lifegain, tokens, artifacts, occasional","",78620
+"Pacification Array",1,"Artifact",,"aer","168",uncommon,c,Not Owned,Non-foil,false,,,"artifacts;manasink;tappers;u2.92;core;removal;control","",62891
+"Stoneforge Masterwork",1,"Artifact - Equipment",,"ogw","166",rare,c,Not Owned,Non-foil,false,,,"tribal;tokens;tribal_payoff;heroic;u4.4;occasional","",59589
+"Sylvok Lifestaff",1,"Artifact - Equipment",,"som","209",common,c,Not Owned,Non-foil,false,,,"artifacts;sacrifice;lifegain;heroic;u2.60;core;aggro;control","",38173
+"Witch's Oven",1,"Artifact",,"eld","237",uncommon,c,Owned,Non-foil,false,,,"sacrifice;lifegain;tokens;artifacts;occasional","",78620
 "Altar of Dementia",2,"Artifact",,"mh1","218",rare,c,Owned,Non-foil,false,,,"occasional","",72808
-"Contagion Clasp",2,"Artifact",,"som","144",uncommon,c,Not Owned,Non-foil,false,,,"counters, artifacts, counters_payoff, u2.60, u3.9, removal, core","",38085
-"Cranial Plating",2,"Artifact - Equipment",,"mm2","206",uncommon,Colorless,Not Owned,Non-foil,false,,,"artifacts, artifacts_payoff, aggrocontrol, heroic, u2.63, core","",57392
+"Contagion Clasp",2,"Artifact",,"som","144",uncommon,c,Not Owned,Non-foil,false,,,"counters;artifacts;counters_payoff;u2.60;u3.9;removal;core","",38085
+"Cranial Plating",2,"Artifact - Equipment",B,"mm2","206",uncommon,Colorless,Not Owned,Non-foil,false,,,"artifacts;artifacts_payoff;aggrocontrol;heroic;u2.63;core;aggro","",57392
 "Dolmen Gate",2,"Artifact",,"lrw","256",rare,c,Owned,Non-foil,false,,,"occasional","",28455
-"Goldvein Pick",2,"Artifact - Equipment",,"khm","239",common,c,Owned,Non-foil,false,,,"core, artifacts, ramp, heroic, fliers","",87821
+"Goldvein Pick",2,"Artifact - Equipment",,"khm","239",common,c,Owned,Non-foil,false,,,"core;artifacts;ramp;heroic;fliers;aggro","",87821
 "Howling Mine",2,"Artifact",,"c16","257",rare,c,Owned,Non-foil,false,,,"occasional","",
 "Jinxed Idol",2,"Artifact",,"m11","208",rare,c,Owned,Non-foil,false,,,"occasional","",37504
-"Lightning Greaves",2,"Artifact - Equipment",,"arc","110",uncommon,c,Not Owned,Non-foil,false,,,"artifacts, aggrocontrol, heroic, u2.0, core","",
-"Manriki-Gusari",2,"Artifact - Equipment",,"sok","156",uncommon,c,Owned,Non-foil,false,,,"core, artifacts, artifact_removal, heroic, fliers","",22006
-"Mask of Memory",2,"Artifact - Equipment",,"mrd","203",uncommon,c,Not Owned,Non-foil,false,,,"artifacts, graveyard, fliers, tappers, fliers_payoff, tappers_payoff, aggrocontrol, heroic, u3.8, core","",19907
-"Mazemind Tome",2,"Artifact",,"m21","232",rare,c,Owned,Non-foil,false,,,"core, control, manasink","",81691
+"Lightning Greaves",2,"Artifact - Equipment",,"arc","110",uncommon,c,Not Owned,Non-foil,false,,,"artifacts;aggrocontrol;heroic;u2.0;core;aggro;control","",
+"Manriki-Gusari",2,"Artifact - Equipment",,"sok","156",uncommon,c,Owned,Non-foil,false,,,"core;artifacts;artifact_removal;heroic;fliers;aggro","",22006
+"Mask of Memory",2,"Artifact - Equipment",,"mrd","203",uncommon,c,Not Owned,Non-foil,false,,,"artifacts;graveyard;fliers;tappers;fliers_payoff;tappers_payoff;aggrocontrol;heroic;u3.8;core;aggro","",19907
+"Mazemind Tome",2,"Artifact",,"m21","232",rare,c,Owned,Non-foil,false,,,"core;control;manasink;lifegain","",81691
 "Mesmeric Orb",2,"Artifact",,"mrd","204",rare,c,Owned,Non-foil,false,,,"occasional","",19761
 "Mortarpod",2,"Artifact - Equipment",,"mm2","222",uncommon,c,Owned,Non-foil,false,,,"occasional","",57284
 "Powder Keg",2,"Artifact",,"uds","136",rare,c,Owned,Non-foil,false,,,"occasional","",12939
-"Runechanter's Pike",2,"Artifact - Equipment",,"isd","231",rare,c,Not Owned,Non-foil,false,,,"spells, heroic, u2.60, u4.8, core, graveyard","",42692
-"Shrine of Burning Rage",2,"Artifact",,"nph","153",uncommon,c,Owned,Non-foil,false,,,"core, burn, artifacts","",39810
+"Runechanter's Pike",2,"Artifact - Equipment",,"isd","231",rare,c,Not Owned,Non-foil,false,,,"spells;heroic;u2.60;u4.8;graveyard;occasional","",42692
+"Shrine of Burning Rage",2,"Artifact",R,"nph","153",uncommon,Colorless,Owned,Non-foil,false,,,"core;burn;artifacts;removal;aggro;control","",39810
 "Shrine of Loyal Legions",2,"Artifact",,"md1","5",uncommon,c,Owned,Non-foil,false,,,"occasional","",
 "Strionic Resonator",2,"Artifact",,"c19","224",rare,c,Owned,Non-foil,false,,,"occasional","",77570
-"Sword of the Animist",2,"Legendary Artifact - Equipment",,"c17","227",rare,c,Owned,Non-foil,false,,,"occasional","",
-"Treasure Map",2,"Artifact",,"xln","250",rare,c,Owned,Non-foil,false,,,"occasional","",65528
+"Sword of the Animist",2,"Legendary Artifact - Equipment",,"ori","240",rare,c,Owned,Non-foil,false,,,"core;ramp;artifacts;heroic;aggro","",58134
+"Treasure Map",2,"Artifact",,"xln","250",rare,c,Owned,Non-foil,false,,,"core;artifacts;smoothing;control","",65528
 "Vulshok Morningstar",2,"Artifact - Equipment",,"ddi","66",uncommon,c,Owned,Non-foil,false,,,"occasional","",43776
 "Ashnod's Altar",3,"Artifact",,"ema","218",uncommon,c,Owned,Non-foil,false,,,"occasional","",60963
-"Chromatic Lantern",3,"Artifact",,"rtr","226",rare,c,Not Owned,Non-foil,false,,,"artifacts, rainbow, u2.0, u2.82, smoothing, occasional","",46783
+"Chromatic Lantern",3,"Artifact",,"rtr","226",rare,c,Not Owned,Non-foil,false,,,"artifacts;rainbow;u2.0;u2.82;smoothing;occasional","",46783
 "Crystal Ball",3,"Artifact",,"c18","201",uncommon,c,Owned,Non-foil,false,,,"occasional","",
 "Heraldic Banner",3,"Artifact",,"eld","222",uncommon,c,Owned,Non-foil,false,,,"occasional","",78590
-"Icon of Ancestry",3,"Artifact",,"m20","229",rare,c,Owned,Non-foil,false,,,"core, tribal_payoff, tribal, manasink","",73357
-"Oblivion Stone",3,"Artifact",,"mrd","222",rare,c,Not Owned,Non-foil,false,,,"manasink, control, artifacts, artifact_removal, enchantment_removal, u2.0, removal, core","",20101
-"Pristine Talisman",3,"Artifact",,"c13","255",common,c,Not Owned,Non-foil,false,,,"artifacts, lifegain, u2.0, u2.74, u3.2, core","",51136
+"Icon of Ancestry",3,"Artifact",,"m20","229",rare,c,Owned,Non-foil,false,,,"core;tribal_payoff;tribal;manasink","",73357
+"Oblivion Stone",3,"Artifact",,"mrd","222",rare,c,Not Owned,Non-foil,false,,,"manasink;control;artifacts;artifact_removal;enchantment_removal;u2.0;removal;core;wrath","",20101
+"Pristine Talisman",3,"Artifact",,"c13","255",common,c,Not Owned,Non-foil,false,,,"artifacts;lifegain;u2.0;u2.74;u3.2;core;control","",51136
+"Runed Crown",3,"Artifact - Equipment",,"khm","245",uncommon,c,Owned,Non-foil,false,,,"core;heroic;artifacts;manasink;smoothing;aggro","",87833
 "Sands of Delirium",3,"Artifact",,"m13","216",rare,c,Owned,Non-foil,false,,,"occasional","",45588
 "Vulshok Battlegear",3,"Artifact - Equipment",,"ddi","68",uncommon,c,Owned,Non-foil,false,,,"occasional","",43772
-"Bonehoard",4,"Artifact - Equipment",,"mbs","100",rare,c,Not Owned,Non-foil,false,,,"artifacts, graveyard, u2.0, core","",39503
-"Cosmos Elixir",4,"Artifact",,"khm","237",rare,c,Owned,Non-foil,false,,,"core, lifegain, lifegain_payoff, control, artifacts","",87817
+"Bonehoard",4,"Artifact - Equipment",,"mbs","100",rare,c,Not Owned,Non-foil,false,,,"artifacts;graveyard;u2.0;core;aggro;control","",39503
+"Cosmos Elixir",4,"Artifact",,"khm","237",rare,c,Owned,Non-foil,false,,,"core;lifegain;lifegain_payoff;control;artifacts","",87817
 "Erratic Portal",4,"Artifact",,"exo","132",rare,c,Owned,Non-foil,false,,,"occasional","",10645
 "Goblin Charbelcher",4,"Artifact",,"ddt","57",rare,c,Owned,Non-foil,false,,,"occasional","",
 "Icy Manipulator",4,"Artifact",,"dom","219",uncommon,c,Owned,Non-foil,false,,,"occasional","",67903
-"Maskwood Nexus",4,"Artifact",,"khm","240",rare,c,Owned,Non-foil,false,,,"core, tribal, tokens, manasink","",87823
+"Maskwood Nexus",4,"Artifact",,"khm","240",rare,c,Owned,Non-foil,false,,,"core;tribal;tokens;manasink;control","",87823
 "Nevinyrral's Disk",4,"Artifact",,"c17","217",rare,c,Owned,Non-foil,false,,,"occasional","",
 "Panharmonicon",4,"Artifact",,"kld","226",rare,c,Owned,Non-foil,false,,,"occasional","",61801
-"Serrated Arrows",4,"Artifact",,"tsb","114",special,c,Not Owned,Non-foil,false,,,"artifacts, counters, pingers, u2.0, removal, core","",26065
-"Skull Catapult",4,"Artifact",,"cst","336",uncommon,c,Owned,Non-foil,false,,,"core, artifacts, sacrifice, burn, removal","",
+"Serrated Arrows",4,"Artifact",,"tsb","114",special,c,Not Owned,Non-foil,false,,,"artifacts;counters;pingers;u2.0;removal;core;control","",26065
+"Skull Catapult",4,"Artifact",,"ice","336",uncommon,c,Owned,Non-foil,false,,,"core;artifacts;sacrifice;burn;removal","",24459
 "Smokestack",4,"Artifact",,"v14","11",mythic,c,Owned,Non-foil,false,,,"occasional","",53941
 "Trading Post",4,"Artifact",,"cm2","225",rare,c,Owned,Non-foil,false,,,"occasional","",
 "Untethered Express",4,"Artifact - Vehicle",,"aer","179",uncommon,c,Owned,Non-foil,false,,,"occasional","",62885
-"Well of Lost Dreams",4,"Artifact",,"c17","231",rare,c,Owned,Non-foil,false,,,"occasional","",
-"Conjurer's Closet",5,"Artifact",,"avr","214",rare,c,Not Owned,Non-foil,false,,,"artifacts, blink, u2.0, u4.7, core","",43927
+"Well of Lost Dreams",4,"Artifact",,"dst","159",rare,c,Owned,Non-foil,false,,,"occasional","",20563
+"Conjurer's Closet",5,"Artifact",,"avr","214",rare,c,Not Owned,Non-foil,false,,,"artifacts;blink;u2.0;u4.7;core","",43927
 "Contagion Engine",6,"Artifact",,"som","145",rare,c,Owned,Non-foil,false,,,"occasional","",38351
-"Obelisk of Urd",6,"Artifact",,"m15","222",rare,c,Not Owned,Non-foil,false,,,"tribal, tokens, tribal_payoff, u2.0, u4.2, occasional","",53650
-"Celestial Colonnade",0,"Land",WU,"wwk","133",rare,l,Owned,Non-foil,false,,,"manasink, core","",35639
+"Obelisk of Urd",6,"Artifact",,"m15","222",rare,c,Not Owned,Non-foil,false,,,"tribal;tokens;tribal_payoff;u2.0;u4.2;occasional","",53650
+"Azorius Chancery",0,"Land",UW,"c18","233",uncommon,l,Owned,Non-foil,false,,,"core","",
+"Celestial Colonnade",0,"Land",WU,"wwk","133",rare,l,Owned,Non-foil,false,,,"manasink;fliers;occasional","",35639
 "Gates of Istfell",0,"Land",UW,"khm","256",uncommon,l,Owned,Non-foil,false,,,"occasional","",87861
-"Glacial Fortress",0,"Land",WU,"m11","225",rare,l,Not Owned,Non-foil,false,,,"u2.0, core","",37222
+"Glacial Fortress",0,"Land",WU,"m10","226",rare,l,Owned,Non-foil,false,,,"core","",32817
 "Hallowed Fountain",0,"Land - Plains Island",UW,"rtr","241",rare,l,Owned,Non-foil,false,,,"core","",46503
-"Creeping Tar Pit",0,"Land",BU,"wwk","134",rare,l,Owned,Non-foil,false,,,"manasink, core","",35657
-"Drowned Catacomb",0,"Land",UB,"e01","94",rare,l,Owned,Non-foil,false,,,"core","",
+"Creeping Tar Pit",0,"Land",UB,"wwk","134",rare,l,Owned,Non-foil,false,,,"manasink;occasional","",35657
+"Dimir Aqueduct",0,"Land",BU,"pc2","116",common,l,Owned,Non-foil,false,,,"core","",45144
+"Drowned Catacomb",0,"Land",UB,"m10","224",rare,l,Owned,Non-foil,false,,,"core","",32837
 "Port of Karfell",0,"Land",BU,"khm","265",uncommon,l,Owned,Non-foil,false,,,"occasional","",87881
 "Watery Grave",0,"Land - Island Swamp",UB,"gtc","249",rare,l,Owned,Non-foil,false,,,"core","",47471
 "Blood Crypt",0,"Land - Swamp Mountain",BR,"rtr","238",rare,l,Owned,Non-foil,false,,,"core","",46505
-"Dragonskull Summit",0,"Land",BR,"m10","223",rare,l,Not Owned,Non-foil,false,,,"u2.0, core","",32863
+"Dragonskull Summit",0,"Land",BR,"m10","223",rare,l,Owned,Non-foil,false,,,"core","",32863
 "Immersturm Skullcairn",0,"Land",BR,"khm","263",uncommon,l,Owned,Non-foil,false,,,"occasional","",87877
-"Lavaclaw Reaches",0,"Land",BR,"wwk","139",rare,l,Owned,Non-foil,false,,,"manasink, core","",35665
+"Lavaclaw Reaches",0,"Land",BR,"wwk","139",rare,l,Owned,Non-foil,false,,,"manasink;occasional","",35665
+"Rakdos Carnarium",0,"Land",BR,"cma","266",common,l,Owned,Non-foil,false,,,"core","",
 "Gnottvold Slumbermound",0,"Land",GR,"khm","258",uncommon,l,Owned,Non-foil,false,,,"occasional","",87865
+"Gruul Turf",0,"Land",GR,"mm2","244",uncommon,l,Owned,Non-foil,false,,,"core","",57468
 "Kessig Wolf Run",0,"Land",GR,"c20","284",rare,l,Owned,Non-foil,false,,,"occasional","",
-"Raging Ravine",0,"Land",GR,"wwk","141",rare,l,Owned,Non-foil,false,,,"manasink, core","",35675
-"Rootbound Crag",0,"Land",RG,"m12","228",rare,l,Owned,Non-foil,false,,,"core","",41219
+"Raging Ravine",0,"Land",RG,"wwk","141",rare,l,Owned,Non-foil,false,,,"manasink;counters;occasional","",35675
+"Rootbound Crag",0,"Land",RG,"m10","227",rare,l,Owned,Non-foil,false,,,"core","",32831
 "Stomping Ground",0,"Land - Mountain Forest",RG,"gtc","247",rare,l,Owned,Non-foil,false,,,"core","",47803
 "Bretagard Stronghold",0,"Land",GW,"khm","253",uncommon,l,Owned,Non-foil,false,,,"occasional","",87853
-"Stirring Wildwood",0,"Land",GW,"wwk","144",rare,l,Owned,Non-foil,false,,,"manasink, core","",35679
-"Sunpetal Grove",0,"Land",WG,"m12","229",rare,l,Owned,Non-foil,false,,,"core","",41229
+"Selesnya Sanctuary",0,"Land",GW,"c16","324",uncommon,l,Owned,Non-foil,false,,,"core","",
+"Stirring Wildwood",0,"Land",WG,"wwk","144",rare,l,Owned,Non-foil,false,,,"manasink;occasional","",35679
+"Sunpetal Grove",0,"Land",WG,"m10","228",rare,l,Owned,Non-foil,false,,,"core","",32873
 "Temple Garden",0,"Land - Forest Plains",WG,"rtr","248",rare,l,Owned,Non-foil,false,,,"core","",46501
 "Godless Shrine",0,"Land - Plains Swamp",BW,"gtc","242",rare,l,Owned,Non-foil,false,,,"core","",47453
 "Great Hall of Starnheim",0,"Land",BW,"khm","259",uncommon,l,Owned,Non-foil,false,,,"occasional","",87867
-"Isolated Chapel",0,"Land",WB,"md1","16",rare,l,Owned,Non-foil,false,,,"core","",
-"Shambling Vent",0,"Land",BW,"bfz","244",rare,l,Owned,Non-foil,false,,,"manasink, core","",58531
+"Isolated Chapel",0,"Land",WB,"isd","242",rare,l,Owned,Non-foil,false,,,"core","",42652
+"Orzhov Basilica",0,"Land",BW,"cma","264",common,l,Owned,Non-foil,false,,,"core","",
+"Shambling Vent",0,"Land",WB,"bfz","244",rare,l,Owned,Non-foil,false,,,"manasink;lifegain;occasional","",58531
+"Izzet Boilerworks",0,"Land",RU,"gk1","47",common,l,Owned,Non-foil,false,,,"core","",
 "Steam Vents",0,"Land - Island Mountain",UR,"rtr","247",rare,l,Owned,Non-foil,false,,,"core","",46805
-"Sulfur Falls",0,"Land",UR,"isd","248",rare,l,Owned,Non-foil,false,,,"core","",42668
+"Sulfur Falls",0,"Land",RU,"isd","248",rare,l,Owned,Non-foil,false,,,"core","",42668
 "Surtland Frostpyre",0,"Land",RU,"khm","271",uncommon,l,Owned,Non-foil,false,,,"occasional","",87893
-"Wandering Fumarole",0,"Land",RU,"ogw","182",rare,l,Owned,Non-foil,false,,,"manasink, core","",59259
-"Hissing Quagmire",0,"Land",BG,"ogw","171",rare,l,Owned,Non-foil,false,,,"manasink, core","",59255
+"Wandering Fumarole",0,"Land",UR,"ogw","182",rare,l,Owned,Non-foil,false,,,"manasink;occasional","",59259
+"Golgari Rot Farm",0,"Land",BG,"rav","278",common,l,Owned,Non-foil,false,,,"core","",23206
+"Hissing Quagmire",0,"Land",BG,"ogw","171",rare,l,Owned,Non-foil,false,,,"manasink;occasional","",59255
 "Overgrown Tomb",0,"Land - Swamp Forest",BG,"rtr","243",rare,l,Owned,Non-foil,false,,,"core","",46507
 "Skemfar Elderhall",0,"Land",BG,"khm","268",uncommon,l,Owned,Non-foil,false,,,"occasional","",87887
-"Woodland Cemetery",0,"Land",BG,"isd","249",rare,l,Not Owned,Non-foil,false,,,"u2.0, core","",42660
+"Woodland Cemetery",0,"Land",BG,"isd","249",rare,l,Owned,Non-foil,false,,,"core","",42660
 "Axgard Armory",0,"Land",RW,"khm","250",uncommon,l,Owned,Non-foil,false,,,"occasional","",87843
-"Clifftop Retreat",0,"Land",WR,"dom","239",rare,l,Owned,Non-foil,false,,,"core","",67943
-"Needle Spires",0,"Land",RW,"ogw","175",rare,l,Owned,Non-foil,false,,,"manasink, core","",59257
+"Boros Garrison",0,"Land",RW,"ima","233",uncommon,l,Owned,Non-foil,false,,,"core","",66345
+"Clifftop Retreat",0,"Land",WR,"isd","238",rare,l,Owned,Non-foil,false,,,"core","",42654
+"Needle Spires",0,"Land",WR,"ogw","175",rare,l,Owned,Non-foil,false,,,"manasink;occasional","",59257
 "Sacred Foundry",0,"Land - Mountain Plains",RW,"gtc","245",rare,l,Owned,Non-foil,false,,,"core","",47815
 "Breeding Pool",0,"Land - Forest Island",UG,"gtc","240",rare,l,Owned,Non-foil,false,,,"core","",47475
-"Hinterland Harbor",0,"Land",UG,"isd","241",rare,l,Not Owned,Non-foil,false,,,"u2.0, core","",42670
+"Hinterland Harbor",0,"Land",GU,"isd","241",rare,l,Owned,Non-foil,false,,,"core","",42670
 "Littjara Mirrorlake",0,"Land",GU,"khm","264",uncommon,l,Owned,Non-foil,false,,,"occasional","",87879
-"Lumbering Falls",0,"Land",GU,"bfz","239",rare,l,Owned,Non-foil,false,,,"manasink, core","",58529
-"Seaside Citadel",0,"Land",WUG,"ala","229",uncommon,l,Not Owned,Non-foil,false,,,"u2.0, core","",31015
-"Arcane Sanctum",0,"Land",WUB,"ala","220",uncommon,l,Not Owned,Non-foil,false,,,"u2.0, core","",31205
-"Crumbling Necropolis",0,"Land",UBR,"ala","222",uncommon,l,Not Owned,Non-foil,false,,,"u2.0, core","",31183
-"Savage Lands",0,"Land",BRG,"ala","228",uncommon,l,Not Owned,Non-foil,false,,,"u2.0, core","",30945
-"Jungle Shrine",0,"Land",WRG,"ala","226",uncommon,l,Not Owned,Non-foil,false,,,"u2.0, core","",31131
-"Nomad Outpost",0,"Land",WBR,"ktk","237",uncommon,l,Not Owned,Non-foil,false,,,"u2.0, core","",54166
-"Frontier Bivouac",0,"Land",URG,"ktk","234",uncommon,l,Not Owned,Non-foil,false,,,"u2.0, core","",54168
-"Sandsteppe Citadel",0,"Land",WBG,"ktk","241",uncommon,l,Not Owned,Non-foil,false,,,"u2.0, core","",54160
-"Mystic Monastery",0,"Land",WUR,"ktk","236",uncommon,l,Not Owned,Non-foil,false,,,"u2.0, core","",54162
-"Opulent Palace",0,"Land",UBG,"ktk","238",uncommon,l,Not Owned,Non-foil,false,,,"u2.0, core","",54164
-"Ash Barrens",0,"Land",,"a25","236",uncommon,l,Not Owned,Non-foil,false,,,"graveyard, u4.9, core","",67386
+"Lumbering Falls",0,"Land",UG,"bfz","239",rare,l,Owned,Non-foil,false,,,"manasink;occasional","",58529
+"Simic Growth Chamber",0,"Land",GU,"c18","282",uncommon,l,Owned,Non-foil,false,,,"core","",
+"Ash Barrens",0,"Land",,"a25","236",uncommon,l,Not Owned,Non-foil,false,,,"graveyard;u4.9;core","",67386
+"Barren Moor",0,"Land",B,"ons","312",common,l,Owned,Non-foil,false,,,"core;smoothing","",18239
 "Bloodstained Mire",0,"Land",,"ktk","230",rare,l,Owned,Non-foil,false,,,"occasional","",54198
-"Castle Ardenvale",0,"Land",W,"eld","238",rare,l,Owned,Non-foil,false,,,"core, tokens, wide, manasink, control, humans","",78622
-"Castle Embereth",0,"Land",R,"eld","239",rare,l,Owned,Non-foil,false,,,"core, wide, manasink, tokens","",78624
-"Castle Locthwain",0,"Land",B,"eld","241",rare,l,Owned,Non-foil,false,,,"manasink, lifegain, occasional","",78628
-"Castle Vantress",0,"Land",U,"eld","242",rare,l,Owned,Non-foil,false,,,"core, manasink, control","",78630
-"Evolving Wilds",0,"Land",,"bfz","236",common,l,Not Owned,Non-foil,false,,,"u2.0, core","",58527
-"Fabled Passage",0,"Land",,"eld","244",rare,l,Not Owned,Non-foil,false,,,"u4.8, core","",78634
+"Castle Ardenvale",0,"Land",W,"eld","238",rare,l,Owned,Non-foil,false,,,"core;tokens;wide;manasink;control;humans","",78622
+"Castle Embereth",0,"Land",R,"eld","239",rare,l,Owned,Non-foil,false,,,"core;wide;manasink;tokens","",78624
+"Castle Locthwain",0,"Land",B,"eld","241",rare,l,Owned,Non-foil,false,,,"manasink;lifegain;occasional","",78628
+"Castle Vantress",0,"Land",U,"eld","242",rare,l,Owned,Non-foil,false,,,"core;manasink;control","",78630
+"Cave of the Frost Dragon",0,"Land",W,"afr","253",rare,l,Owned,Non-foil,false,,,"core;manasink;fliers","",92008
+"Den of the Bugbear",0,"Land",R,"afr","254",rare,l,Owned,Non-foil,false,,,"core;tokens;manasink;wide","",92010
+"Evolving Wilds",0,"Land",,"bfz","236",common,l,Not Owned,Non-foil,false,,,"u2.0;core","",58527
+"Fabled Passage",0,"Land",,"eld","244",rare,l,Not Owned,Non-foil,false,,,"u4.8;core","",78634
 "Faerie Conclave",0,"Land",U,"cma","248",uncommon,l,Owned,Non-foil,false,,,"occasional","",
 "Flooded Strand",0,"Land",,"ktk","233",rare,l,Owned,Non-foil,false,,,"occasional","",54194
+"Forgotten Cave",0,"Land",R,"ons","317",common,l,Owned,Non-foil,false,,,"core;smoothing","",18267
 "Ghitu Encampment",0,"Land",R,"ddn","33",uncommon,l,Owned,Non-foil,false,,,"occasional","",
-"Ifnir Deadlands",0,"Land - Desert",B,"hou","179",uncommon,l,Owned,Non-foil,false,,,"core, counters, manasink","",64882
-"Karn's Bastion",0,"Land",,"war","248",rare,l,Not Owned,Non-foil,false,,,"counters, manasink, counters_payoff, u4.7, occasional","",72102
+"Hall of Storm Giants",0,"Land",U,"afr","257",rare,l,Owned,Non-foil,false,,,"core;manasink","",92016
+"Hive of the Eye Tyrant",0,"Land",B,"afr","258",rare,l,Owned,Non-foil,false,,,"core;manasink","",92018
+"Ifnir Deadlands",0,"Land - Desert",B,"hou","179",uncommon,l,Owned,Non-foil,false,,,"core;counters;manasink;removal","",64882
+"Karn's Bastion",0,"Land",,"war","248",rare,l,Not Owned,Non-foil,false,,,"counters;manasink;counters_payoff;u4.7;occasional","",72102
 "Khalni Garden",0,"Land",G,"c18","262",common,l,Owned,Non-foil,false,,,"occasional","",
+"Lair of the Hydra",0,"Land",G,"afr","259",rare,l,Owned,Non-foil,false,,,"core;manasink","",92020
 "Llanowar Reborn",0,"Land",G,"c15","293",uncommon,l,Owned,Non-foil,false,,,"occasional","",
-"Memorial to Unity",0,"Land",G,"dom","245",uncommon,l,Owned,Non-foil,false,,,"core, manasink","",67955
+"Lonely Sandbar",0,"Land",U,"ons","320",common,l,Owned,Non-foil,false,,,"core;smoothing","",18237
+"Memorial to Unity",0,"Land",G,"dom","245",uncommon,l,Owned,Non-foil,false,,,"core;manasink","",67955
 "Mishra's Factory",0,"Land",,"a25","242",uncommon,l,Owned,Non-foil,false,,,"occasional","",67398
-"Mutavault",0,"Land",,"m14","228",rare,l,Not Owned,Non-foil,false,,,"tribal, manasink, u4.7.7, core","",49135
+"Mutavault",0,"Land",,"m14","228",rare,l,Not Owned,Non-foil,false,,,"tribal;manasink;u4.7.7;core","",49135
 "Polluted Delta",0,"Land",,"ktk","239",rare,l,Owned,Non-foil,false,,,"occasional","",54196
+"Riptide Laboratory",0,"Land",U,"mh2","303",rare,l,Owned,Non-foil,false,,,"core;wizards;blink","",91033
+"Secluded Steppe",0,"Land",W,"ons","324",common,l,Owned,Non-foil,false,,,"core;smoothing","",18235
 "Stalking Stones",0,"Land",,"ddf","75",uncommon,l,Owned,Non-foil,false,,,"occasional","",37718
-"Terramorphic Expanse",0,"Land",,"arc","134",common,l,Not Owned,Non-foil,false,,,"u2.0, core","",
+"Terramorphic Expanse",0,"Land",,"arc","134",common,l,Not Owned,Non-foil,false,,,"u2.0;core","",
 "Thawing Glaciers",0,"Land",,"all","144",rare,l,Owned,Non-foil,false,,,"occasional","",
+"Tranquil Thicket",0,"Land",G,"ons","326",common,l,Owned,Non-foil,false,,,"core;smoothing","",18243
 "Treetop Village",0,"Land",G,"ddu","30",uncommon,l,Owned,Non-foil,false,,,"occasional","",
 "Westvale Abbey",0,"Land",B,"soi","281",rare,l,Owned,Non-foil,false,,,"occasional","",59810
 "Windswept Heath",0,"Land",,"ktk","248",rare,l,Owned,Non-foil,false,,,"occasional","",54202

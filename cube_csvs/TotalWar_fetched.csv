@@ -1,106 +1,392 @@
 Name,CMC,Type,Color,Set,Collector Number,Rarity,Color Category,Status,Finish,Maybeboard,Image URL,Image Back URL,Tags,Notes,MTGO ID
-"Usher of the Fallen",1,"Creature - Spirit Warrior",W,"khm","35",uncommon,w,Owned,Non-foil,false,,,"common","",87393
-"Steadfast Cathar",2,"Creature - Human Soldier",W,"emn","44",common,w,Owned,Non-foil,false,,,"common","",61074
-"Masako the Humorless",3,"Legendary Creature - Human Advisor",W,"chk","33",rare,w,Owned,Non-foil,false,,,"hero;uncommon","",21221
-"Odric, Lunarch Marshal",4,"Legendary Creature - Human Soldier",W,"cmr","379",rare,w,Owned,Non-foil,false,,,"hero;uncommon","",85572
-"Catapult Master",5,"Creature - Human Soldier",W,"ddf","18",rare,w,Owned,Non-foil,false,,,"common","",37706
+"Deftblade Elite",1,"Creature - Human Soldier",W,"lgn","12",common,w,Owned,Non-foil,false,,,"common","",18617
+"Deftblade Elite",1,"Creature - Human Soldier",W,"lgn","12",common,w,Owned,Non-foil,false,,,"","",18617
+"Deftblade Elite",1,"Creature - Human Soldier",W,"lgn","12",common,w,Owned,Non-foil,false,,,"","",18617
+"Deftblade Elite",1,"Creature - Human Soldier",W,"lgn","12",common,w,Owned,Non-foil,false,,,"","",18617
+"Catapult Squad",2,"Creature - Human Soldier",W,"ons","11",uncommon,w,Owned,Non-foil,false,,,"common","",17721
+"Catapult Squad",2,"Creature - Human Soldier",W,"ons","11",uncommon,w,Owned,Non-foil,false,,,"","",17721
+"Catapult Squad",2,"Creature - Human Soldier",W,"ons","11",uncommon,w,Owned,Non-foil,false,,,"","",17721
+"Catapult Squad",2,"Creature - Human Soldier",W,"ons","11",uncommon,w,Owned,Non-foil,false,,,"","",17721
+"Trueheart Duelist",2,"Creature - Human Warrior",W,"akh","35",uncommon,w,Owned,Non-foil,false,,,"common","",63672
+"Trueheart Duelist",2,"Creature - Human Warrior",W,"akh","35",uncommon,w,Owned,Non-foil,false,,,"","",63672
+"Trueheart Duelist",2,"Creature - Human Warrior",W,"akh","35",uncommon,w,Owned,Non-foil,false,,,"","",63672
+"Trueheart Duelist",2,"Creature - Human Warrior",W,"akh","35",uncommon,w,Owned,Non-foil,false,,,"","",63672
+"Odric, Lunarch Marshal",4,"Legendary Creature - Human Soldier",W,"soi","31",rare,w,Owned,Non-foil,false,,,"hero;uncommon","",59944
+"Odric, Lunarch Marshal",4,"Legendary Creature - Human Soldier",W,"soi","31",rare,w,Owned,Non-foil,false,,,"","",59944
 "Kabira Takedown",2,"Instant",W,"znr","19",uncommon,w,Owned,Non-foil,false,,,"uncommon","",82975
+"Kabira Takedown",2,"Instant",W,"znr","19",uncommon,w,Owned,Non-foil,false,,,"","",82975
 "Raise the Alarm",2,"Instant",W,"md1","8",common,w,Owned,Non-foil,false,,,"army;mundane","",
+"Raise the Alarm",2,"Instant",W,"md1","8",common,w,Owned,Non-foil,false,,,"","",
+"Raise the Alarm",2,"Instant",W,"md1","8",common,w,Owned,Non-foil,false,,,"","",
+"Raise the Alarm",2,"Instant",W,"md1","8",common,w,Owned,Non-foil,false,,,"","",
+"Raise the Alarm",2,"Instant",W,"md1","8",common,w,Owned,Non-foil,false,,,"","",
+"Raise the Alarm",2,"Instant",W,"md1","8",common,w,Owned,Non-foil,false,,,"","",
+"Raise the Alarm",2,"Instant",W,"md1","8",common,w,Owned,Non-foil,false,,,"","",
+"Raise the Alarm",2,"Instant",W,"md1","8",common,w,Owned,Non-foil,false,,,"","",
+"Raise the Alarm",2,"Instant",W,"md1","8",common,w,Owned,Non-foil,false,,,"","",
+"Raise the Alarm",2,"Instant",W,"md1","8",common,w,Owned,Non-foil,false,,,"","",
+"Raise the Alarm",2,"Instant",W,"md1","8",common,w,Owned,Non-foil,false,,,"","",
+"Raise the Alarm",2,"Instant",W,"md1","8",common,w,Owned,Non-foil,false,,,"","",
+"Raise the Alarm",2,"Instant",W,"md1","8",common,w,Owned,Non-foil,false,,,"","",
+"Raise the Alarm",2,"Instant",W,"md1","8",common,w,Owned,Non-foil,false,,,"","",
+"Raise the Alarm",2,"Instant",W,"md1","8",common,w,Owned,Non-foil,false,,,"","",
+"Raise the Alarm",2,"Instant",W,"md1","8",common,w,Owned,Non-foil,false,,,"","",
 "Warhorn Blast",5,"Instant",W,"khm","38",common,w,Owned,Non-foil,false,,,"uncommon","",87399
-"Call the Cavalry",4,"Sorcery",W,"gnt","10",common,w,Owned,Non-foil,false,,,"army;common","",
+"Warhorn Blast",5,"Instant",W,"khm","38",common,w,Owned,Non-foil,false,,,"","",87399
+"Peace Talks",2,"Sorcery",W,"vis","15",uncommon,w,Owned,Non-foil,false,,,"rare;now_or_never","",7663
+"Call the Cavalry",4,"Sorcery",W,"dom","9",common,w,Owned,Non-foil,false,,,"army;common","",67483
+"Call the Cavalry",4,"Sorcery",W,"dom","9",common,w,Owned,Non-foil,false,,,"","",67483
+"Call the Cavalry",4,"Sorcery",W,"dom","9",common,w,Owned,Non-foil,false,,,"","",67483
+"Call the Cavalry",4,"Sorcery",W,"dom","9",common,w,Owned,Non-foil,false,,,"","",67483
 "Doomskar",5,"Sorcery",W,"khm","9",rare,w,Owned,Non-foil,false,,,"common","",87337
+"Doomskar",5,"Sorcery",W,"khm","9",rare,w,Owned,Non-foil,false,,,"","",87337
+"Doomskar",5,"Sorcery",W,"khm","9",rare,w,Owned,Non-foil,false,,,"","",87337
+"Doomskar",5,"Sorcery",W,"khm","9",rare,w,Owned,Non-foil,false,,,"","",87337
 "Wave of Reckoning",5,"Sorcery",W,"mmq","56",rare,w,Owned,Non-foil,false,,,"uncommon","",13667
-"Ancestral Blade",2,"Artifact - Equipment",W,"m20","3",uncommon,w,Owned,Non-foil,false,,,"equip;uncommon","",72905
+"Wave of Reckoning",5,"Sorcery",W,"mmq","56",rare,w,Owned,Non-foil,false,,,"","",13667
+"Ancestral Blade",2,"Artifact - Equipment",W,"m20","3",uncommon,w,Owned,Non-foil,false,,,"equip;uncommon;weapon","",72905
+"Ancestral Blade",2,"Artifact - Equipment",W,"m20","3",uncommon,w,Owned,Non-foil,false,,,"","",72905
+"Dawn of Hope",2,"Enchantment",W,"grn","8",rare,w,Owned,Non-foil,false,,,"rare","",69389
 "Rune of Sustenance",2,"Enchantment - Aura Rune",W,"khm","25",uncommon,w,Owned,Non-foil,false,,,"rare","",87373
 "Mobilization",3,"Enchantment",W,"ons","44",rare,w,Owned,Non-foil,false,,,"army;uncommon","",17725
-"Commander's Authority",5,"Enchantment - Aura",W,"avr","13",uncommon,w,Owned,Non-foil,false,,,"uncommon","",44265
+"Mobilization",3,"Enchantment",W,"ons","44",rare,w,Owned,Non-foil,false,,,"","",17725
+"Kjeldoran Outpost",0,"Land",W,"all","139",rare,White,Owned,Non-foil,false,,,"army;common","",
+"Kjeldoran Outpost",0,"Land",W,"all","139",rare,White,Owned,Non-foil,false,,,"","",
+"Kjeldoran Outpost",0,"Land",W,"all","139",rare,White,Owned,Non-foil,false,,,"","",
+"Kjeldoran Outpost",0,"Land",W,"all","139",rare,White,Owned,Non-foil,false,,,"","",
 "Proven Combatant",1,"Creature - Human Warrior",U,"hou","42",common,u,Owned,Non-foil,false,,,"common","",64568
+"Proven Combatant",1,"Creature - Human Warrior",U,"hou","42",common,u,Owned,Non-foil,false,,,"","",64568
+"Proven Combatant",1,"Creature - Human Warrior",U,"hou","42",common,u,Owned,Non-foil,false,,,"","",64568
+"Proven Combatant",1,"Creature - Human Warrior",U,"hou","42",common,u,Owned,Non-foil,false,,,"","",64568
 "Shu Yun, the Silent Tempest",3,"Legendary Creature - Human Monk",U,"frf","52",rare,m,Owned,Non-foil,false,,,"uncommon","",55342
-"Wu Longbowman",3,"Creature - Human Soldier Archer",U,"ptk","61",uncommon,u,Owned,Non-foil,false,,,"common","",
-"Keep Watch",3,"Instant",U,"jud","43",common,u,Owned,Non-foil,false,,,"uncommon","",17446
-"Ravenform",3,"Sorcery",U,"khm","72",common,u,Owned,Non-foil,false,,,"common","",87471
+"Shu Yun, the Silent Tempest",3,"Legendary Creature - Human Monk",U,"frf","52",rare,m,Owned,Non-foil,false,,,"","",55342
+"Wu Longbowman",3,"Creature - Human Soldier Archer",U,"me3","55",common,u,Owned,Non-foil,false,,,"common;now_or_never","",33778
+"Wu Longbowman",3,"Creature - Human Soldier Archer",U,"me3","55",common,u,Owned,Non-foil,false,,,"","",33778
+"Wu Longbowman",3,"Creature - Human Soldier Archer",U,"me3","55",common,u,Owned,Non-foil,false,,,"","",33778
+"Wu Longbowman",3,"Creature - Human Soldier Archer",U,"me3","55",common,u,Owned,Non-foil,false,,,"","",33778
+"Keep Watch",3,"Instant",U,"jud","43",common,u,Owned,Non-foil,false,,,"common;now_or_never","",17446
+"Keep Watch",3,"Instant",U,"jud","43",common,u,Owned,Non-foil,false,,,"","",17446
+"Keep Watch",3,"Instant",U,"jud","43",common,u,Owned,Non-foil,false,,,"","",17446
+"Keep Watch",3,"Instant",U,"jud","43",common,u,Owned,Non-foil,false,,,"","",17446
+"Ravenform",3,"Sorcery",U,"khm","72",common,u,Owned,Non-foil,false,,,"uncommon","",87471
+"Ravenform",3,"Sorcery",U,"khm","72",common,u,Owned,Non-foil,false,,,"","",87471
 "Rune of Flight",2,"Enchantment - Aura Rune",U,"khm","75",uncommon,u,Owned,Non-foil,false,,,"rare","",87477
 "Trade Routes",2,"Enchantment",U,"9ed","108",rare,u,Owned,Non-foil,false,,,"uncommon","",22475
+"Trade Routes",2,"Enchantment",U,"9ed","108",rare,u,Owned,Non-foil,false,,,"","",22475
 "Mechanized Production",4,"Enchantment - Aura",U,"aer","38",mythic,u,Owned,Non-foil,false,,,"uncommon","",62559
+"Mechanized Production",4,"Enchantment - Aura",U,"aer","38",mythic,u,Owned,Non-foil,false,,,"","",62559
 "Steal Artifact",4,"Enchantment - Aura",U,"7ed","99",uncommon,u,Owned,Non-foil,false,,,"uncommon","",15874
+"Steal Artifact",4,"Enchantment - Aura",U,"7ed","99",uncommon,u,Owned,Non-foil,false,,,"","",15874
+"Deathknell Berserker",2,"Creature - Elf Berserker",B,"khm","83",common,b,Owned,Non-foil,false,,,"common","",87493
+"Deathknell Berserker",2,"Creature - Elf Berserker",B,"khm","83",common,b,Owned,Non-foil,false,,,"","",87493
+"Deathknell Berserker",2,"Creature - Elf Berserker",B,"khm","83",common,b,Owned,Non-foil,false,,,"","",87493
+"Deathknell Berserker",2,"Creature - Elf Berserker",B,"khm","83",common,b,Owned,Non-foil,false,,,"","",87493
 "Belle of the Brawl",3,"Creature - Human Knight",B,"eld","78",uncommon,b,Owned,Non-foil,false,,,"uncommon","",78268
+"Belle of the Brawl",3,"Creature - Human Knight",B,"eld","78",uncommon,b,Owned,Non-foil,false,,,"","",78268
+"Liliana's Standard Bearer",3,"Creature - Zombie Knight",B,"m21","110",rare,b,Owned,Non-foil,false,,,"uncommon","",81447
+"Liliana's Standard Bearer",3,"Creature - Zombie Knight",B,"m21","110",rare,b,Owned,Non-foil,false,,,"","",81447
 "Toshiro Umezawa",3,"Legendary Creature - Human Samurai",B,"bok","89",rare,b,Owned,Non-foil,false,,,"uncommon","",21705
-"Poison the Cup",3,"Instant",B,"khm","103",uncommon,b,Owned,Non-foil,false,,,"common","",87535
+"Toshiro Umezawa",3,"Legendary Creature - Human Samurai",B,"bok","89",rare,b,Owned,Non-foil,false,,,"","",21705
+"Poison the Cup",3,"Instant",B,"khm","103",uncommon,b,Owned,Non-foil,false,,,"uncommon","",87535
+"Poison the Cup",3,"Instant",B,"khm","103",uncommon,b,Owned,Non-foil,false,,,"","",87535
 "Rise of the Dread Marn",3,"Instant",B,"khm","107",rare,b,Owned,Non-foil,false,,,"army;common","",87543
-"Murderous Spoils",6,"Instant",B,"dst","48",uncommon,b,Owned,Non-foil,false,,,"uncommon","",20337
-"Army of the Damned",8,"Sorcery",B,"c13","69",mythic,b,Owned,Non-foil,false,,,"army;rare","",51156
-"Draugr's Helm",2,"Artifact - Equipment",B,"khm","88",uncommon,b,Owned,Non-foil,false,,,"equip;uncommon","",87503
+"Rise of the Dread Marn",3,"Instant",B,"khm","107",rare,b,Owned,Non-foil,false,,,"","",87543
+"Rise of the Dread Marn",3,"Instant",B,"khm","107",rare,b,Owned,Non-foil,false,,,"","",87543
+"Rise of the Dread Marn",3,"Instant",B,"khm","107",rare,b,Owned,Non-foil,false,,,"","",87543
+"Murderous Spoils",6,"Instant",B,"dst","48",uncommon,b,Owned,Non-foil,false,,,"uncommon;now_or_never","",20337
+"Murderous Spoils",6,"Instant",B,"dst","48",uncommon,b,Owned,Non-foil,false,,,"","",20337
+"Army of the Damned",8,"Sorcery",B,"isd","87",mythic,b,Owned,Non-foil,false,,,"army;rare","",42520
+"Draugr's Helm",2,"Artifact - Equipment",B,"khm","88",uncommon,b,Owned,Non-foil,false,,,"equip;uncommon;accessory","",87503
+"Draugr's Helm",2,"Artifact - Equipment",B,"khm","88",uncommon,b,Owned,Non-foil,false,,,"","",87503
 "Rune of Mortality",2,"Enchantment - Aura Rune",B,"khm","108",uncommon,b,Owned,Non-foil,false,,,"uncommon","",87545
-"Rograkh, Son of Rohgahh",0,"Legendary Creature - Kobold Warrior",R,"cmr","197",uncommon,r,Owned,Non-foil,false,,,"hero;uncommon","",85176
+"Rune of Mortality",2,"Enchantment - Aura Rune",B,"khm","108",uncommon,b,Owned,Non-foil,false,,,"","",87545
 "Fireblade Charger",1,"Creature - Goblin Warrior",R,"znr","139",uncommon,r,Owned,Non-foil,false,,,"uncommon","",83251
-"Frenzied Goblin",1,"Creature - Goblin Berserker",R,"gk1","81",uncommon,r,Owned,Non-foil,false,,,"uncommon","",
+"Fireblade Charger",1,"Creature - Goblin Warrior",R,"znr","139",uncommon,r,Owned,Non-foil,false,,,"","",83251
 "Firebrand Archer",2,"Creature - Human Archer",R,"hou","92",common,r,Owned,Non-foil,false,,,"common","",64668
+"Firebrand Archer",2,"Creature - Human Archer",R,"hou","92",common,r,Owned,Non-foil,false,,,"","",64668
+"Firebrand Archer",2,"Creature - Human Archer",R,"hou","92",common,r,Owned,Non-foil,false,,,"","",64668
+"Firebrand Archer",2,"Creature - Human Archer",R,"hou","92",common,r,Owned,Non-foil,false,,,"","",64668
 "Gempalm Incinerator",3,"Creature - Goblin",R,"lgn","94",uncommon,r,Owned,Non-foil,false,,,"common","",18511
+"Gempalm Incinerator",3,"Creature - Goblin",R,"lgn","94",uncommon,r,Owned,Non-foil,false,,,"","",18511
+"Gempalm Incinerator",3,"Creature - Goblin",R,"lgn","94",uncommon,r,Owned,Non-foil,false,,,"","",18511
+"Gempalm Incinerator",3,"Creature - Goblin",R,"lgn","94",uncommon,r,Owned,Non-foil,false,,,"","",18511
 "Squee, the Immortal",3,"Legendary Creature - Goblin",R,"dom","146",rare,r,Owned,Non-foil,false,,,"hero;uncommon","",67757
+"Squee, the Immortal",3,"Legendary Creature - Goblin",R,"dom","146",rare,r,Owned,Non-foil,false,,,"","",67757
 "Shrapnel Blast",2,"Instant",R,"mrd","106",uncommon,r,Owned,Non-foil,false,,,"common","",19799
+"Shrapnel Blast",2,"Instant",R,"mrd","106",uncommon,r,Owned,Non-foil,false,,,"","",19799
+"Shrapnel Blast",2,"Instant",R,"mrd","106",uncommon,r,Owned,Non-foil,false,,,"","",19799
+"Shrapnel Blast",2,"Instant",R,"mrd","106",uncommon,r,Owned,Non-foil,false,,,"","",19799
 "Krenko's Command",2,"Sorcery",R,"ddn","25",common,r,Owned,Non-foil,false,,,"army;mundane","",
-"Pillage",3,"Sorcery",R,"a25","144",common,r,Owned,Non-foil,false,,,"common","",67202
-"Empty the Warrens",4,"Sorcery",R,"tsr","162",common,r,Owned,Non-foil,false,,,"army;common","",
-"Turn to Slag",5,"Sorcery",R,"m21","168",common,r,Owned,Non-foil,false,,,"uncommon","",81563
-"Tormentor's Helm",1,"Artifact - Equipment",R,"khm","155",common,r,Owned,Non-foil,false,,,"equip;common","",87647
-"Dwarven Hammer",3,"Artifact - Equipment",R,"khm","133",uncommon,r,Owned,Non-foil,false,,,"equip;uncommon","",87601
+"Krenko's Command",2,"Sorcery",R,"ddn","25",common,r,Owned,Non-foil,false,,,"","",
+"Krenko's Command",2,"Sorcery",R,"ddn","25",common,r,Owned,Non-foil,false,,,"","",
+"Krenko's Command",2,"Sorcery",R,"ddn","25",common,r,Owned,Non-foil,false,,,"","",
+"Krenko's Command",2,"Sorcery",R,"ddn","25",common,r,Owned,Non-foil,false,,,"","",
+"Krenko's Command",2,"Sorcery",R,"ddn","25",common,r,Owned,Non-foil,false,,,"","",
+"Krenko's Command",2,"Sorcery",R,"ddn","25",common,r,Owned,Non-foil,false,,,"","",
+"Krenko's Command",2,"Sorcery",R,"ddn","25",common,r,Owned,Non-foil,false,,,"","",
+"Krenko's Command",2,"Sorcery",R,"ddn","25",common,r,Owned,Non-foil,false,,,"","",
+"Krenko's Command",2,"Sorcery",R,"ddn","25",common,r,Owned,Non-foil,false,,,"","",
+"Krenko's Command",2,"Sorcery",R,"ddn","25",common,r,Owned,Non-foil,false,,,"","",
+"Krenko's Command",2,"Sorcery",R,"ddn","25",common,r,Owned,Non-foil,false,,,"","",
+"Krenko's Command",2,"Sorcery",R,"ddn","25",common,r,Owned,Non-foil,false,,,"","",
+"Krenko's Command",2,"Sorcery",R,"ddn","25",common,r,Owned,Non-foil,false,,,"","",
+"Krenko's Command",2,"Sorcery",R,"ddn","25",common,r,Owned,Non-foil,false,,,"","",
+"Krenko's Command",2,"Sorcery",R,"ddn","25",common,r,Owned,Non-foil,false,,,"","",
+"Pillage",3,"Sorcery",R,"a25","144",common,r,Owned,Non-foil,false,,,"uncommon","",67202
+"Pillage",3,"Sorcery",R,"a25","144",common,r,Owned,Non-foil,false,,,"","",67202
+"Empty the Warrens",4,"Sorcery",R,"tsp","152",common,r,Owned,Non-foil,false,,,"army;common","",25535
+"Empty the Warrens",4,"Sorcery",R,"tsp","152",common,r,Owned,Non-foil,false,,,"","",25535
+"Empty the Warrens",4,"Sorcery",R,"tsp","152",common,r,Owned,Non-foil,false,,,"","",25535
+"Empty the Warrens",4,"Sorcery",R,"tsp","152",common,r,Owned,Non-foil,false,,,"","",25535
+"Turn to Slag",5,"Sorcery",R,"som","106",common,r,Owned,Non-foil,false,,,"uncommon","",38309
+"Turn to Slag",5,"Sorcery",R,"som","106",common,r,Owned,Non-foil,false,,,"","",38309
+"Tormentor's Helm",1,"Artifact - Equipment",R,"khm","155",common,r,Owned,Non-foil,false,,,"equip;uncommon;accessory","",87647
+"Tormentor's Helm",1,"Artifact - Equipment",R,"khm","155",common,r,Owned,Non-foil,false,,,"","",87647
+"Dwarven Hammer",3,"Artifact - Equipment",R,"khm","133",uncommon,r,Owned,Non-foil,false,,,"equip;uncommon;weapon","",87601
+"Dwarven Hammer",3,"Artifact - Equipment",R,"khm","133",uncommon,r,Owned,Non-foil,false,,,"","",87601
 "Rune of Speed",2,"Enchantment - Aura Rune",R,"khm","148",uncommon,r,Owned,Non-foil,false,,,"rare","",87631
+"Kher Keep",0,"Legendary Land",R,"tsp","275",rare,Red,Owned,Non-foil,false,,,"army;common","",25659
+"Kher Keep",0,"Legendary Land",R,"tsp","275",rare,Red,Owned,Non-foil,false,,,"","",25659
+"Kher Keep",0,"Legendary Land",R,"tsp","275",rare,Red,Owned,Non-foil,false,,,"","",25659
+"Kher Keep",0,"Legendary Land",R,"tsp","275",rare,Red,Owned,Non-foil,false,,,"","",25659
+"Carapace Forger",2,"Creature - Elf Artificer",G,"som","114",common,g,Owned,Non-foil,false,,,"common","",38201
+"Carapace Forger",2,"Creature - Elf Artificer",G,"som","114",common,g,Owned,Non-foil,false,,,"","",38201
+"Carapace Forger",2,"Creature - Elf Artificer",G,"som","114",common,g,Owned,Non-foil,false,,,"","",38201
+"Carapace Forger",2,"Creature - Elf Artificer",G,"som","114",common,g,Owned,Non-foil,false,,,"","",38201
 "Elvish Archers",2,"Creature - Elf Archer",G,"7ed","239",rare,g,Owned,Non-foil,false,,,"common","",15486
+"Elvish Archers",2,"Creature - Elf Archer",G,"7ed","239",rare,g,Owned,Non-foil,false,,,"","",15486
+"Elvish Archers",2,"Creature - Elf Archer",G,"7ed","239",rare,g,Owned,Non-foil,false,,,"","",15486
+"Elvish Archers",2,"Creature - Elf Archer",G,"7ed","239",rare,g,Owned,Non-foil,false,,,"","",15486
 "Fynn, the Fangbearer",2,"Legendary Creature - Human Warrior",G,"khm","170",uncommon,g,Owned,Non-foil,false,,,"uncommon","",87679
-"Silhana Wayfinder",2,"Creature - Elf Scout",G,"jmp","430",uncommon,g,Owned,Non-foil,false,,,"common","",
+"Fynn, the Fangbearer",2,"Legendary Creature - Human Warrior",G,"khm","170",uncommon,g,Owned,Non-foil,false,,,"","",87679
 "Greatbow Doyen",5,"Creature - Elf Archer",G,"mor","125",rare,g,Owned,Non-foil,false,,,"uncommon","",29186
+"Greatbow Doyen",5,"Creature - Elf Archer",G,"mor","125",rare,g,Owned,Non-foil,false,,,"","",29186
 "Gilt-Leaf Ambush",3,"Tribal Instant - Elf",G,"lrw","214",common,g,Owned,Non-foil,false,,,"army;mundane","",28201
+"Gilt-Leaf Ambush",3,"Tribal Instant - Elf",G,"lrw","214",common,g,Owned,Non-foil,false,,,"","",28201
+"Gilt-Leaf Ambush",3,"Tribal Instant - Elf",G,"lrw","214",common,g,Owned,Non-foil,false,,,"","",28201
+"Gilt-Leaf Ambush",3,"Tribal Instant - Elf",G,"lrw","214",common,g,Owned,Non-foil,false,,,"","",28201
+"Gilt-Leaf Ambush",3,"Tribal Instant - Elf",G,"lrw","214",common,g,Owned,Non-foil,false,,,"","",28201
+"Gilt-Leaf Ambush",3,"Tribal Instant - Elf",G,"lrw","214",common,g,Owned,Non-foil,false,,,"","",28201
+"Gilt-Leaf Ambush",3,"Tribal Instant - Elf",G,"lrw","214",common,g,Owned,Non-foil,false,,,"","",28201
+"Gilt-Leaf Ambush",3,"Tribal Instant - Elf",G,"lrw","214",common,g,Owned,Non-foil,false,,,"","",28201
+"Gilt-Leaf Ambush",3,"Tribal Instant - Elf",G,"lrw","214",common,g,Owned,Non-foil,false,,,"","",28201
+"Gilt-Leaf Ambush",3,"Tribal Instant - Elf",G,"lrw","214",common,g,Owned,Non-foil,false,,,"","",28201
+"Gilt-Leaf Ambush",3,"Tribal Instant - Elf",G,"lrw","214",common,g,Owned,Non-foil,false,,,"","",28201
+"Gilt-Leaf Ambush",3,"Tribal Instant - Elf",G,"lrw","214",common,g,Owned,Non-foil,false,,,"","",28201
+"Gilt-Leaf Ambush",3,"Tribal Instant - Elf",G,"lrw","214",common,g,Owned,Non-foil,false,,,"","",28201
+"Gilt-Leaf Ambush",3,"Tribal Instant - Elf",G,"lrw","214",common,g,Owned,Non-foil,false,,,"","",28201
+"Gilt-Leaf Ambush",3,"Tribal Instant - Elf",G,"lrw","214",common,g,Owned,Non-foil,false,,,"","",28201
+"Gilt-Leaf Ambush",3,"Tribal Instant - Elf",G,"lrw","214",common,g,Owned,Non-foil,false,,,"","",28201
 "Time of Need",2,"Sorcery",G,"chk","247",uncommon,g,Owned,Non-foil,false,,,"uncommon","",21283
+"Time of Need",2,"Sorcery",G,"chk","247",uncommon,g,Owned,Non-foil,false,,,"","",21283
 "Sprouting Renewal",3,"Sorcery",G,"grn","145",uncommon,g,Owned,Non-foil,false,,,"common","",69663
+"Sprouting Renewal",3,"Sorcery",G,"grn","145",uncommon,g,Owned,Non-foil,false,,,"","",69663
+"Sprouting Renewal",3,"Sorcery",G,"grn","145",uncommon,g,Owned,Non-foil,false,,,"","",69663
+"Sprouting Renewal",3,"Sorcery",G,"grn","145",uncommon,g,Owned,Non-foil,false,,,"","",69663
 "Struggle for Skemfar",4,"Sorcery",G,"khm","196",common,g,Owned,Non-foil,false,,,"uncommon","",87735
-"Elven Bow",1,"Artifact - Equipment",G,"khm","166",uncommon,g,Owned,Non-foil,false,,,"equip;uncommon","",87669
+"Struggle for Skemfar",4,"Sorcery",G,"khm","196",common,g,Owned,Non-foil,false,,,"","",87735
+"Elven Bow",1,"Artifact - Equipment",G,"khm","166",uncommon,g,Owned,Non-foil,false,,,"equip;uncommon;weapon","",87669
+"Elven Bow",1,"Artifact - Equipment",G,"khm","166",uncommon,g,Owned,Non-foil,false,,,"","",87669
 "Rune of Might",2,"Enchantment - Aura Rune",G,"khm","191",uncommon,g,Owned,Non-foil,false,,,"rare","",87725
+"Temmet, Vizier of Naktamun",2,"Legendary Creature - Human Cleric",WU,"akh","207",rare,m,Owned,Non-foil,false,,,"uncommon","",64016
+"Temmet, Vizier of Naktamun",2,"Legendary Creature - Human Cleric",UW,"akh","207",rare,m,Owned,Non-foil,false,,,"","",64016
 "Grimgrin, Corpse-Born",5,"Legendary Creature - Zombie Warrior",UB,"isd","214",mythic,m,Owned,Non-foil,false,,,"uncommon","",42766
-"Wort, Boggart Auntie",4,"Legendary Creature - Goblin Shaman",BR,"lrw","252",rare,m,Owned,Non-foil,false,,,"hero;uncommon","",28399
+"Grimgrin, Corpse-Born",5,"Legendary Creature - Zombie Warrior",BU,"isd","214",mythic,m,Owned,Non-foil,false,,,"","",42766
+"Lyzolda, the Blood Witch",3,"Legendary Creature - Human Cleric",BR,"dis","117",rare,m,Owned,Non-foil,false,,,"uncommon","",24179
+"Lyzolda, the Blood Witch",3,"Legendary Creature - Human Cleric",BR,"dis","117",rare,m,Owned,Non-foil,false,,,"","",24179
 "Grand Warlord Radha",4,"Legendary Creature - Elf Warrior",RG,"dom","195",rare,m,Owned,Non-foil,false,,,"uncommon","",67855
+"Grand Warlord Radha",4,"Legendary Creature - Elf Warrior",GR,"dom","195",rare,m,Owned,Non-foil,false,,,"","",67855
 "Battle for Bretagard",3,"Enchantment - Saga",WG,"khm","203",rare,m,Owned,Non-foil,false,,,"rare","",87749
 "Aryel, Knight of Windgrace",4,"Legendary Creature - Human Knight",WB,"dom","192",rare,m,Owned,Non-foil,false,,,"uncommon","",67849
+"Aryel, Knight of Windgrace",4,"Legendary Creature - Human Knight",BW,"dom","192",rare,m,Owned,Non-foil,false,,,"","",67849
 "Jhoira, Weatherlight Captain",4,"Legendary Creature - Human Artificer",UR,"dom","197",mythic,m,Owned,Non-foil,false,,,"hero;uncommon","",67859
+"Jhoira, Weatherlight Captain",4,"Legendary Creature - Human Artificer",UR,"dom","197",mythic,m,Owned,Non-foil,false,,,"","",67859
 "Harald, King of Skemfar",3,"Legendary Creature - Elf Warrior",BG,"khm","212",uncommon,m,Owned,Non-foil,false,,,"uncommon","",87767
+"Harald, King of Skemfar",3,"Legendary Creature - Elf Warrior",BG,"khm","212",uncommon,m,Owned,Non-foil,false,,,"","",87767
 "Harald Unites the Elves",4,"Enchantment - Saga",BG,"khm","213",rare,m,Owned,Non-foil,false,,,"rare","",87769
 "Zur the Enchanter",4,"Legendary Creature - Human Wizard",WUB,"csp","135",rare,m,Owned,Non-foil,false,,,"hero;uncommon","",24595
-"Shattergang Brothers",4,"Legendary Creature - Goblin Artificer",BGR,"c13","213",mythic,m,Owned,Non-foil,false,,,"hero;uncommon","",51400
-"Alesha, Who Smiles at Death",3,"Legendary Creature - Human Warrior",WBR,"c20","143",rare,m,Owned,Non-foil,false,,,"uncommon","",
-"Cathar's Shield",0,"Artifact - Equipment",,"emn","192",common,c,Owned,Non-foil,false,,,"equip;common","",61482
-"Bonesplitter",1,"Artifact - Equipment",,"mrd","146",common,c,Owned,Non-foil,false,,,"equip;common","",19829
-"Shadowspear",1,"Legendary Artifact - Equipment",,"thb","236",rare,c,Owned,Non-foil,false,,,"equip;relic;rare","",79596
-"Shield of the Avatar",1,"Artifact - Equipment",,"m15","230",rare,c,Owned,Non-foil,false,,,"equip;relic;rare","",53754
-"Short Sword",1,"Artifact - Equipment",,"m21","236",common,c,Owned,Non-foil,false,,,"equip;abundant","",81699
-"Viridian Longbow",1,"Artifact - Equipment",,"mrd","270",common,c,Owned,Non-foil,false,,,"equip;common","",19735
-"Zephyr Boots",1,"Artifact - Equipment",,"stx","261",uncommon,c,Owned,Non-foil,false,,,"equip;relic;rare","",89029
-"Captain's Claws",2,"Artifact - Equipment",,"ogw","162",rare,c,Owned,Non-foil,false,,,"equip;relic;rare","",59591
-"Cobbled Wings",2,"Artifact - Equipment",,"isd","219",common,c,Owned,Non-foil,false,,,"equip;uncommon","",42326
-"Darksteel Garrison",2,"Artifact - Fortification",,"fut","167",rare,c,Owned,Non-foil,false,,,"uncommon","",26928
-"Heart-Piercer Bow",2,"Artifact - Equipment",,"ktk","221",uncommon,c,Owned,Non-foil,false,,,"equip;common","",54156
-"Shield of the Realm",2,"Artifact - Equipment",,"dom","228",uncommon,c,Owned,Non-foil,false,,,"equip;uncommon","",67921
-"Throwing Knife",2,"Artifact - Equipment",,"ori","241",uncommon,c,Owned,Non-foil,false,,,"equip;common","",57698
-"Heavy Arbalest",3,"Artifact - Equipment",,"som","164",uncommon,c,Owned,Non-foil,false,,,"equip;uncommon","",38271
+"Zur the Enchanter",4,"Legendary Creature - Human Wizard",WUB,"csp","135",rare,m,Owned,Non-foil,false,,,"","",24595
+"Alesha, Who Smiles at Death",3,"Legendary Creature - Human Warrior",WBR,"frf","90",rare,m,Owned,Non-foil,false,,,"uncommon","",55456
+"Alesha, Who Smiles at Death",3,"Legendary Creature - Human Warrior",WBR,"frf","90",rare,m,Owned,Non-foil,false,,,"","",55456
+"Rograkh, Son of Rohgahh",0,"Legendary Creature - Kobold Warrior",R,"cmr","197",uncommon,Colorless,Owned,Non-foil,false,,,"hero;uncommon","",85176
+"Rograkh, Son of Rohgahh",0,"Legendary Creature - Kobold Warrior",R,"cmr","197",uncommon,Colorless,Owned,Non-foil,false,,,"","",85176
+"Cathar's Shield",0,"Artifact - Equipment",,"emn","192",common,c,Owned,Non-foil,false,,,"equip;common;accessory;now_or_never","",61482
+"Cathar's Shield",0,"Artifact - Equipment",,"emn","192",common,c,Owned,Non-foil,false,,,"","",61482
+"Cathar's Shield",0,"Artifact - Equipment",,"emn","192",common,c,Owned,Non-foil,false,,,"","",61482
+"Cathar's Shield",0,"Artifact - Equipment",,"emn","192",common,c,Owned,Non-foil,false,,,"","",61482
+"Bonesplitter",1,"Artifact - Equipment",,"mrd","146",common,c,Owned,Non-foil,false,,,"uncommon;weapon","",19829
+"Bonesplitter",1,"Artifact - Equipment",,"mrd","146",common,c,Owned,Non-foil,false,,,"","",19829
+"Shadowspear",1,"Legendary Artifact - Equipment",,"thb","236",rare,c,Owned,Non-foil,false,,,"equip;relic;rare;weapon","",79596
+"Short Sword",1,"Artifact - Equipment",,"m21","236",common,c,Owned,Non-foil,false,,,"equip;abundant;weapon","",81699
+"Short Sword",1,"Artifact - Equipment",,"m21","236",common,c,Owned,Non-foil,false,,,"","",81699
+"Short Sword",1,"Artifact - Equipment",,"m21","236",common,c,Owned,Non-foil,false,,,"","",81699
+"Short Sword",1,"Artifact - Equipment",,"m21","236",common,c,Owned,Non-foil,false,,,"","",81699
+"Short Sword",1,"Artifact - Equipment",,"m21","236",common,c,Owned,Non-foil,false,,,"","",81699
+"Short Sword",1,"Artifact - Equipment",,"m21","236",common,c,Owned,Non-foil,false,,,"","",81699
+"Short Sword",1,"Artifact - Equipment",,"m21","236",common,c,Owned,Non-foil,false,,,"","",81699
+"Short Sword",1,"Artifact - Equipment",,"m21","236",common,c,Owned,Non-foil,false,,,"","",81699
+"Short Sword",1,"Artifact - Equipment",,"m21","236",common,c,Owned,Non-foil,false,,,"","",81699
+"Short Sword",1,"Artifact - Equipment",,"m21","236",common,c,Owned,Non-foil,false,,,"","",81699
+"Short Sword",1,"Artifact - Equipment",,"m21","236",common,c,Owned,Non-foil,false,,,"","",81699
+"Short Sword",1,"Artifact - Equipment",,"m21","236",common,c,Owned,Non-foil,false,,,"","",81699
+"Short Sword",1,"Artifact - Equipment",,"m21","236",common,c,Owned,Non-foil,false,,,"","",81699
+"Short Sword",1,"Artifact - Equipment",,"m21","236",common,c,Owned,Non-foil,false,,,"","",81699
+"Short Sword",1,"Artifact - Equipment",,"m21","236",common,c,Owned,Non-foil,false,,,"","",81699
+"Short Sword",1,"Artifact - Equipment",,"m21","236",common,c,Owned,Non-foil,false,,,"","",81699
+"Short Sword",1,"Artifact - Equipment",,"m21","236",common,c,Owned,Non-foil,false,,,"","",81699
+"Short Sword",1,"Artifact - Equipment",,"m21","236",common,c,Owned,Non-foil,false,,,"","",81699
+"Short Sword",1,"Artifact - Equipment",,"m21","236",common,c,Owned,Non-foil,false,,,"","",81699
+"Short Sword",1,"Artifact - Equipment",,"m21","236",common,c,Owned,Non-foil,false,,,"","",81699
+"Short Sword",1,"Artifact - Equipment",,"m21","236",common,c,Owned,Non-foil,false,,,"","",81699
+"Short Sword",1,"Artifact - Equipment",,"m21","236",common,c,Owned,Non-foil,false,,,"","",81699
+"Short Sword",1,"Artifact - Equipment",,"m21","236",common,c,Owned,Non-foil,false,,,"","",81699
+"Short Sword",1,"Artifact - Equipment",,"m21","236",common,c,Owned,Non-foil,false,,,"","",81699
+"Short Sword",1,"Artifact - Equipment",,"m21","236",common,c,Owned,Non-foil,false,,,"","",81699
+"Short Sword",1,"Artifact - Equipment",,"m21","236",common,c,Owned,Non-foil,false,,,"","",81699
+"Short Sword",1,"Artifact - Equipment",,"m21","236",common,c,Owned,Non-foil,false,,,"","",81699
+"Short Sword",1,"Artifact - Equipment",,"m21","236",common,c,Owned,Non-foil,false,,,"","",81699
+"Short Sword",1,"Artifact - Equipment",,"m21","236",common,c,Owned,Non-foil,false,,,"","",81699
+"Short Sword",1,"Artifact - Equipment",,"m21","236",common,c,Owned,Non-foil,false,,,"","",81699
+"Short Sword",1,"Artifact - Equipment",,"m21","236",common,c,Owned,Non-foil,false,,,"","",81699
+"Short Sword",1,"Artifact - Equipment",,"m21","236",common,c,Owned,Non-foil,false,,,"","",81699
+"Viridian Longbow",1,"Artifact - Equipment",,"mrd","270",common,c,Owned,Non-foil,false,,,"equip;common;weapon","",19735
+"Viridian Longbow",1,"Artifact - Equipment",,"mrd","270",common,c,Owned,Non-foil,false,,,"","",19735
+"Viridian Longbow",1,"Artifact - Equipment",,"mrd","270",common,c,Owned,Non-foil,false,,,"","",19735
+"Viridian Longbow",1,"Artifact - Equipment",,"mrd","270",common,c,Owned,Non-foil,false,,,"","",19735
+"Zephyr Boots",1,"Artifact - Equipment",,"stx","261",uncommon,c,Owned,Non-foil,false,,,"equip;relic;rare;accessory","",89029
+"Captain's Claws",2,"Artifact - Equipment",,"ogw","162",rare,c,Owned,Non-foil,false,,,"equip;relic;rare;weapon","",59591
+"Cobbled Wings",2,"Artifact - Equipment",,"isd","219",common,c,Owned,Non-foil,false,,,"equip;uncommon;accessory","",42326
+"Cobbled Wings",2,"Artifact - Equipment",,"isd","219",common,c,Owned,Non-foil,false,,,"","",42326
+"Darksteel Garrison",2,"Artifact - Fortification",,"fut","167",rare,c,Owned,Non-foil,false,,,"uncommon;now_or_never","",26928
+"Darksteel Garrison",2,"Artifact - Fortification",,"fut","167",rare,c,Owned,Non-foil,false,,,"","",26928
+"Hammer of Ruin",2,"Artifact - Equipment",,"wwk","124",uncommon,c,Owned,Non-foil,false,,,"rare;weapon;now_or_never","",35627
+"Heart-Piercer Bow",2,"Artifact - Equipment",,"ktk","221",uncommon,c,Owned,Non-foil,false,,,"equip;common;weapon","",54156
+"Heart-Piercer Bow",2,"Artifact - Equipment",,"ktk","221",uncommon,c,Owned,Non-foil,false,,,"","",54156
+"Heart-Piercer Bow",2,"Artifact - Equipment",,"ktk","221",uncommon,c,Owned,Non-foil,false,,,"","",54156
+"Heart-Piercer Bow",2,"Artifact - Equipment",,"ktk","221",uncommon,c,Owned,Non-foil,false,,,"","",54156
+"Shield of the Realm",2,"Artifact - Equipment",,"dom","228",uncommon,c,Owned,Non-foil,false,,,"equip;uncommon;accessory","",67921
+"Shield of the Realm",2,"Artifact - Equipment",,"dom","228",uncommon,c,Owned,Non-foil,false,,,"","",67921
+"Darksteel Plate",3,"Artifact - Equipment",,"mbs","104",rare,c,Owned,Non-foil,false,,,"uncommon;accessory","",39357
+"Darksteel Plate",3,"Artifact - Equipment",,"mbs","104",rare,c,Owned,Non-foil,false,,,"","",39357
 "Magebane Armor",3,"Artifact - Equipment",,"m10","214",rare,c,Owned,Non-foil,false,,,"equip;uncommon","",32903
-"Obsidian Battle-Axe",3,"Tribal Artifact - Warrior Equipment",,"mor","144",uncommon,c,Owned,Non-foil,false,,,"equip;common","",29220
-"Sigiled Sword of Valeron",3,"Artifact - Equipment",,"m19","244",rare,c,Owned,Non-foil,false,,,"equip;relic;rare","",68651
-"Heartseeker",4,"Artifact - Equipment",,"dst","124",rare,c,Owned,Non-foil,false,,,"equip;relic;rare","",20293
-"Argentum Armor",6,"Artifact - Equipment",,"som","137",rare,c,Owned,Non-foil,false,,,"equip;relic;rare","",38447
-"Tatsumasa, the Dragon's Fang",6,"Legendary Artifact - Equipment",,"chk","270",rare,c,Owned,Non-foil,false,,,"equip;relic;rare","",21129
-"Elbrus, the Binding Blade",7,"Legendary Artifact - Equipment",,"dka","147",mythic,b,Owned,Non-foil,false,,,"equip;relic;rare","",43239
-"Adarkar Wastes",0,"Land",WU,"ice","351",rare,l,Owned,Non-foil,false,,,"dual","",
-"Underground River",0,"Land",UB,"ice","362",rare,l,Owned,Non-foil,false,,,"dual","",
-"Sulfurous Springs",0,"Land",BR,"ice","360",rare,l,Owned,Non-foil,false,,,"dual","",
-"Karplusan Forest",0,"Land",RG,"ice","356",rare,l,Owned,Non-foil,false,,,"dual","",
-"Brushland",0,"Land",WG,"ice","352",rare,l,Owned,Non-foil,false,,,"dual","",
-"Caves of Koilos",0,"Land",WB,"apc","140",rare,l,Owned,Non-foil,false,,,"dual","",16070
-"Shivan Reef",0,"Land",UR,"apc","142",rare,l,Owned,Non-foil,false,,,"dual","",16260
-"Llanowar Wastes",0,"Land",BG,"apc","141",rare,l,Owned,Non-foil,false,,,"dual","",16196
-"Battlefield Forge",0,"Land",WR,"apc","139",rare,l,Owned,Non-foil,false,,,"dual","",16116
-"Yavimaya Coast",0,"Land",UG,"apc","143",rare,l,Owned,Non-foil,false,,,"dual","",16322
-"Kher Keep",0,"Legendary Land",R,"plist","291",rare,l,Owned,Non-foil,false,,,"army;common","",
-"Kjeldoran Outpost",0,"Land",W,"all","139",rare,l,Owned,Non-foil,false,,,"army;common","",
+"Magebane Armor",3,"Artifact - Equipment",,"m10","214",rare,c,Owned,Non-foil,false,,,"","",32903
+"Obsidian Battle-Axe",3,"Tribal Artifact - Warrior Equipment",,"mor","144",uncommon,c,Owned,Non-foil,false,,,"equip;common;weapon","",29220
+"Obsidian Battle-Axe",3,"Tribal Artifact - Warrior Equipment",,"mor","144",uncommon,c,Owned,Non-foil,false,,,"","",29220
+"Obsidian Battle-Axe",3,"Tribal Artifact - Warrior Equipment",,"mor","144",uncommon,c,Owned,Non-foil,false,,,"","",29220
+"Obsidian Battle-Axe",3,"Tribal Artifact - Warrior Equipment",,"mor","144",uncommon,c,Owned,Non-foil,false,,,"","",29220
+"Runed Crown",3,"Artifact - Equipment",,"khm","245",uncommon,c,Owned,Non-foil,false,,,"rare;accessory","",87833
+"Sigiled Sword of Valeron",3,"Artifact - Equipment",,"m19","244",rare,c,Owned,Non-foil,false,,,"equip;relic;rare;weapon","",68651
+"Heartseeker",4,"Artifact - Equipment",,"dst","124",rare,c,Owned,Non-foil,false,,,"equip;relic;rare;weapon","",20293
+"Argentum Armor",6,"Artifact - Equipment",,"som","137",rare,c,Owned,Non-foil,false,,,"equip;relic;rare;accessory","",38447
+"Tatsumasa, the Dragon's Fang",6,"Legendary Artifact - Equipment",,"chk","270",rare,c,Owned,Non-foil,false,,,"equip;relic;rare;weapon","",21129
+"Adarkar Wastes",0,"Land",WU,"10e","347",rare,l,Owned,Non-foil,false,,,"dual;frequent","",27384
+"Adarkar Wastes",0,"Land",UW,"10e","347",rare,l,Owned,Non-foil,false,,,"","",27384
+"Adarkar Wastes",0,"Land",UW,"10e","347",rare,l,Owned,Non-foil,false,,,"","",27384
+"Adarkar Wastes",0,"Land",UW,"10e","347",rare,l,Owned,Non-foil,false,,,"","",27384
+"Adarkar Wastes",0,"Land",UW,"10e","347",rare,l,Owned,Non-foil,false,,,"","",27384
+"Adarkar Wastes",0,"Land",UW,"10e","347",rare,l,Owned,Non-foil,false,,,"","",27384
+"Adarkar Wastes",0,"Land",UW,"10e","347",rare,l,Owned,Non-foil,false,,,"","",27384
+"Adarkar Wastes",0,"Land",UW,"10e","347",rare,l,Owned,Non-foil,false,,,"","",27384
+"Underground River",0,"Land",UB,"10e","362",rare,l,Owned,Non-foil,false,,,"dual;frequent","",27438
+"Underground River",0,"Land",BU,"10e","362",rare,l,Owned,Non-foil,false,,,"","",27438
+"Underground River",0,"Land",BU,"10e","362",rare,l,Owned,Non-foil,false,,,"","",27438
+"Underground River",0,"Land",BU,"10e","362",rare,l,Owned,Non-foil,false,,,"","",27438
+"Underground River",0,"Land",BU,"10e","362",rare,l,Owned,Non-foil,false,,,"","",27438
+"Underground River",0,"Land",BU,"10e","362",rare,l,Owned,Non-foil,false,,,"","",27438
+"Underground River",0,"Land",BU,"10e","362",rare,l,Owned,Non-foil,false,,,"","",27438
+"Underground River",0,"Land",BU,"10e","362",rare,l,Owned,Non-foil,false,,,"","",27438
+"Sulfurous Springs",0,"Land",BR,"10e","359",rare,l,Owned,Non-foil,false,,,"dual;frequent","",27436
+"Sulfurous Springs",0,"Land",BR,"10e","359",rare,l,Owned,Non-foil,false,,,"","",27436
+"Sulfurous Springs",0,"Land",BR,"10e","359",rare,l,Owned,Non-foil,false,,,"","",27436
+"Sulfurous Springs",0,"Land",BR,"10e","359",rare,l,Owned,Non-foil,false,,,"","",27436
+"Sulfurous Springs",0,"Land",BR,"10e","359",rare,l,Owned,Non-foil,false,,,"","",27436
+"Sulfurous Springs",0,"Land",BR,"10e","359",rare,l,Owned,Non-foil,false,,,"","",27436
+"Sulfurous Springs",0,"Land",BR,"10e","359",rare,l,Owned,Non-foil,false,,,"","",27436
+"Sulfurous Springs",0,"Land",BR,"10e","359",rare,l,Owned,Non-foil,false,,,"","",27436
+"Karplusan Forest",0,"Land",RG,"10e","354",rare,l,Owned,Non-foil,false,,,"dual;frequent","",27705
+"Karplusan Forest",0,"Land",GR,"10e","354",rare,l,Owned,Non-foil,false,,,"","",27705
+"Karplusan Forest",0,"Land",GR,"10e","354",rare,l,Owned,Non-foil,false,,,"","",27705
+"Karplusan Forest",0,"Land",GR,"10e","354",rare,l,Owned,Non-foil,false,,,"","",27705
+"Karplusan Forest",0,"Land",GR,"10e","354",rare,l,Owned,Non-foil,false,,,"","",27705
+"Karplusan Forest",0,"Land",GR,"10e","354",rare,l,Owned,Non-foil,false,,,"","",27705
+"Karplusan Forest",0,"Land",GR,"10e","354",rare,l,Owned,Non-foil,false,,,"","",27705
+"Karplusan Forest",0,"Land",GR,"10e","354",rare,l,Owned,Non-foil,false,,,"","",27705
+"Brushland",0,"Land",WG,"10e","349",rare,l,Owned,Non-foil,false,,,"dual;frequent","",27390
+"Brushland",0,"Land",GW,"10e","349",rare,l,Owned,Non-foil,false,,,"","",27390
+"Brushland",0,"Land",GW,"10e","349",rare,l,Owned,Non-foil,false,,,"","",27390
+"Brushland",0,"Land",GW,"10e","349",rare,l,Owned,Non-foil,false,,,"","",27390
+"Brushland",0,"Land",GW,"10e","349",rare,l,Owned,Non-foil,false,,,"","",27390
+"Brushland",0,"Land",GW,"10e","349",rare,l,Owned,Non-foil,false,,,"","",27390
+"Brushland",0,"Land",GW,"10e","349",rare,l,Owned,Non-foil,false,,,"","",27390
+"Brushland",0,"Land",GW,"10e","349",rare,l,Owned,Non-foil,false,,,"","",27390
+"Caves of Koilos",0,"Land",WB,"10e","350",rare,l,Owned,Non-foil,false,,,"dual;frequent","",27460
+"Caves of Koilos",0,"Land",BW,"10e","350",rare,l,Owned,Non-foil,false,,,"","",27460
+"Caves of Koilos",0,"Land",BW,"10e","350",rare,l,Owned,Non-foil,false,,,"","",27460
+"Caves of Koilos",0,"Land",BW,"10e","350",rare,l,Owned,Non-foil,false,,,"","",27460
+"Caves of Koilos",0,"Land",BW,"10e","350",rare,l,Owned,Non-foil,false,,,"","",27460
+"Caves of Koilos",0,"Land",BW,"10e","350",rare,l,Owned,Non-foil,false,,,"","",27460
+"Caves of Koilos",0,"Land",BW,"10e","350",rare,l,Owned,Non-foil,false,,,"","",27460
+"Caves of Koilos",0,"Land",BW,"10e","350",rare,l,Owned,Non-foil,false,,,"","",27460
+"Shivan Reef",0,"Land",UR,"10e","357",rare,l,Owned,Non-foil,false,,,"dual;frequent","",27466
+"Shivan Reef",0,"Land",RU,"10e","357",rare,l,Owned,Non-foil,false,,,"","",27466
+"Shivan Reef",0,"Land",RU,"10e","357",rare,l,Owned,Non-foil,false,,,"","",27466
+"Shivan Reef",0,"Land",RU,"10e","357",rare,l,Owned,Non-foil,false,,,"","",27466
+"Shivan Reef",0,"Land",RU,"10e","357",rare,l,Owned,Non-foil,false,,,"","",27466
+"Shivan Reef",0,"Land",RU,"10e","357",rare,l,Owned,Non-foil,false,,,"","",27466
+"Shivan Reef",0,"Land",RU,"10e","357",rare,l,Owned,Non-foil,false,,,"","",27466
+"Shivan Reef",0,"Land",RU,"10e","357",rare,l,Owned,Non-foil,false,,,"","",27466
+"Llanowar Wastes",0,"Land",BG,"10e","355",rare,l,Owned,Non-foil,false,,,"dual;frequent","",27464
+"Llanowar Wastes",0,"Land",BG,"10e","355",rare,l,Owned,Non-foil,false,,,"","",27464
+"Llanowar Wastes",0,"Land",BG,"10e","355",rare,l,Owned,Non-foil,false,,,"","",27464
+"Llanowar Wastes",0,"Land",BG,"10e","355",rare,l,Owned,Non-foil,false,,,"","",27464
+"Llanowar Wastes",0,"Land",BG,"10e","355",rare,l,Owned,Non-foil,false,,,"","",27464
+"Llanowar Wastes",0,"Land",BG,"10e","355",rare,l,Owned,Non-foil,false,,,"","",27464
+"Llanowar Wastes",0,"Land",BG,"10e","355",rare,l,Owned,Non-foil,false,,,"","",27464
+"Llanowar Wastes",0,"Land",BG,"10e","355",rare,l,Owned,Non-foil,false,,,"","",27464
+"Battlefield Forge",0,"Land",WR,"10e","348",rare,l,Owned,Non-foil,false,,,"dual;frequent","",27462
+"Battlefield Forge",0,"Land",RW,"10e","348",rare,l,Owned,Non-foil,false,,,"","",27462
+"Battlefield Forge",0,"Land",RW,"10e","348",rare,l,Owned,Non-foil,false,,,"","",27462
+"Battlefield Forge",0,"Land",RW,"10e","348",rare,l,Owned,Non-foil,false,,,"","",27462
+"Battlefield Forge",0,"Land",RW,"10e","348",rare,l,Owned,Non-foil,false,,,"","",27462
+"Battlefield Forge",0,"Land",RW,"10e","348",rare,l,Owned,Non-foil,false,,,"","",27462
+"Battlefield Forge",0,"Land",RW,"10e","348",rare,l,Owned,Non-foil,false,,,"","",27462
+"Battlefield Forge",0,"Land",RW,"10e","348",rare,l,Owned,Non-foil,false,,,"","",27462
+"Yavimaya Coast",0,"Land",UG,"10e","363",rare,l,Owned,Non-foil,false,,,"dual;frequent","",27468
+"Yavimaya Coast",0,"Land",GU,"10e","363",rare,l,Owned,Non-foil,false,,,"","",27468
+"Yavimaya Coast",0,"Land",GU,"10e","363",rare,l,Owned,Non-foil,false,,,"","",27468
+"Yavimaya Coast",0,"Land",GU,"10e","363",rare,l,Owned,Non-foil,false,,,"","",27468
+"Yavimaya Coast",0,"Land",GU,"10e","363",rare,l,Owned,Non-foil,false,,,"","",27468
+"Yavimaya Coast",0,"Land",GU,"10e","363",rare,l,Owned,Non-foil,false,,,"","",27468
+"Yavimaya Coast",0,"Land",GU,"10e","363",rare,l,Owned,Non-foil,false,,,"","",27468
+"Yavimaya Coast",0,"Land",GU,"10e","363",rare,l,Owned,Non-foil,false,,,"","",27468
 "Stingscourger",2,"Creature - Goblin Warrior",R,"mma","131",common,r,Owned,Non-foil,true,,,"","",48630
 "Reckless Crew",4,"Sorcery",R,"khm","146",rare,r,Owned,Non-foil,true,,,"","",87627
 "Humble the Brute",5,"Instant",W,"soi","23",uncommon,w,Owned,Non-foil,true,,,"","",59984
 "Afterlife",3,"Instant",W,"c14","64",uncommon,w,Owned,Non-foil,true,,,"","",54753
-"Darksteel Plate",3,"Artifact - Equipment",,"ddu","52",rare,c,Owned,Non-foil,true,,,"","",
+"Primal Forcemage",3,"Creature - Elf Shaman",G,"tsr","225",uncommon,g,Owned,Non-foil,true,,,"","",
+"Bloodforged Battle-Axe",1,"Artifact - Equipment",,"c17","50",rare,c,Owned,Non-foil,true,,,"","",
+"Daxos of Meletis",3,"Legendary Creature - Human Soldier",UW,"ths","191",rare,m,Owned,Non-foil,true,,,"","",50532
+"Abiding Grace",3,"Enchantment",W,"mh2","1",uncommon,w,Owned,Non-foil,true,,,"","",90371
+"Bound in Gold",3,"Enchantment - Aura",W,"khm","5",common,w,Owned,Non-foil,true,,,"","",87329
+"Dub",3,"Enchantment - Aura",W,"m21","16",common,w,Owned,Non-foil,true,,,"","",81259
+"Light of Hope",1,"Instant",W,"iko","20",common,w,Owned,Non-foil,true,,,"","",80049
+"Ravages of War",4,"Sorcery",W,"ptk","17",rare,w,Owned,Non-foil,true,,,"","",
+"Devoted Retainer",1,"Creature - Human Samurai",W,"chk","7",common,w,Owned,Non-foil,true,,,"","",21067
+"Battlefield Promotion",2,"Instant",W,"war","5",common,w,Owned,Non-foil,true,,,"","",71616
+"Zhalfirin Commander",3,"Creature - Human Knight",W,"tsb","18",special,w,Owned,Non-foil,true,,,"","",26085
+"Zhalfirin Knight",3,"Creature - Human Knight",W,"mir","50",common,w,Owned,Non-foil,true,,,"","",7453
+"Expendable Troops",2,"Creature - Human Soldier",W,"ulg","8",common,w,Owned,Non-foil,true,,,"","",12537
+"Nomad Decoy",3,"Creature - Human Nomad",W,"ody","37",uncommon,w,Owned,Non-foil,true,,,"","",17011
+"Makeshift Battalion",3,"Creature - Human Soldier",W,"m21","26",common,w,Owned,Non-foil,true,,,"","",81279
+"Paragon of the Amesha",3,"Creature - Human Knight",BGRUW,"con","14",uncommon,m,Owned,Non-foil,true,,,"","",31779
+"Aurora Champion",3,"Creature - Elf Warrior",W,"bbd","24",common,w,Owned,Non-foil,true,,,"","",68776
+"Beskir Shieldmate",2,"Creature - Human Warrior",W,"khm","4",common,w,Owned,Non-foil,true,,,"","",87327
+"Icatian Infantry",1,"Creature - Human Soldier",W,"fem","7d",common,w,Owned,Non-foil,true,,,"","",
+"Icatian Scout",1,"Creature - Human Soldier Scout",W,"fem","13c",common,w,Owned,Non-foil,true,,,"","",
+"Hold the Line",3,"Instant",W,"ddn","66",rare,w,Owned,Non-foil,true,,,"","",
+"Launch the Fleet",1,"Sorcery",W,"jou","15",rare,w,Owned,Non-foil,true,,,"","",52206
+"Day of Destiny",4,"Legendary Enchantment",W,"bok","1",rare,w,Owned,Non-foil,true,,,"","",21769
+"Commander's Authority",5,"Enchantment - Aura",W,"avr","13",uncommon,w,Owned,Non-foil,true,,,"","",44265
+"Goblin Warchief",3,"Creature - Goblin Warrior",R,"ddn","9",uncommon,r,Owned,Non-foil,true,,,"","",
+"Devoted Crop-Mate",3,"Creature - Human Warrior",W,"akh","10",uncommon,w,Owned,Non-foil,true,,,"","",63622
+"Usher of the Fallen",1,"Creature - Spirit Warrior",W,"khm","35",uncommon,w,Owned,Non-foil,true,,,"","",87393
