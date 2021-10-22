@@ -137,3 +137,4 @@ dmypy.json
 .pyre/
 .idea/workspace.xml
 cards_to_add.txt
+random_tringleton.txt
