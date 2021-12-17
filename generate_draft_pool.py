@@ -1,12 +1,15 @@
-# Generate a draft pool for dr4ft.info
-
-import hashlib
+# Generate a draft pool for mtgadraft.tk or dr4ft.info
 
 import cube_pool
 import cubecobra_csv
 
-OUTPUT_POOL_SIZE = 360
-CARDS_FROM_OCCASIONAL = 24
+ROUNDS = 3
+SEATS = 8
+PACKS = ROUNDS * SEATS
+CARDS_PER_PACK = 15
+OUTPUT_POOL_SIZE = PACKS * CARDS_PER_PACK
+OCCASIONALS_SLOTS_PER_ROUND = [2, 1, 0]
+CARDS_FROM_OCCASIONAL = sum(OCCASIONALS_SLOTS_PER_ROUND) * SEATS
 CARDS_FROM_CORE = OUTPUT_POOL_SIZE - CARDS_FROM_OCCASIONAL
 
 
@@ -20,16 +23,32 @@ def main():
 
     pools = cube_pool.load_pools(csv_path, {'core', 'occasional'})
 
-    main_pool = (pools['core'].wide_sample(CARDS_FROM_CORE) +
-                 pools['occasional'].wide_sample(CARDS_FROM_OCCASIONAL))
-    main_pool_names = [card.name for card in main_pool]
+    core_pool = pools['core'].wide_sample(CARDS_FROM_CORE)
+    core_pool_names = [card.name for card in core_pool]
+    occasional_pool = pools['occasional'].wide_sample(CARDS_FROM_OCCASIONAL)
+    occasional_pool_names = [card.name for card in occasional_pool]
+    boosters = []
+    for r in range(ROUNDS):
+        for s in range(SEATS):
+            occasionals_per_booster = OCCASIONALS_SLOTS_PER_ROUND[r]
+            core_per_booster = CARDS_PER_PACK - occasionals_per_booster
+
+            booster = occasional_pool_names[-occasionals_per_booster:]
+            del occasional_pool_names[-occasionals_per_booster:]
+            assert len(booster) == occasionals_per_booster, str(booster)
+
+            booster += core_pool_names[-core_per_booster:]
+            del core_pool_names[-core_per_booster:]
+            assert len(booster) == CARDS_PER_PACK, str(booster)
+
+            boosters.append(booster)
 
     with open(OUTPUT_FILENAME, 'wb') as f:
-        full_pool_contents = '\n'.join(main_pool_names).encode('utf-8')
-        f.write(full_pool_contents)
-        print(f'Wrote {len(main_pool_names)} cards to {OUTPUT_FILENAME}')
-        hash = hashlib.sha1(full_pool_contents).hexdigest()
-        print(f'Hash is {hash}')
+        for booster in boosters:
+            booster_contents = '\n'.join(booster).encode('utf-8')
+            f.write(booster_contents)
+            f.write(b'\n\n')
+        print(f'Wrote {len(boosters)} boosters of {CARDS_PER_PACK} cards to {OUTPUT_FILENAME}')
 
 
 if __name__ == '__main__':
