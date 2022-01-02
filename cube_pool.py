@@ -5,7 +5,7 @@ import dataclasses
 import itertools
 import random
 from collections import defaultdict
-from typing import Dict, List, Set
+from typing import Dict, List, Set, Tuple
 
 import cubecobra_csv
 from cubecobra_csv import CubeCard
@@ -44,6 +44,25 @@ class CubePool:
 
     def get_category(self, color_category: str) -> List[CubeCard]:
         return self._categories[color_category]
+
+    def split_category_by_tag(self, color_category_to_split: str, tag: str,
+                              yes_category: str, no_category: str) -> None:
+        existing = self._categories[color_category_to_split]
+        del self._categories[color_category_to_split]
+        new_yes, new_no = [], []
+        for card in existing:
+            if tag in card.tags:
+                new_yes.append(card)
+            else:
+                new_no.append(card)
+        self._categories[yes_category] = new_yes
+        self._categories[no_category] = new_no
+
+    def join_categories(self, categories_to_join: List[str], joined_category: str):
+        joined = list(itertools.chain.from_iterable(self._categories[c] for c in categories_to_join))
+        for c in categories_to_join:
+            del(self._categories[c])
+        self._categories[joined_category] = joined
 
 
 def load_pools(csv_path: str, pool_tags: Set[str]) -> Dict[str, CubePool]:
