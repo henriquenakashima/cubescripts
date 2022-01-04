@@ -12,13 +12,40 @@ from cubecobra_csv import CubeCard
 
 DEBUG_PRINT = False
 
+# SEATS = 4
+# SEEDING = [
+#     'oowubrgcfxxx',
+#     'oowubrgcfxxx',
+#     'wubrgcfxxxxx',
+#     'wubrgcfxxxxx',
+#     'wubrgcfxxxxx',
+# ]
 SEATS = 5
 SEEDING = [
-    'oowubrgcfxxxx',
-    'owubrgcfxxxxx',
-    'wubrgcfxxxxxx',
-    'wubrgcfxxxxxx'
+    'oowubrgcfxxxxx',
+    'oowubrgcfxxxxx',
+    'wubrgcfxxxxxxx',
+    'wubrgcfxxxxxxx',
 ]
+# SEATS = 6
+# SEEDING = [
+#      'ooowubrgcfxxx',
+#      'owubrgcfxxxxx',
+#      'wubrgcfxxxxxx',
+#      'wubrgcfxxxxxx',
+# ]
+# SEATS = 7
+# SEEDING = [
+#      'ooowubrgcfxxxxxx',
+#      'owubrgcfxxxxxxxx',
+#      'wubrgcfxxxxxxxxx',
+# ]
+# SEATS = 8
+# SEEDING = [
+#      'ooowubrgcfxxxxx',
+#      'owubrgcfxxxxxxx',
+#      'wubrgcfxxxxxxxx',
+# ]
 ROUNDS = len(SEEDING)
 PACKS = ROUNDS * SEATS
 
@@ -58,7 +85,6 @@ def main():
         if category not in CATEGORIES_TO_INCLUDE_ALL:
             core_size_to_split += core_category_size
 
-    print(f'total_core_pool_to_use: {total_core_pool_to_use}')
     print(f'core_size_to_split: {core_size_to_split}')
     percentage_of_core = total_core_pool_to_use / core_size_to_split
     print(f'percentage of core to use: {percentage_of_core}')
