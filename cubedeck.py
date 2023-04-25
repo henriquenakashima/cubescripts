@@ -1,10 +1,9 @@
+# Setup:
+# 1. Download cube list .txt from CubeCobra's export to .txt function
+# 2. (Windows, non-WSL only) Install pyreadline3
+#
 # Usage:
-#
-# Download cube list .txt from CubeCobra's export to .txt function
-#
 # $ python3 cubedeck.py MyCubeList.txt
-#
-#
 #
 # Enter card: Mo [tab]
 # Mogg War Marshal      Moment's Peace        Monastery Swiftspear  Mortarpod             Mountain
@@ -70,8 +69,8 @@ def open_file_with_default(file):
 
 
 def enable_autocomplete():
-  if 'libedit' in readline.__doc__:
-    readline.parse_and_bind("bind ^I rl_complete")
+  if readline.__doc__ is not None and 'libedit' in readline.__doc__:
+    readline.parse_and_bind("bind ^I rl_complete") # macOS
   else:
     readline.parse_and_bind("tab: complete")
 
