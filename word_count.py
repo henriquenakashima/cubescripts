@@ -173,8 +173,9 @@ if __name__ == '__main__':
     # cube_list = cubecobra_csv.load_cube_names(csv_path)
 
     # 2. If you have your cube in Cube Cobra and want to consider only cards with a certain tag
-    csv_path = cubecobra_csv.request_cube_csv('TheElegantCube_fetched', 'elegant')
-    cube_list = cubecobra_csv.load_cube_names(csv_path, tag_filter={'core'})
+    cube_id = 'jeskaicube'
+    csv_path = cubecobra_csv.request_cube_csv(cube_id, cube_id)
+    cube_list = cubecobra_csv.load_cube_names(csv_path, tag_filter=None)
 
     # 3. If you have a .txt of your cube
     # cube_list = cube_json.load_cube_from_txt('YourCubeHere.txt')

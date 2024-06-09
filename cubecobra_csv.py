@@ -7,7 +7,7 @@ from typing import List, Set
 import requests
 
 EXPECTED_HEADER = [
-    'Name',
+    'name',
     'CMC',
     'Type',
     'Color',
@@ -15,12 +15,12 @@ EXPECTED_HEADER = [
     'Collector Number',
     'Rarity',
     'Color Category',
-    'Status',
+    'status',
     'Finish',
-    'Maybeboard',
-    'Image URL',
-    'Image Back URL',
-    'Tags',
+    'maybeboard',
+    'image URL',
+    'image Back URL',
+    'tags',
     'Notes',
     'MTGO ID'
 ]
@@ -95,7 +95,8 @@ def load_cube(filename) -> List[CubeCard]:
             tags = _get_tags(line)
             color_category = _get_color_category(line)
             colors = _get_colors(line)
-            cards.append(CubeCard(card_name, color_category, colors, tags))
+            if not _get_maybeboard(line):
+                cards.append(CubeCard(card_name, color_category, colors, tags))
     return cards
 
 
@@ -104,11 +105,11 @@ def _assert_header(header_line):
 
 
 def _get_name(line: List) -> str:
-    return line[COLUMNS['Name']]
+    return line[COLUMNS['name']]
 
 
 def _get_tags(line: List) -> Set[str]:
-    return set(t.strip() for t in line[COLUMNS['Tags']].split(';'))
+    return set(t.strip() for t in line[COLUMNS['tags']].split(';'))
 
 
 def _get_color_category(line: List) -> str:
@@ -121,3 +122,9 @@ def _get_colors(line: List) -> str:
     colors = line[COLUMNS['Color']]
     #assert color_category in _COLOR_CATEGORIES, f'color_category "{color_category}" unknown'
     return sorted(colors.lower())
+
+def _get_maybeboard(line: List) -> str:
+    maybeboard = line[COLUMNS['maybeboard']]
+    if 't' in maybeboard.lower():
+        return True
+    return False
